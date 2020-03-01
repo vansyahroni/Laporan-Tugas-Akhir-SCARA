@@ -10,7 +10,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Jenis-Jenis \textit {Joint}\relax }}{7}{figure.caption.9}% 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Struktur dari Konfigurasi \textit {Articulated}\cite {Spong2006}\relax }}{9}{figure.caption.10}% 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Struktur dari Konfigurasi \textit {Sperical}\cite {Spong2006}\relax }}{9}{figure.caption.11}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Struktur dari Konfigurasi SCARA\cite {Spong2006}\relax }}{10}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Struktur dari Konfigurasi SCARA Serpent\cite {Spong2006}\relax }}{10}{figure.caption.12}% 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Struktur dari Konfigurasi \textit {Cartesian}\cite {Spong2006}\relax }}{11}{figure.caption.13}% 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Struktur dari \textit {Joint Spherical Wrist}\cite {Spong2006}\relax }}{11}{figure.caption.14}% 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Struktur \textit {End-Effector}\cite {Spong2006}\relax }}{12}{figure.caption.15}% 
@@ -27,32 +27,30 @@
 \contentsline {figure}{\numberline {2.18}{\ignorespaces ControlP5\relax }}{23}{figure.caption.31}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Blok Sistem\relax }}{25}{figure.caption.33}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Free Body} Robot SCARA\relax }}{27}{figure.caption.34}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Bentuk Fisik Robot SCARA\relax }}{27}{figure.caption.35}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Box Panel Robot SCARA\relax }}{28}{figure.caption.36}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Motor DC dengan potensiometer\relax }}{29}{figure.caption.38}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {End-Effector} Robot SCARA\relax }}{30}{figure.caption.39}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Bentuk Fisik \textit {Pneumatic}\relax }}{30}{figure.caption.40}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Free Body} Robot SCARA Serpent\relax }}{27}{figure.caption.34}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Bentuk Fisik Robot SCARA Serpent\relax }}{27}{figure.caption.35}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Box Panel Robot SCARA Serpent\relax }}{29}{figure.caption.36}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Motor DC dengan potensiometer\relax }}{30}{figure.caption.38}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {End-Effector} Robot SCARA Serpent\relax }}{30}{figure.caption.39}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Bentuk Fisik \textit {Pneumatic}\relax }}{31}{figure.caption.40}% 
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Bentuk Fisik Kompresor\relax }}{31}{figure.caption.41}% 
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Rancangan Tampak Samping\relax }}{32}{figure.caption.42}% 
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Dimensi Robot\relax }}{32}{figure.caption.43}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Rangkaian Arduino Mega 2560, \textit {Driver} Motor dan Motor DC\relax }}{33}{figure.caption.44}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Rangkaian Arduino Mega 2560 dengan \textit {Driver} Motor dan Motor DC\relax }}{33}{figure.caption.44}% 
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Bentuk Fisik dari \textit {Valve Pneumatic}\relax }}{34}{figure.caption.45}% 
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Rangkaian \textit {Valve Pneumatic} dengan Rangkaian TIP31\relax }}{34}{figure.caption.46}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Sistem Elektronis Robot SCARA\relax }}{35}{figure.caption.47}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sistem Elektronis Robot SCARA Serpent\relax }}{35}{figure.caption.47}% 
 \contentsline {figure}{\numberline {3.15}{\ignorespaces 3D Fusion Rangkaian Elektronis\relax }}{36}{figure.caption.48}% 
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Rangkaian Catu Daya\relax }}{38}{figure.caption.49}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Tampilan GUI Sistem Kinematika Robot SCARA\relax }}{39}{figure.caption.50}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Konfigurasi Robot SCARA\relax }}{41}{figure.caption.52}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Trigonometeri Sisi Atas\relax }}{46}{figure.caption.55}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Sistem Secara Keseluruhan\relax }}{49}{figure.caption.56}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Tampilan GUI Sistem Kinematika Robot SCARA Serpent\relax }}{39}{figure.caption.50}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Konfigurasi Robot SCARA Serpent\relax }}{42}{figure.caption.51}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Trigonometeri Sisi Atas\relax }}{47}{figure.caption.54}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Sistem Secara Keseluruhan\relax }}{49}{figure.caption.55}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Pengujian Nilai Potensiometer\relax }}{55}{figure.caption.61}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Pengujian Nilai Potensiometer \textit {dengan Moving Avarage}\relax }}{56}{figure.caption.63}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Grafik Pengujian Koordinat X\relax }}{59}{figure.caption.65}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Grafik Pengujian Koordinat Y\relax }}{61}{figure.caption.66}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Workspace Robot SCARA\relax }}{63}{figure.caption.67}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Grafik Pengujian \textit {Joint Shoulder}\relax }}{65}{figure.caption.68}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Grafik Pengujian \textit {Joint Elbow}\relax }}{68}{figure.caption.69}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Data Kendali Posisi\relax }}{73}{figure.caption.74}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Grafik Pengujian Koordinat X\relax }}{58}{figure.caption.62}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Grafik Pengujian Koordinat Y\relax }}{60}{figure.caption.63}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Workspace Robot SCARA Serpent\relax }}{61}{figure.caption.64}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Grafik Pengujian \textit {Joint Shoulder}\relax }}{63}{figure.caption.65}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Grafik Pengujian \textit {Joint Elbow}\relax }}{65}{figure.caption.66}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Data Kendali Posisi\relax }}{71}{figure.caption.71}% 
 \addvspace {10\p@ }
