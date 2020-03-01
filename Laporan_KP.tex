@@ -1,0 +1,118 @@
+	\documentclass{DTEDI_KP}
+	
+\usepackage{longtable}
+
+\usepackage[titles]{tocloft}
+\renewcommand\cftfigpresnum{Gambar\ }
+\renewcommand\cfttabpresnum{Tabel\  }
+
+\usepackage{hyperref}
+\newlength{\mylenf}
+\settowidth{\mylenf}{\cftfigpresnum}
+\setlength{\cftfignumwidth}{\dimexpr\mylenf+2em}
+\setlength{\cfttabnumwidth}{\dimexpr\mylenf+2em}
+
+\usepackage[labelfont=bf]{caption}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{amsmath}
+%\usepackage{multirow}
+
+
+
+\titleind{KINEMATIKA DAN ANTARMUKA ROBOT SCARA}
+
+\fullname {IVAN SYAHRONI HERMAWAN}
+
+\idnum {17/415746/SV/13611}
+
+\approvaldate {20 Januari 2020}
+
+\degree {Teknologi Listrik}
+
+\yearsubmit {2019}
+
+\program {Teknologi Listrik}
+
+\dept {Departemen Teknik Elektro dan Informatika}
+
+\secondsupervisor {Fahmizal, S.T., M.Sc.}
+
+\secondnip {111198807201609101}
+
+\firstsupervisor {Ma’un Budiyanto,  S.T., M.T.}
+
+\firstnip {197007071999031002}
+
+\begin{document}
+	
+	\cover
+	
+	\approvalpage
+	
+	\preface
+	
+Puji syukur penulis panjatkan kehadirat Tuhan Yang Maha Esa karena hanya dengan rahmat dan hidayah-Nya, laporan kerja praktik ini dapat diselesaikan tanpa halangan yang berarti. Keberhasilan dalam menyusun laporan kerja praktik ini tidak lepas dari bantuan berbagai pihak yang mana dengan tulus dan ikhlas membe- rikan masukan guna sempurnanya laporan kerja praktik ini.  Oleh karena itu dalam kesempatan ini, dengan kerendahan hati penulis mengucap terima kasih kepada:
+	
+	\begin{enumerate}
+		\item Bapak Ma’un Budiyanto, S.T., M.T. selaku Ketua Program Studi Teknologi Listrik Universitas Gadjah Mada,
+		\item  Bapak Fahmizal, S.T., M.Sc selaku dosen pembimbing pertama yang telah memberikan banyak bantuan, bimbingan, serta arahan dalam kerja praktik,
+		\item Seluruh Dosen di Teknologi Listrik Sekolah Vokasi Universitas Gadjah Mada, yang tidak bisa disebutkan satu-satu, atas ilmu dan bimbingannya,
+		\item Sugeng Julianto S.ST, selaku laboran yang memfasilitasi Labolatorium Instrumentasi dan Kendali sehingga tugas akhir penulis berjalan dengan baik, 
+		\item Teman – teman Lab Kendali, Tirza, Mas Galih, Mas Ma'ruf, Mas Bayu, Fajar, Denny dan lain – lain yang selalu memberi semangat, inspirasi, dukungan serta bantuanya pada penulis dalam mengerjakan kerja praktik,
+		\item Ibu dan Bapak yang selama ini telah sabar membimbing, mengarahkan, dan mendoakan penulis tanpa kenal lelah untuk selama-lamanya.
+		
+	\end{enumerate}
+
+Penulis menyadari bahwa penyusunan laporan kerja praktik ini jauh dari sempurna. Kritik dan saran dapat ditujukan langsung pada e-\textit{mail} saya. Akhir kata penulis mohon maaf yang sebesar-besarnya apabila terdapat kekeliruan di dalam penulisan kerja praktik ini.
+
+\vspace{0.1cm}
+
+	\begin{tabular}{p{7.5cm}c}
+	&Yogyakarta, 20 Februari 2020 \\\
+	&\\
+	&\\
+	&\\
+	&\\
+	&\textbf{Penulis}
+	\end{tabular}
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{DAFTAR ISI}
+\listoftables
+\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+\listoffigures
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+
+\begin{abstractind}
+Makalah ini menyajikan pergerakan posisi dari robot SCARA menggunakan persamaan kinematika serta perancangan untuk antarmuka.  Persamaan kinematika bertujuan untuk memperkirakan posisi yang berupa koordinat ($x,y$) dan pergerakan sudut dari setiap \textit{joint} dari robot SCARA. Antarmuka bertujuan untuk memudahkan pengguna dalam mengendalikan dan mendapatkan data dari robot SCARA. Untuk mendapatkan umpan balik maka digunakan potensiometer untuk menghitung pergerakan tiap \textit{joint}.  Selain itu, untuk mendapatkan hasil pergerakan robot yang baik pada sistem kinematika, kontrol PID diterapkan untuk mengendalikan kecepatan putar setiap motor DC pada setiap \textit{joint} untuk mencapai sebuah posisi. Untuk menguji ketepatan posisi dari kinerja sistem kinematika robot SCARA, terdapat lima jenis pengujian, yaitu pengujian koordinat $x$, pengujian koordinat $y$, pengujian sudut \textit{shoulder}, pengujian sudut \textit{elbow}, pengujian sistem secara keseluruhan dan pengujian dengan kendali proposional. Dari hasil tes ini sistem dapat berjalan dengan baik dengan nilai \textit{error} di bawah 5\% menggunakan kendali proposional dengan nilai Kp 0,2.
+
+
+\textbf{Kata kunci }: SCARA, \textit{Arm Robot Manipulator}, Kinematika, Processing IDE, \textit{Invers Kinematic}.
+\end{abstractind}
+
+\begin{abstracteng}
+\textit{This paper presents the position movements of the SCARA robot using kinematics equations and design for interfaces. The kinematics equation aims to estimate the position in the form of coordinates (x, y) and the angular movement of each joint of the SCARA robot. The interface aims to make it easier for users to control and get data from the SCARA robot. To get feedback the potentiometer is used to calculate the movement of the dot. In addition, to get good robot movement results in the mathematical system, the PID control is applied to control the rotation speed of each DC motor on each joint to reach a position. To test the positioning accuracy of the SCARA robototematic system, there are five types of testing, namely coordinate testing, coordinate testing, corner testing, elbow angle testing, overall system testing and proportional control testing. From the results of this test the system can run well with an error value below 5\% using proportional control with a Kp value of 0.2.}
+
+
+\textit{\textbf{Keyword}} : SCARA, \textit{Arm Robot Manipulator}, \textit{kinematics}, Processing IDE, \textit{Invers Kinematic}.
+\end{abstracteng}
+
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\include{BAB_1}
+\include{BAB_2}
+\include{BAB_3}
+\include{BAB_4}
+\include{BAB_5}
+
+\bibliography{IEEEabrv,references}
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+
+\end{document}

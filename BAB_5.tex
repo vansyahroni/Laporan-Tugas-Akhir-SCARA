@@ -1,0 +1,22 @@
+%BAB_5 LAPORAN KP
+
+\chapter{PENUTUP}
+\section{Kesimpulan}
+Dari hasil pengujian dan pembahasan terhadap alat dan sistem “Kinematika dan Antarmuka Robot SCARA berbasis Processing IDE” yang telah dirancang dan dibuat ini, maka dapat disimpulkan sebagai berikut:
+\begin{enumerate}
+	\item Sistem kendali robot lengan dengan Arduino Mega 2560 dapat digunakan dengan baik dan dapat menerapkan sistem kinematika denga benar. Hasil dari nilai data yang diperoleh pada Processing IDE selanjutnya digunakan sebagai masukan untuk kinematika balik yang hasilnya dikirimkan pada Arduino Mega 2560 yang diteruskan pada motor DC.
+	\item GUI yang dibuat sebagai jembatan antara \textit{user} dengan hardware memiliki beberapa masukan data dan juga tampilan data berupa animasi dari robot SCARA.
+	\item Implementasi dari kinematika robot SCARA dapat berjalan dengan baik meskipun terdapat beberapa data yang tidak akurat. 
+	\item  Hal-hal yang menyebabkan robot lengan SCARA  tidak akurat dalam menentukan posisi \textit{end-effector} diantaranya sebagai berikut:
+	\subitem  Terdapat toleransi sudut pada joint \textit{shoulder} dan joint \textit{elbow} yang menyebabkan $\theta_{1}, \theta_{2}$, memiliki nilai toleransi sebesar 5 derajat. 
+	\subitem  Keakuratan  pembacaan nilai \textit{analog potensiometer} pada \textit{feedback} posisi. 
+	\item  Kendali proposional dengan nilai Kp 0,2 merupakan nilai terbaik sehingga pergerakan dapat cepat menuju posisi yang ditentukan dengan kondisi nilai yang stabil.
+\end{enumerate}
+
+\section{Saran}
+Setelah mengambil beberapa kesimpulan dan melihat dari sistem secara keseluruhan, terdapat beberapa saran disampaikan untuk menambah mutu dan kualitas dari sistem kendali robot lengan SCARA adalah sebagai berikut: 
+
+\begin{enumerate}
+	\item Untuk menghasilkan tampilan yang nyata maka pada sistem diberi tambahan kamera yang dapat ditampilan pada GUI.
+	\item Dapat dikembangkan dengan tambahan pengolahan citra dengan berbagai fungsi tambahan
+\end{enumerate}

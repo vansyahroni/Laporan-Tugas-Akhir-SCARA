@@ -1,0 +1,84 @@
+\babel@toc {bahasa}{}
+\babel@toc {bahasa}{}
+\contentsline {chapter}{HALAMAN PENGESAHAN}{iii}{chapter*.1}% 
+\contentsline {chapter}{KATA PENGANTAR}{iii}{chapter*.2}% 
+\contentsline {chapter}{DAFTAR ISI}{v}{chapter*.3}% 
+\contentsline {chapter}{DAFTAR TABEL}{vi}{chapter*.4}% 
+\contentsline {chapter}{DAFTAR GAMBAR}{viii}{chapter*.5}% 
+\contentsline {chapter}{Abstrak}{ix}{chapter*.6}% 
+\babel@toc {english}{}
+\contentsline {chapter}{\emph {Abstract}}{x}{chapter*.7}% 
+\babel@toc {bahasa}{}
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Latar Belakang Masalah}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Tujuan Penelitian}{2}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Secara Umum}{2}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Tujuan Khusus}{2}{subsection.1.2.2}% 
+\contentsline {section}{\numberline {1.3}Batasan Penelitian}{2}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Metode Kerja Praktik}{3}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Sistematika Penulisan}{5}{section.1.5}% 
+\babel@toc {english}{}
+\babel@toc {bahasa}{}
+\contentsline {chapter}{\numberline {II}LANDASAN TEORI}{7}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Gambaran Umum Robot Lengan}{7}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}\emph {Degress of Freedom }}{8}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Konfigurasi Robot Lengan}{8}{subsection.2.1.2}% 
+\contentsline {subsubsection}{\numberline {2.1.2.1}Konfigurasi \emph {Articulated} (\emph {Revolute - Revolute - Revolute)}}{8}{subsubsection.2.1.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.2.2}Konfigurasi \textit {Spherical} (\textit {Revolute \IeC {\textendash } Revolute \IeC {\textendash } Prismatic})}{9}{subsubsection.2.1.2.2}% 
+\contentsline {subsubsection}{\numberline {2.1.2.3}Konfigurasi SCARA (\textit {Revolute \IeC {\textendash } Revolute \IeC {\textendash } Prismatic}) }{9}{subsubsection.2.1.2.3}% 
+\contentsline {subsubsection}{\numberline {2.1.2.4}Konfigurasi \textit {Cartesian} (\textit {Prismatic \IeC {\textendash } Prismatic \IeC {\textendash } Prismatic}) }{10}{subsubsection.2.1.2.4}% 
+\contentsline {subsection}{\numberline {2.1.3} \textit {Wrist} dan \textit {End-effector} }{11}{subsection.2.1.3}% 
+\contentsline {section}{\numberline {2.2}Kinematika}{12}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Kinematika Maju}{13}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Kinematika Balik}{13}{subsection.2.2.2}% 
+\contentsline {section}{\numberline {2.3}Motor DC}{14}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Regulator}{15}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Arduino Mega 2560}{16}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}\textit {Driver} Motor H-\textit {Bridge} EMS 30A}{17}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Processing \textit {Integrated Development Environment} (IDE)}{18}{section.2.7}% 
+\contentsline {subsection}{\numberline {2.7.1}\textit {Syntax} dalam Processing IDE }{19}{subsection.2.7.1}% 
+\contentsline {subsubsection}{\numberline {2.7.1.1}Mengatur Ukuran}{19}{subsubsection.2.7.1.1}% 
+\contentsline {subsubsection}{\numberline {2.7.1.2}Transformasi Bentuk dalam Processing IDE }{19}{subsubsection.2.7.1.2}% 
+\contentsline {subsubsection}{\numberline {2.7.1.3}\textit {Shape}}{20}{subsubsection.2.7.1.3}% 
+\contentsline {subsubsection}{\numberline {2.7.1.4}Akses Koordinat \textit {Mouse} }{22}{subsubsection.2.7.1.4}% 
+\contentsline {subsubsection}{\numberline {2.7.1.5} \textit {Compile Sketch} }{22}{subsubsection.2.7.1.5}% 
+\contentsline {subsection}{\numberline {2.7.2} \textit {Library} untuk Processing IDE }{23}{subsection.2.7.2}% 
+\contentsline {subsubsection}{\numberline {2.7.2.1} Memuat Huruf (\textit {Pfont}) pada Processing IDE }{23}{subsubsection.2.7.2.1}% 
+\contentsline {subsubsection}{\numberline {2.7.2.2} Memuat ControlP5 pada Processing IDE }{23}{subsubsection.2.7.2.2}% 
+\contentsline {chapter}{\numberline {III}PERANCANGAN SISTEM}{25}{chapter.3}% 
+\contentsline {section}{\numberline {3.1} Diagram Blok Sistem }{25}{section.3.1}% 
+\contentsline {section}{\numberline {3.2} Perancangan Perangkat Keras }{26}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1} Sistem Mekanis }{26}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Rangkaian Elektronika}{33}{subsection.3.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2.1}Rangkaian Motor DC}{33}{subsubsection.3.2.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.2.2}Rangkaian \textit {Valve Pneumatic}}{33}{subsubsection.3.2.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2.3}Sistem Elektronis Robot SCARA}{34}{subsubsection.3.2.2.3}% 
+\contentsline {subsubsection}{\numberline {3.2.2.4}Rangkaian Catu Daya}{37}{subsubsection.3.2.2.4}% 
+\contentsline {section}{\numberline {3.3}Perancangan Perangkat Lunak}{38}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}ControlP5}{39}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}\textit {Shape}}{40}{subsection.3.3.2}% 
+\contentsline {section}{\numberline {3.4}Sistem Kinematika}{40}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Prinsip Kerja Kinematika Maju}{41}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Prinsip Kerja Kinematika Balik}{45}{subsection.3.4.2}% 
+\contentsline {section}{\numberline {3.5}Perancangan Sistem Keseluruhan}{48}{section.3.5}% 
+\contentsline {chapter}{\numberline {IV}PENGUJIAN DAN PEMBAHASAN}{51}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Pengujian Fungsional}{51}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Pengujian DC - to - DC Converter}{52}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Pengujian Motor DC}{52}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Pengujian \textit {Driver} Motor H \IeC {\textendash } \textit {Bridge}}{53}{subsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.1.4}Pengujian Nilai Analog Potensiometer}{54}{subsection.4.1.4}% 
+\contentsline {subsection}{\numberline {4.1.5}Pengujian Rangkaian \textit {Switching Valve Pneumatic}}{56}{subsection.4.1.5}% 
+\contentsline {subsection}{\numberline {4.1.6}Pengujian Kinematika Balik}{57}{subsection.4.1.6}% 
+\contentsline {subsubsection}{\numberline {4.1.6.1}Pengujian Koordinat X}{57}{subsubsection.4.1.6.1}% 
+\contentsline {subsubsection}{\numberline {4.1.6.2}Pengujian Koordinat Y}{60}{subsubsection.4.1.6.2}% 
+\contentsline {subsubsection}{\numberline {4.1.6.3}\textit {Workspace} Robot Lengan SCARA }{62}{subsubsection.4.1.6.3}% 
+\contentsline {subsubsection}{\numberline {4.1.6.4}Pengujian \textit {Joint Shoulder}}{63}{subsubsection.4.1.6.4}% 
+\contentsline {subsubsection}{\numberline {4.1.6.5}Pengujian \textit {Joint Elbow}}{66}{subsubsection.4.1.6.5}% 
+\contentsline {section}{\numberline {4.2}Pengujian Keseluruhan}{68}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Pengujian Akurasi Robot Lengan}{68}{subsection.4.2.1}% 
+\contentsline {section}{\numberline {4.3}Pengujian Kendali Proposional}{70}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Pengujian Simulasi Robot Lengan}{74}{section.4.4}% 
+\contentsline {chapter}{\numberline {V}PENUTUP}{75}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Kesimpulan}{75}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Saran}{75}{section.5.2}% 
+\contentsline {chapter}{DAFTAR PUSTAKA}{78}{chapter*.75}% 

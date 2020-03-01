@@ -1,0 +1,42 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Laporan_KP.aux
+The style file: IEEEtran.bst
+A level-1 auxiliary file: BAB_1.aux
+A level-1 auxiliary file: BAB_2.aux
+A level-1 auxiliary file: BAB_3.aux
+A level-1 auxiliary file: BAB_4.aux
+A level-1 auxiliary file: BAB_5.aux
+Database file #1: IEEEabrv.bib
+Database file #2: references.bib
+Repeated entry---line 96 of file references.bib
+ : @article{spong2006
+ :                   ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Name 1 in "F. Faris, A. Triwiyatno, and I. Setiawan" has a comma at the end for entry Faris2012
+while executing---line 2403 of file IEEEtran.bst
+Too many commas in name 1 of "Faris, M.F., Triwiyatno, A. and Setiawan, I.," for entry mahmud2012
+while executing---line 2403 of file IEEEtran.bst
+Name 2 in "Faris, M.F., Triwiyatno, A. and Setiawan, I.," has a comma at the end for entry mahmud2012
+while executing---line 2403 of file IEEEtran.bst
+Name 2 in "Faris, M.F., Triwiyatno, A. and Setiawan, I.," has a comma at the end for entry mahmud2012
+while executing---line 2403 of file IEEEtran.bst
+Warning--empty journal in beni
+Name 1 in "A. Z. Alassar, I. M. Abuhadrous, and H. A. Elaydi" has a comma at the end for entry alasar
+while executing---line 2403 of file IEEEtran.bst
+Name 1 in "D. Cahyono, Siradjuddin, and B. Setiawan" has a comma at the end for entry cahyono2015
+while executing---line 2403 of file IEEEtran.bst
+Warning--empty journal in cahyono2015
+Name 1 in "H. D. Cahyono, I. Siradjuddin, and B. Setiawan" has a comma at the end for entry cahyono2
+while executing---line 2403 of file IEEEtran.bst
+Warning--empty journal in cahyono2
+Name 1 in "E. Sitohang, and Samuel L." has a comma at the end for entry sitohang2018
+while executing---line 2403 of file IEEEtran.bst
+Warning--empty journal in semiconductor2008
+Warning--empty journal in aku2012
+Too many commas in name 1 of "Rasit Koker, Cemil Oz, Tarik Cakar, Huseyin Ekiz" for entry koker
+while executing---line 2403 of file IEEEtran.bst
+
+Done.
+(There were 10 error messages)

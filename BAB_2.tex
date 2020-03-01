@@ -1,0 +1,336 @@
+%BAB_2 LAPORAN KP
+\chapter{LANDASAN TEORI}
+
+\section{Gambaran Umum Robot Lengan}
+
+Robot adalah adalah sebuah alat yang terdiri dari gabungan mekanik dan elektronik yang dapat melakukan tugas fisik, baik menggunakan pengawasan, kendali manusia maupun secara otomatis. Robot dapat melakukan suatu tugas secara berulang tanpa merasa lelah sehingga robot banyak digunakan dalam dunia industri khususnya pada bidang produksi. Salah satu jenis robot yang sering digunakan dalam bidang produksi adalah sistem lengan robot\cite{Pandu}.
+
+Robot lengan adalah robot yang memiliki bentuk fisik seperti halnya lengan pada manusia dan memiliki derajat kebebasan (\emph{degre of freedom}) tertentu bergantung pada jumlah sendi yang digunakan. Robot lengan pada bidang industri biasa digunakan sebagai aktuator untuk mengambil dan meletakkan suatu objek secara terus menerus.
+	
+
+Pada umumnya struktur robot lengan terdiri dari beberapa bagian.  Bagian utama dari robot lengan adalah struktur mekanik ({\textit{manipulator}}) yang merupakan susunan kerangka yang tidak dapat digerakkan (\emph{rigid}) dan lengan (\emph{link}) yang satu sama lain terhubung oleh sendi (\emph {joint}). Dengan adanya \emph{joint} yang menghubungkan dua \emph{link} menjadi satu kesatuan sehingga \emph{joint} membentuk satu derajat kebebasan. Jika diibaratkan dengan tubuh manusia, \emph{link} adalah tulang sedangkan \emph{joint} adalah sendi-sendinya. \emph{Joint} memiliki dua pergerakan, yaitu pergerakan \emph{revolute joint} (gerak berputar) dan \emph{prismatic joint} (gerak bergeser)\cite{mahmud2012}. Jenis-jenis \textit{joint} ditnjukkan pada Gambar \ref{pic.jenisjoint}.
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=11cm]{gambar/joint.png}
+	\caption{Jenis-Jenis \textit{Joint}}
+	\label{pic.jenisjoint}
+\end{figure}
+
+
+\subsection{\emph{Degress of Freedom }}
+\emph{Degress of freedom} (DOF) merupakan sebuah konfigurasi yang dapat meminimalkan spesifikasi dengan menggunakan parameter yang dapat menyatakan posisi suatu sistem pada setiap saat. Umumnya robot lengan mempunyai paling sedikit enam independen derajat kebebasan, tiga derajat kebebasan untuk translasi dan tiga derajat kebebasan untuk rotasi. Namun, robot lengan paling tidak memiliki tiga derajat kebebasan untuk dapat memiliki \emph{workspace} yang cukup. \emph{Workspace} dari sebuah robot lengan merupakan total volume yang dapat dijangkau oleh \emph{end-effector} dari pergerakan semua \emph{joint}-nya dari titik minimum hingga maksimum\cite{Spong2006}. 
+
+\subsection{Konfigurasi Robot Lengan}
+Pada dasarnya berbagai jenis dari robot lengan dapat dibedakan dari konfigurasinya. Konfigurasi robot lengan merupakan perpaduan antara pergerakan \emph{joint} yang dimiliki oleh robot lengan. Konfigurasi ini memiliki tipe yang berbeda-beda sehingga \emph {workspace} yang dimiliki pada tiap robot lengan pasti berbeda.
+
+\subsubsection{Konfigurasi \emph{Articulated} (\emph{Revolute - Revolute - Revolute)}} 
+\emph{Articulated} manipulator ini pada dasarnya mempunyai jenis \emph{revolute joint} pada ketiga \emph{joint} robot lengan (\emph {base, shoulder, elbow}). Dengan konfigurasi ini, robot lengan dengan konfigurasi \textit{articulated} dapat memiliki variasi DOF yang banyak. DOF yang dapat dihasilkan dengan robot lengan dengan konfigurasi seperti ini adalah tiga DOF hingga sampai dengan enam DOF tergantung dari kebutuhan dan fungsi yang akan dilakukan oleh robot lengan. Konfigurasi dari \textit{joint revolute} ini menjadikan robot lengan jenis ini mempunyai kebebasan yang besar dari pergerakannya dalam ruang yang kecil sehingga menjadikan jenis konfigurasi \textit{articulated} manipulator ini banyak dipakai dan memiki desain yang populer. Konfigurasi dari \textit{articulated} ditunjukkan pada Gambar \ref{pic.articulated}. 
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{gambar/articulated.jpg}
+	\caption{Struktur dari Konfigurasi  \textit{Articulated}\cite{Spong2006}}
+	\label{pic.articulated}
+\end{figure}
+\subsubsection{Konfigurasi \textit{Spherical} (\textit{Revolute – Revolute – Prismatic})} 
+
+Konfigurasi \textit{spherical} merupakan konfigurasi yang mempunyai dua buah \textit{joint revolute} dan satu buah \textit{joint prismatic}. \textit{Joint prismatic} berada ini \textit{joint} ketiga atau pada bagian \textit{elbow}. Sementara dua \textit{joint} lainnya berada di \textit{shoulder} dan \textit{wrist}. Struktur dari konfigurasi \textit{spherical} ditunjukkan pada Gambar \ref{pic.spherical}. 
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{gambar/spherical.jpg}
+	\caption{Struktur dari Konfigurasi \textit{Sperical}\cite{Spong2006}}
+	\label{pic.spherical}
+\end{figure}
+
+
+\subsubsection{Konfigurasi SCARA (\textit{Revolute – Revolute – Prismatic}) } 
+
+Konfigurasi \textit{selective compliant articulated robot for assembly} (SCARA) merupakan konfigurasi yang mempunyai dua buah \textit{joint revolute} dan satu buah \textit{joint prismatic} sama seperti konfigurasi \textit{spherical}. Meskipun SCARA memiliki struktur \textit{joint revolute – revolute – prismatic} (RRP) sama seperti konfigurasi yang dimiliki \textit{spherical}, struktur ini sedikit berbeda dengan konfigurasi \textit{spherical} dari tampilannya maupun dari jarak \textit{workspace} nya. Konfigurasi SCARA memiliki $z_{0}$ tegak lurus terhadap $z_{1}$, dan $z_{1}$ tegak lurus dengan $z_{2}$, konfigurasi SCARA memiliki struktur $z_{0}, z_{1}, dan z_{2}$ yang paralel. Struktur dan konfigurasi dari SCARA ditunjukkan pada Gambar \ref{pic.scara}.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{gambar/scara.jpg}
+	\caption{Struktur dari Konfigurasi SCARA\cite{Spong2006}}
+	\label{pic.scara}
+	\end{figure}
+
+
+\subsubsection{Konfigurasi \textit{Cartesian} (\textit{Prismatic – Prismatic – Prismatic})  } 
+
+Konfigurasi \textit{cartesian} mempunyai tiga buah \textit{joint prismatic}. Variabel \textit{joint} dari konfigurasi \textit{prismatic} adalah koordinat \textit{cartesian} dari \textit{end-effector} dengan memperhatikan letak \textit{base} dari robot lengan. Kinematika dari jenis konfigurasi ini adalah yang paling sederhana dari semua konfigurasi robot lengan. Konfigurasi \textit{cartesian} sangat berguna untuk penyusunan suatu barang di bidang datar seperti mesin laser, kargo atau memindahkan barang. Struktur dari konfigurasi \textit{cartesian} ditunjukkan pada Gambar \ref{pic.cartesian}.
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=6cm]{gambar/cartesian.jpg}
+	\caption{Struktur dari Konfigurasi \textit{Cartesian}\cite{Spong2006}}
+	\label{pic.cartesian}
+\end{figure}
+
+\subsection{ \textit{Wrist} dan \textit{End-effector} }
+
+\textit{Wrist} atau pergelangan tangan merupakan \textit{joint} diantara lengan dan \textit{end-effector}. \textit{Joint wrist} ini pada umumnya terdapat \textit{joint revolute}. Hal ini umum digunakan pada desain manipulator lengan dengan konfigurasi \textit{Spherical}. Konfigurasi \textit{spherical} mempunyai \textit{joint revolute} yang saling berpotongan diantara ketiganya, maksudnya setiap \textit{joint} berputar sesuai koordinat $x, y, $ dan $z$. Rotasi atau perputaran dengan aksis sumbu $x$ adalah \textit{roll}, perputaran dengan aksis sumbu $y$ adalah \textit{pitch} dan perputaran dengan \textit{axis} sumbu $z$ adalah \textit{yaw}. Struktur dari konfigurasi \textit{spherical wirst} ditunjukkan pada Gambar \ref{pic.sphericalwirst}.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=5cm]{gambar/wirst.jpg}
+	\caption{Struktur dari \textit{Joint Spherical Wrist}\cite{Spong2006}}
+	\label{pic.sphericalwirst}
+\end{figure}
+
+
+\textit{End-effector} merupakan perangkat atau alat yang terhubung dengan ujung lengan robot. \textit{End-effector} adalah bagian robot yang berhubungan langsung dengan objek. Struktur, pergerakan, material dari \textit{end-effector} bergantung pada tugas yang akan dilakukan robot tersebut. Bentuk dari \textit{end-effector} ditunjukkan pada Gambar \ref{pic.endeffector}.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=6cm]{gambar/end_effector.jpg}
+	\caption{Struktur \textit{End-Effector}\cite{Spong2006}}
+	\label{pic.endeffector}
+	\end{figure}
+
+
+\section{Kinematika}
+Kinematika merupakan pembelajaran pergerakan tubuh robot tanpa memperhitungkan gaya, torsi maupun momen tertentu yang menyebabkan pergerakan. Terdapat berbagai jenis pergerakan dari kinematika tergantung dari tujuan dari setiap robot. Kinematika yang dijelaskan pada penelitian ini adalah kinematika yang khusus mempelajari dan menganalisa pergerakan robot lengan.  
+
+Pada kinematika robot terdapat dua buah pembahasan kinematika. Pembahasan pertama adalah kinematika maju yang merupakan proses menghitung orientasi dan posisi dari\textit{ end-effector} berdasarkan nilai sudut pada masing-masing \textit{joint}.  Sedangkan kinematika balik sebaliknya dari kinematika maju, diberikan posisi \textit{end-effector} dimana akan dicari besaran sudut yang harus diubah untuk tiap \textit{joint} dalam mencapai posisi \textit{end-effector} tersebut\cite{beni}. Diagram blok dari pemodelan kinematika ditunjukkan pada Gambar \ref{pic.diagram.kinematika}. 
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=12cm]{gambar/kinematika_diagram.png}
+	\caption{Blok Diagram Kinematika}
+	\label{pic.diagram.kinematika}
+\end{figure}
+
+\subsection{Kinematika Maju}
+Kinematika maju atau biasa disebut \textit{forward kinematics} merupakan kinematika untuk mendapatkan hasil akhir berupa koordinat posisi ($x, y, z$) dengan diketahuinya variabel sudut pada setiap \textit{joint} dari lengan robot.  Variabel sudut tersebut kemudian dilakukan perhitungan satu sama lain hingga pada akhirnya akan mendapatkan koordinat $x$, koordinat $y$, dan koordinat $z$\cite{alasar}. Proses dari kinematika maju ditunjukkan pada Gambar \ref{pic.kinematikamaju}. 
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=12cm]{gambar/Kinematika_maju.png}
+	\caption{Kinematika Maju}
+	\label{pic.kinematikamaju}
+\end{figure}
+
+
+\subsection{Kinematika Balik}
+Kinematika balik atau biasa disebut \textit{invers kinematics} digunakan untuk mencari variabel sudut (\textit{joint}) robot dalam menentukan posisi dan orientasi dari \textit{end-effector}. Dalam menentukan koordinat \textit{end-effector}, kinematika balik mengacu pada penggunaan persamaan kinematika robot untuk menentukan parameter bersama yang memberikan posisi yang diinginkan pada posisi akhir atau \textit{end-effector}.  Dalam pergerakannya, robot dimodelkan dalam bentuk persamaan kinematika. Persamaan ini menentukan konfigurasi robot dalam hal parameter untuk setiap aktuator. Kinematika maju menggunakan parameter untuk menghitung konfigurasi robot, dan kinematika balik membalikkan perhitungan ini untuk menentukan parameter bersama dalam mencapai konfigurasi yang diinginkan\cite{cahyono2015}. 
+
+Secara garis besar metode kinematika balik mencari nilai parameter yang harus diberikan kepada setiap aktuator untuk mencapai tujuan akhir. Untuk mendapatkan nilai parameter tersebut, robot harus mengetahui terlebih dahulu manipulator yang dimilikinya, baik ukuran maupun jumlah aktuator serta derajat kebebasan yang ada. Kemudian robot harus ditanamkan rumus-rumus yang didapat dari berbagai model perhitungan, baik dari segi analisa grafik langsung maupun menggunakan metode-metode dari berbagai penelitian\cite{cahyono2}. Proses dari kinematika balik ditunjukkan pada Gambar \ref{pic.kinematikabalik}.
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{gambar/kinematika_balik.png}
+	\caption{Kinematika Balik}
+	\label{pic.kinematikabalik}
+\end{figure}
+
+\section{Motor DC}
+Motor DC adalah motor listrik yang memerlukan tegangan arus searah pada kumparan medan untuk diubah menjadi energi gerak mekanik. Motor DC mempunyai dua bagian utama, yaitu stator dan rotor. Stator merupakan bagian yang tidak berputar dan rotor merupakan bagian yang berputar dan merupakan kumparan jangkar. Motor DC menghasilkan jumlah putaran dalam setiap satuan waktu yang dihitung setiap satuan menit (\textit{rotations per minute}(RPM)) dan arah putaranya dapat diatur searah jarum jam (\textit{clock wise}(CW)) atau berkebalikan dengan arah jarum jam (\textit{counter clock wise}(CCW)) tergantung dengan kutub atau polaritas dari catu daya yang diberikan pada motor DC \cite{dickson}. Bentuk fisik dari motor DC ditunjukkan pada Gambar \ref{pic.motordc}.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=4cm]{gambar/motorDC.jpeg}
+	\caption{Bentuk Fisik Motor DC}
+	\label{pic.motordc}
+\end{figure}
+
+Motor DC dapat bergerak karena adanya elektromagnet. Saat kumparan diberi arus listrik, permukaan kumparan yang bersifat utara akan bergerak menghadap ke magnet yang berkutub selatan dan kumparan yang bersifat selatan akan bergerak menghadap ke utara magnet. Pada saat ini kerena kedua kutub saling menyebabkan pergerakan kumparan berhenti. Untuk menggerakannya lagi tepat pada saat kutub kumparan berhadapan dengan kutub magnet, arah arus pada kumparan dibalik. Dengan demikian, kutub utara kumparan akan berubah menjadi kutub selatan dan kutub selatannya akan berubah menjadi kutub utara\cite{otomotif}.  
+
+Pada saat perubahan kutub tersebut terjadi, kutub selatan kumparan akan berhadapan dengan kutub selatan magnet dan kutub utara kumparan akan berhadapan dengan kutub utara magnet. Karena kutubnya sama, maka akan terjadi tolak menolak sehingga kumparan bergerak memutar hingga utara kumparan berhadapan dengan selatan magnet dan selatan kumparan berhadapan dengan utara magnet. Siklus ini akan berulang-ulang hingga arus listrik pada kumparan diputuskan. Prinsip kerja dari motor DC ditunjukkan pada Gambar \ref{pic.motordcprinsipkerja}.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{gambar/prinsipDC.jpg}
+	\caption{Prinsip Kerja Motor DC}
+	\label{pic.motordcprinsipkerja}
+\end{figure}
+
+
+\section{Regulator}
+Dalam suatu rangkaian elektronika dibutuhkan suatu sumber tegangan yang stabil dan sesuai dengan nilai yang dibutuhkan oleh komponen. Untuk memenuhi kebutuhan tersebut digunakan sebuah rangkaian regulator. Rangkaian regulator berfungsi untuk mengatur atau menghasilkan nilai tegangan pada nilai tertentu dari suatu tegangan masukan. Regulator tegangan mempunyai banyak jenis, salah satunya adalah regulator \textit{switching}\cite{sitohang2018}.
+
+Regulator \textit{switching} mengatur besarnya nilai tegangan keluaran dengan metode mensaklar (ON/OFF) tegangan masukan dengan frekuensi berbeda – beda. Kelebihan dari regulator \textit{switching} adalah adanya disipasi daya yang terjadi lebih kecil dibandingkan dengan regulator linear. Sedangkan kekurangannya yaitu tegangan keluaran akan berbentuk gelombang akibat adanya proses \textit{switching}. Oleh karena itu, regulator jenis ini umumnya membutuhkan induktor, kapasitor, dan dioda untuk menstabilkan tegangan keluaran. Regulator \textit{switching} ada dua jenis yaitu regulator \textit{buck} dan regulator \textit{boost}. Regulator \textit{buck} untuk menghasilkan nilai tegangan keluaran yang lebih kecil dari tegangan masukannya. Sedangkan Regulator \textit{boost} untuk menghasilkan nilai tegangan yang lebih besar dari tegangan masukannya. Salah satu jenis dari regulator \textit{buck} adalah LM2596\cite{semiconductor2008}. Bentuk fisik dari regulator \textit{buck} LM2596 ditunjukkan pada Gambar \ref{pic.lm2596}.
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=7cm]{gambar/lm2596.jpg}
+	\caption{Regulator \textit{Buck} LM2596\cite{Minikits}}
+	\label{pic.lm2596}
+\end{figure}
+
+\section{Arduino Mega 2560}
+Arduino Mega 2560  merupakan papan pengembangan dari mikrokontroler yang menggunakan Atmel ATMega2560. Arduino  memiliki pin \textit{input} dan \textit{output} dengan jumlah yang cukup banyak, yaitu sejumlah 54 buah pin \textit{input} dan \textit{output} yang 15 diantaranya merupakan pin \textit{pulse with modulation} (PWM), 16 diantaranya merupakan pin \textit{analog input}, dan terdapat empat pin yang digunakan sebagai \textit{universal asynchronous receiver transmitter} (UART). Arduino ini sudah dilengkapi dengan \textit{oscillator} sebesar 16Mhz, sebuah \textit{port} USB, \textit{power jack} DC, ICSP \textit{header} serta tombol reset \cite{arduino}. Bentuk fisik dari Arduino Mega 2560 ditunjukkan pada Gambar \ref{pic.arudinomega}.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=5cm]{gambar/arduino_mega.jpg}
+	\caption{Arduino Mega 2560\cite{arduino}}
+	\label{pic.arudinomega}
+	\end{figure}
+
+Arduino Mega 2560 memuat semua yang dibutuhkan untuk mendukung kerja dari sebuah mikrokontroler. Arduino Mega 2560 dapat dengan mudah dioperasikan untuk pengaplikasian ke sebuah sistem kerja karena dapat dihubungkan dengan kabel USB sebagai komunikasinya. Arduino Mega 2560 dapat dihidupkan melalui konektor DC yang dipunyainya dengan diberi tegangan DC, atau baterai dengan nilai tegangan sesuai dengan spesifikasi pada Arduino Mega seperti yang ditunjukkan pada Tabel \ref{tbl.arduinomega}\cite{arduino2}.
+\begin{table}[H]
+	\centering
+	\caption{ Spesifikasi Arduino Mega 2560 }
+	\label{tbl.arduinomega}
+	\begin{tabular}{|l|l|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}Keterangan} & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Nilai} \\ \hline
+		Mikrokontroler                                           & Atmega2560                                         \\ \hline
+		Tegangan Operasional                                     & 5 Volt                                             \\ \hline
+		Tegangan Masukan                                         & 5-12 Volt                                          \\ \hline
+		Pin Digital I/O                                          & 54 Buah                                            \\ \hline
+		Pin PWM                                                  & 15 Buah                                            \\ \hline
+		Arus I/O                                                 & 20 mA                                              \\ \hline
+		Memori \textit{Flash}                                             & 256 KB                                             \\ \hline
+		Kecepatan \textit{Clock}                                          & 16 Mhz                                             \\ \hline
+		Dimensi                                                  & 101.52 x 53.3 mm                                   \\ \hline
+	\end{tabular}
+\end{table}
+\section{\textit{Driver} Motor H-\textit{Bridge} EMS 30A}
+\textit{Driver} motor H-\textit{Bridge} EMS 30A berfungsi sebagai pengontrol dari setiap pergerakan dari arah putar dan kecepatan pada motor DC. Umunya \textit{driver} motor memiliki beberapa jenis tergantung dari spesifikasi dari motor DC yang digunakan. Salah satu jenis \textit{driver} motor adalah \textit{driver} Motor  H-\textit{Bridge} EMS 30A. Bentuk fisik dari \textit{driver} Motor H-\textit{Bridge} EMS 30A ditunjukkan pada Gambar \ref{pic.drivermotor}.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=5cm]{gambar/driver_motor.jpg}
+	\caption{\textit{Driver} Motor EMS 30A H-\textit{Bridge}}
+	\label{pic.drivermotor}
+	\end{figure}
+
+ Driver ini memiliki 10 buah pin data yang dapat dihubungkan dengan sebuah mikrokontroler. Tabel \ref{tbl.pindrivermotor} merupakan alokasi pin pada \textit{driver} motor H-\textit{Bridge} EMS 30A.
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[H]
+		\centering
+	\caption{ Pin pada \textit{Driver} EMS 30A H-\textit{Bridge} }
+	\label{tbl.pindrivermotor}
+	\begin{tabular}{|c|c|c|l|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		Pin  & Nama & I/O & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Fungsi}                                                                                                                         \\ \hline
+		1    & MIN1 & I   & Pin \textit{input} untuk menentukan \textit{output} MOUT1                                                                                                                                     \\ \hline
+		2    & MIN2 & I   & Pin \textit{input} untuk menentukan \textit{output} MOUT2                                                                                                                                     \\ \hline
+		3    & MEN1 & I/O & \begin{tabular}[c]{@{}l@{}}Pin \textit{enable} untuk \textit{output} MOUT1 \\ diberi logika HIGH untuk mengaktifkan \textit{half} H-\textit{Bridge} 1, \\ diberi logika LOW untuk menonaktifkannya\end{tabular} \\ \hline
+		4    & MEN2 & I/O & \begin{tabular}[c]{@{}l@{}}Pin \textit{enable} untuk \textit{output} MOUT2 \\ diberi logika HIGH untuk mengaktifkan \textit{half} H-\textit{Bridge} 2, \\ diberi logika LOW untuk menonaktifkannya\end{tabular} \\ \hline
+		5    & MSC  & O   & \textit{Output} tegangan analog yang berbanding lurus dengan arus beban                                                                                                              \\ \hline
+		6    & MPWM & I   & Pin \textit{input} untuk mengatur kerja modul H-\textit{Bridge} secara PWM                                                                                                                    \\ \hline
+		7,9  & VCC  & -   & Terhubung ke catu daya untuk \textit{input} (5 Volt)                                                                                                                                 \\ \hline
+		8,10 & PGND & 0   & Titik referensi untuk catu daya \textit{input}                                                                                                                                       \\ \hline
+	\end{tabular}
+\end{table}
+\section{Processing \textit{Integrated Development Environment} (IDE)}
+Processing IDE adalah pemrograman yang diciptakan untuk pengembangan aplikasi yang berorientasi visual atau pencitraan dengan penekanan pada animasi dan memberi pengguna umpan balik melalui interaksi antarmuka. Para \textit{developer} Processing IDE ini menginginkan sebuah cara untuk "membuat sketsa" gagasan dalam bentuk kode. Karena pemrograman telah berkembang selama beberapa dekade terakhir. Processing IDE telah mulai digunakan untuk pekerjaan tingkat produksi yang lebih maju. Awalnya dibangun sebagai ekstensi khusus \textit{domain} Java yang ditargetkan untuk seniman dan desainer, Processing IDE telah berkembang menjadi alat desain dan prototipe lengkap dan penuh yang digunakan untuk pekerjaan instalasi skala besar, grafis gerak, dan visualisasi data yang rumit\cite{aku2012}. Tampilan pada Processing IDE ditunjukkan pada Gambar \ref{pic.processingide}.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=12cm]{gambar/processing_view.png}
+	\caption{Tampilan Processing IDE}
+	\label{pic.processingide}
+	\end{figure}
+
+
+\subsection{\textit{Syntax} dalam Processing IDE }
+
+\subsubsection{Mengatur Ukuran}
+Ukuran sebuah objek pada Processing IDE diatur menggunakan sebuah \textit{syntax} size(). Fungsi size() digunakan untuk menetapkan variabel global lebar dan tinggi dari suatu program. Ukuran untuk panjang dan tinggi tersebut menggunakan ukuran piksel. Lebar diwakili dengan variabel "\textit{width}" dan tinggi diwakili dengan variabel "\textit{height}". Untuk objek yang ukurannya tergantung pada layar, selalu gunakan variabel lebar dan tinggi, bukan angka. Ini mencegah masalah saat parameter fungsi size() diubah.
+
+
+\subsubsection{Transformasi Bentuk dalam Processing IDE }
+Transformasi pada Processing IDE digunakan untuk memindahkan, memutar atau, mengecilkan atau membesarkan suatu objek dan perpindahannya dapat diatur dengan parameter-parameter tertentu di dalam Processing IDE. Transformasi adalah dasar dari pemrograman Processing IDE. Contoh penulisan \textit{syntax} dari transformasi ditunjukkan pada Tabel \ref{tbl.syntxtransformasi}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[H]
+		\centering
+	\caption{ \textit{Syntax} Transformasi}
+	\label{tbl.syntxtransformasi}
+	\begin{tabular}{|c|l|l|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		No & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Syntax} & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Keterangan}                                    \\ \hline
+		1  & Translate(x,y)                                      & \begin{tabular}[c]{@{}l@{}}x = transisi kiri/kanan \\ y = transisi atas/bawah\end{tabular} \\ \hline
+		2  & Rotate(\textit{angle})                                       & \textit{angle}=besar sudut rotasi(radian)                                                           \\ \hline
+		3  & RotateX(\textit{angle})                                      & \textit{angle}=besar sudut rotasi(radian)                                                           \\ \hline
+		4  & RotateY(\textit{angle})                                      & \textit{angle}=besar sudut rotasi(radian)                                                           \\ \hline
+		5  & Rotatez(\textit{angle})                                      & \textit{angle}=besar sudut rotasi(radian)                                                           \\ \hline
+		6  & Scale(S)                                            & s = besar pengecilan pembesaran                                                            \\ \hline
+	\end{tabular}
+\end{table}
+\subsubsection{\textit{Shape}}
+\textit{Shape} adalah \textit{syntax} pada Processing IDE yang berfungsi untuk membuat berbagai macam bentuk, seperti persegi panjang, lingkaran, garis, dan bentuk lainnya yang dapat diatur ukurannya dengan parameter-parameter tertentu. Tabel \ref{tbl.syntxshape} merupakan contoh dari beberapa \textit{syntax} shape. 
+\begin{table}[H]
+	\centering
+	\caption{\textit{Syntax} Shape}
+	\label{tbl.syntxshape}
+	\resizebox{14cm}{!}{%
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		
+		No & Sytax                          & Bentuk & Keterangan                                                                                                                                                                                    \\ \hline
+		1  & ellipse(a,b,c,d)               &  	\centering \includegraphics[width=3cm]{gambar/bulat.png} 
+& \begin{tabular}[c]{@{}l@{}}a = koordinatX \\ b = koordinatY \\ c= lebar diameter \\ d= tinggi diameter\end{tabular}                                                                           \\ \hline
+		2  & arc(a,b,c,d,start,st op,moode) &  	\includegraphics[width=3cm]{gambar/busur.png}    \centering  & \begin{tabular}[c]{@{}l@{}}a = koordinatX \\ b = koordinatY \\ c = lebar diameter \\ d = tinggi diameter \\ start = sudut mulai \\ stop = sudut akhir \\ mode = PIE, CHORD, OPEN\end{tabular} \\ \hline
+		3  & line(x1,y1,x2,y2)              & 	\includegraphics[width=3cm]{gambar/garis.png}       & \begin{tabular}[c]{@{}l@{}}x1 = koordinatX1 \\ y1 = koordinatY1 \\ x2 = koordinatX2 \\ y2 = koordinatY2\end{tabular}                                                                          \\ \hline
+		4  & point(x,y)                     &     	\includegraphics[width=3cm]{gambar/point.png}   & \begin{tabular}[c]{@{}l@{}}x = koordinatX \\ y = koordinatY\end{tabular}                                                                                                                      \\ \hline
+		5  & rect(a,b,c,d,r)                &    	\includegraphics[width=3cm]{gambar/kotak.png}    & \begin{tabular}[c]{@{}l@{}}a = koordinatX1 \\ b = koordinatY1 \\ c = koordinatX2 \\ d= koordinatY1\end{tabular}                                                                               \\ \hline
+	\end{tabular}}
+\end{table}
+
+\subsubsection{Akses Koordinat \textit{Mouse} }
+Processing IDE mempunyai fungsi khusus yaitu dapat melacak posisi \textit{mouse} baik secara vertical maupun horizontal. Namun, Processing IDE hanya dapat melacak posisi \textit{mouse} saat \textit{sketch} dijalankan saja. Nilai \textit{default} mouseX dan mouseY adalah 0, jadi 0 akan dikembalikan sampai \textit{mouse} bergerak di depan jendela sketsa. Setelah \textit{mouse} bergerak menjauh dari jendela, mouseX akan terus melaporkan posisi terakhirnya.  Contoh penulisan \textit{syntax} dari \textit{mouse} ditunjukkan pada Tabel \ref{tbl.koordinatmouse}.
+\begin{table}[H]
+		\centering
+	\caption{\textit{Syntax} Koordinat \textit{Mouse}}
+	\label{tbl.koordinatmouse}
+	\begin{tabular}{|c|l|l|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		No & \multicolumn{1}{c|}{\textit{Syntax}} & \multicolumn{1}{c|}{Keterangan}                                                                                                 \\ \hline
+		1  & mouseX                               & \begin{tabular}[c]{@{}l@{}}Variabel sistem X memiliki nilai dari \\ koordinat horizontal \textit{mouse} secara \textit{real time}\end{tabular}    \\ \hline
+		2  & mouseY                               & \begin{tabular}[c]{@{}l@{}}Variabel sistem Y memiliki nilai dari koordinat \\ horizontal \textit{mouse} secara \textit{real time}.\end{tabular}   \\ \hline
+		3  & mouseButton()                        & \begin{tabular}[c]{@{}l@{}}Bila tombol \textit{mouse} ditekan, nilai \textit{variable} sistem \\ diatur ke \textit{left}, \textit{right}, atau \textit{center}.\end{tabular} \\ \hline
+		4  & mouseClicked()                       & \begin{tabular}[c]{@{}l@{}}Dipanggil setelah tombol \textit{mouse} ditekan dan kemudian dilepaskan.\end{tabular}                      \\ \hline
+		5  & mouseDragged()                       & Dipanggil setelah tombol \textit{mouse} bergerak saat ditekan.                                                                           \\ \hline
+	\end{tabular}
+\end{table}
+
+\subsubsection{ \textit{Compile Sketch} }
+Program pada Processing IDE dinamakan \textit{sketch}. Tujuan diberi nama \textit{sketch} adalah untuk membuat pemrograman bergaya Java ini terasa lebih seperti \textit{scripting}, dan mengadopsi proses \textit{scripting} untuk menulis kode dengan cepat. \textit{Sketch} disimpan dalam bentuk \textit{Sketchbook}. Gambar \ref{pic.toolbarsketch} merupakan \textit{toolbar} dari \textit{sketch.}
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=5cm]{gambar/compile.jpg}
+	\caption{\textit{Toolbar Sketch}}
+	\label{pic.toolbarsketch}
+\end{figure}
+
+\subsection{ \textit{Library} untuk Processing IDE }
+\subsubsection{ Memuat Huruf (\textit{Pfont}) pada Processing IDE }
+Pfont adalah \textit{class} yang digunakan untuk penggunaan \textit{font} pada Processing IDE. Untuk membuat \textit{font} yang akan digunakan dengan Processing IDE, diawali dengan memilih "\textit{Create Font ...}" dari menu \textit{Tools}. Ini akan membuat \textit{font} dalam \textit{format} Processing IDE yang membutuhkan dan juga menambahkannya ke direktori data sketsa saat ini. Pengolahan menampilkan \textit{font} menggunakan format \textit{font} .vlw. Fungsi loadFont() digunakan untuk membuat \textit{font} baru dan textFont () digunakan agar \textit{font} baru yang telah dibuat tersebut aktif. \textit{Syntax} list() berfungsi untuk membuat daftar \textit{font} yang terunduh pada komputer yang merupakan informasi yang berguna untuk digunakan dengan fungsi createFont() untuk mengubah \textit{font} secara dinamis menjadi format yang bisa digunakan di Processing IDE. 
+
+
+\subsubsection{ Memuat ControlP5 pada Processing IDE }
+ControlP5 adalah \textit{library} yang berfungsi sebagai pengontrol untuk membuat antarmuka dengan \textit{user}, ControlP5 berupa grafis di dalam \textit{sketch} Processing IDE yang meliputi \textit{slider}, \textit{button}, \textit{toggles}, \textit{knobs}, \textit{radiobutton}, dan dapat dengan mudah ditambahkan ke \textit{sketch} pengolahan. ControlP5 ditulis oleh Andreas Schlegel untuk pemrograman Processing IDE. \textit{Library} ControlP5 bisa diunduh di laman https://github.com/sojamo/controlp5 atau unduh di \textit{library} Processing IDE secara langsung. Gambar \ref{pic.controlp5} merupakan beberapa contoh gambaran dari ControlP5.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{gambar/controlp5.jpg}
+	\caption{ControlP5}
+	\label{pic.controlp5}
+\end{figure}
+Setiap \textit{tools} yang ada pada ControlP5 memiliki fungsi yang berbeda-beda sesuai dengan kegunaannya. ControlP5 dapat dipakai atau saling dikombinasikan agar memudahkan dan memaksimalkan dari GUI yang telah dibuat. ControlP5 nantinya akan bekerja sesuai dengan program yang sudah dimasukkan. Beberapa fungsi dari \textit{tools} yang ada pada ControlP5 ditunjukkan pada Tabel \ref{tbl.toolscontrolp5}.
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[H]
+	\centering
+	\label{tbl.toolscontrolp5}
+	\caption{ Fungsi dari \textit{tools} ControlP5}
+	\begin{tabular}{|c|l|l|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		No & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}ControlP5} & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Fungsi}                                                                                                                                                 \\ \hline
+		\rowcolor[HTML]{FFFFFF} 
+		1  & Bang                                                   & \begin{tabular}[c]{@{}l@{}}Memicu sebuah tindakan ketika ditekan\\ controlP5.addBang("bang1");\end{tabular}                                                                                         \\ \hline
+		2  & Button                                                 & \begin{tabular}[c]{@{}l@{}}Memicu sebuah tindakan ketika sudah dilepas\\ controlP5.addButton("button1");\end{tabular}                                                                               \\ \hline
+		3  & Toggle                                                 & \begin{tabular}[c]{@{}l@{}}\begin{tabular}[c]{@{}l@{}}Memiliki dua status. \\ \textit{true} meiliki nilai 1 dan \textit{false} memiliki nilai 0\end{tabular}\\ controlP5.addToggle("toggle1")\end{tabular}            \\ \hline
+		4  & Slider                                                 & \begin{tabular}[c]{@{}l@{}}\begin{tabular}[c]{@{}l@{}}Mengatur nilai dengan cara menggeser \\ secara horisontal maupun vertikal\end{tabular}\\ controlP5.addSlider("slider2");\end{tabular}         \\ \hline
+		5  & Knob                                                   & \begin{tabular}[c]{@{}l@{}}Mengatur sebuah nilai dengan tombol putaran 360°\\ controlP5.addKnob("knob1");\end{tabular}                                                                              \\ \hline
+		6  & NumberBox                                              & \begin{tabular}[c]{@{}l@{}}\begin{tabular}[c]{@{}l@{}}Kotak yang menampilkan angka dan \\ dapat diubah dengan klik di dalam kotak\end{tabular}\\ controlP5.addNumberbox("numberbox1");\end{tabular} \\ \hline
+	\end{tabular}
+\end{table}

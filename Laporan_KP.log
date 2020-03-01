@@ -1,0 +1,1402 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  29 FEB 2020 12:26
+entering extended mode
+**./Laporan_KP.tex
+(Laporan_KP.tex
+LaTeX2e <2018-12-01>
+(DTEDI_KP.cls
+Document Class: DTEDI_KP 
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/06/03 3.32 The Babel package
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\engli
+sh.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count80
+\U@D=\dimen102
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
+f")
+\bbl@dirlevel=\count81
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-indonesian\ba
+hasa.ldf"
+Language: bahasa 2017/02/15 v1.0m Bahasa Indonesia support from the babel syste
+m
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-indonesian\in
+donesian.ldf"
+Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel s
+ystem
+)))
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.s
+ty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.s
+ty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
+ty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
+y"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.s
+ty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.s
+ty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count82
+\Gm@cntv=\count83
+\c@Gm@tempcnt=\count84
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks15
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
+fg"))
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks16
+\verbatim@line=\toks17
+\verbatim@in@stream=\read1
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.sty
+"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks18
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.s
+ty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count85
+\@cmidlb=\count86
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count87
+\@lastruleclass=\count88
+\@thisrulewidth=\dimen125
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
+cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.s
+ty"
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+ ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen126
+\ar@mcellbox=\box27
+\extrarowheight=\dimen127
+\NC@list=\toks19
+\extratabsurround=\skip41
+\backup@length=\skip42
+\ar@cellbox=\box28
+)
+\everycr=\toks20
+\minrowclearance=\skip43
+)
+\rownum=\count89
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.s
+ty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip44
+\multirow@cntb=\count90
+\multirow@dima=\skip45
+\bigstrutjot=\dimen128
+) ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks21
+\float@box=\box29
+\@float@everytoks=\toks22
+\@floatcapt=\box30
+) ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count92
+\c@chapter=\count93
+\c@section=\count94
+\c@subsection=\count95
+\c@subsubsection=\count96
+\c@paragraph=\count97
+\c@subparagraph=\count98
+\c@figure=\count99
+\c@table=\count100
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\bibindent=\dimen129
+)) ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.
+sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count101
+\LTcapwidth=\dimen130
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks23
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocloft\tocloft.sty
+"
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip52
+\cftbeforetoctitleskip=\skip53
+\cftaftertoctitleskip=\skip54
+\cftbeforepartskip=\skip55
+\cftpartnumwidth=\skip56
+\cftpartindent=\skip57
+\cftbeforechapskip=\skip58
+\cftchapindent=\skip59
+\cftchapnumwidth=\skip60
+\cftbeforesecskip=\skip61
+\cftsecindent=\skip62
+\cftsecnumwidth=\skip63
+\cftbeforesubsecskip=\skip64
+\cftsubsecindent=\skip65
+\cftsubsecnumwidth=\skip66
+\cftbeforesubsubsecskip=\skip67
+\cftsubsubsecindent=\skip68
+\cftsubsubsecnumwidth=\skip69
+\cftbeforeparaskip=\skip70
+\cftparaindent=\skip71
+\cftparanumwidth=\skip72
+\cftbeforesubparaskip=\skip73
+\cftsubparaindent=\skip74
+\cftsubparanumwidth=\skip75
+\cftbeforeloftitleskip=\skip76
+\cftafterloftitleskip=\skip77
+\cftbeforefigskip=\skip78
+\cftfigindent=\skip79
+\cftfignumwidth=\skip80
+\c@lofdepth=\count106
+\c@lotdepth=\count107
+\cftbeforelottitleskip=\skip81
+\cftafterlottitleskip=\skip82
+\cftbeforetabskip=\skip83
+\cfttabindent=\skip84
+\cfttabnumwidth=\skip85
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.s
+ty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-h
+yperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-g
+eneric.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.st
+y"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.
+sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen131
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def
+"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count110
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.c
+fg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count111
+ ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen132
+\Fld@menulength=\count112
+\Field@Width=\dimen133
+\Fld@charsize=\dimen134
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count113
+\c@Item=\count114
+\c@Hfootnote=\count115
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.de
+f"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count116
+\c@bookmark@seq@number=\count117
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfilec
+heck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip86
+)
+\mylenf=\skip87
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty
+"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.st
+y"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen135
+\captionmargin@=\dimen136
+\captionwidth=\dimen137
+\caption@tempdima=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
+)
+\c@caption@flags=\count118
+\c@ContinuedFloat=\count119
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.s
+ty"
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+))
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption.
+sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count120
+\c@subtable=\count121
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.s
+ty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip88
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen142
+))
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count122
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count123
+\leftroot@=\count124
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count125
+\DOTSCASE@=\count126
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box35
+\strutbox@=\box36
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count127
+\c@MaxMatrixCols=\count128
+\dotsspace@=\muskip11
+\c@parentequation=\count129
+\dspbrk@lvl=\count130
+\tag@help=\toks25
+\row@=\count131
+\column@=\count132
+\maxfields@=\count133
+\andhelp@=\toks26
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks27
+\multlinegap=\skip89
+\multlinetaggap=\skip90
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (Laporan_KP.aux (BAB_1.aux) (BAB_2.aux) (BAB_3.aux
+
+LaTeX Warning: Label `tbl.elektronisscara' multiply defined.
+
+
+LaTeX Warning: Label `dh.scara' multiply defined.
+
+) (BAB_4.aux) (BAB_5.aux))
+\openout1 = `Laporan_KP.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 51.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen151
+\scratchbox=\box37
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen152
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks30
+)
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-b
+ase.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty
+"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* pass: disregarded the geometry package!
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=406.87448pt
+* \textheight=625.96062pt
+* \oddsidemargin=41.54121pt
+* \evensidemargin=41.54121pt
+* \topmargin=-25.6073pt
+* \headheight=12.0pt
+* \headsep=65.44142pt
+* \topskip=5.1654pt
+* \footskip=42.67912pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring OFF on input line 51.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
+y"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitle
+string.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count140
+)
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
+ (Laporan_KP.out) (Laporan_KP.out)
+\@outlinefile=\write3
+\openout3 = `Laporan_KP.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 53.
+<gambar/logougm.png, id=235, 110.5731pt x 112.2594pt>
+File: gambar/logougm.png Graphic file (type png)
+<use gambar/logougm.png>
+Package pdftex.def Info: gambar/logougm.png  used on input line 53.
+(pdftex.def)             Requested size: 156.49014pt x 158.89041pt.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 53.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 53.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+[1
+
+{C:/Users/IVAN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./gambar/log
+ougm.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
+ [2
+
+]
+Overfull \hbox (9.07773pt too wide) in paragraph at lines 75--83
+[][] 
+ []
+
+[3
+
+] (Laporan_KP.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 10.
+ [4
+
+])
+\tf@toc=\write4
+\openout4 = `Laporan_KP.toc'.
+
+ [5] (Laporan_KP.lot)
+\tf@lot=\write5
+\openout5 = `Laporan_KP.lot'.
+
+ [6
+
+] (Laporan_KP.lof [7
+
+])
+\tf@lof=\write6
+\openout6 = `Laporan_KP.lof'.
+
+ [8]
+[9
+
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 98.
+ [10
+
+
+]
+\openout2 = `BAB_1.aux'.
+
+ (BAB_1.tex
+BAB I.
+
+Overfull \hbox (2.29826pt too wide) in paragraph at lines 11--12
+\T1/ptm/m/it/12 com-pi-lan-ce as-sem-bly ro-bot arm \T1/ptm/m/n/12 (SCA-RA). Da
+-lam me-la-kuk-an per-ge-rak-an, ro-bot SCA-
+ []
+
+[1
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+[2] [3]
+<gambar/flowchart.png, id=534, 323.2075pt x 743.77875pt>
+File: gambar/flowchart.png Graphic file (type png)
+<use gambar/flowchart.png>
+Package pdftex.def Info: gambar/flowchart.png  used on input line 68.
+(pdftex.def)             Requested size: 199.16928pt x 458.33482pt.
+ [4])
+Underfull \hbox (badness 10000) in paragraph at lines 77--109
+
+ []
+
+[5 <./gambar/flowchart.png>] [6]
+\openout2 = `BAB_2.aux'.
+
+ (BAB_2.tex
+BAB II.
+<gambar/joint.png, id=554, 320.69812pt x 127.97812pt>
+File: gambar/joint.png Graphic file (type png)
+<use gambar/joint.png>
+Package pdftex.def Info: gambar/joint.png  used on input line 15.
+(pdftex.def)             Requested size: 312.9803pt x 124.90019pt.
+[7
+
+
+
+ <./gambar/joint.png>]
+<gambar/articulated.jpg, id=564, 13.42157pt x 9.80807pt>
+File: gambar/articulated.jpg Graphic file (type jpg)
+<use gambar/articulated.jpg>
+Package pdftex.def Info: gambar/articulated.jpg  used on input line 31.
+(pdftex.def)             Requested size: 227.62204pt x 166.52872pt.
+ [8]
+<gambar/spherical.jpg, id=573, 11.20377pt x 9.44481pt>
+File: gambar/spherical.jpg Graphic file (type jpg)
+<use gambar/spherical.jpg>
+Package pdftex.def Info: gambar/spherical.jpg  used on input line 40.
+(pdftex.def)             Requested size: 227.62204pt x 191.89635pt.
+<gambar/scara.jpg, id=577, 14.12898pt x 9.44481pt>
+File: gambar/scara.jpg Graphic file (type jpg)
+<use gambar/scara.jpg>
+Package pdftex.def Info: gambar/scara.jpg  used on input line 51.
+(pdftex.def)             Requested size: 227.62204pt x 152.20091pt.
+ [9 <./gambar/articulated.jpg> <./gambar/spherical.jpg>]
+<gambar/cartesian.jpg, id=588, 13.7466pt x 10.63019pt>
+File: gambar/cartesian.jpg Graphic file (type jpg)
+<use gambar/cartesian.jpg>
+Package pdftex.def Info: gambar/cartesian.jpg  used on input line 63.
+(pdftex.def)             Requested size: 170.71652pt x 132.13129pt.
+ [10 <./gambar/scara.jpg>]
+<gambar/wirst.jpg, id=598, 8.01088pt x 7.20789pt>
+File: gambar/wirst.jpg Graphic file (type jpg)
+<use gambar/wirst.jpg>
+Package pdftex.def Info: gambar/wirst.jpg  used on input line 73.
+(pdftex.def)             Requested size: 142.26378pt x 128.17699pt.
+
+Overfull \hbox (9.61542pt too wide) in paragraph at lines 70--76
+[]\T1/ptm/m/it/12 Wrist \T1/ptm/m/n/12 atau per-ge-lang-an ta-ngan me-ru-pak-an
+ \T1/ptm/m/it/12 jo-int \T1/ptm/m/n/12 di-an-ta-ra le-ngan dan \T1/ptm/m/it/12 
+end-effector\T1/ptm/m/n/12 .
+ []
+
+<gambar/end_effector.jpg, id=602, 451.6875pt x 489.32813pt>
+File: gambar/end_effector.jpg Graphic file (type jpg)
+<use gambar/end_effector.jpg>
+Package pdftex.def Info: gambar/end_effector.jpg  used on input line 82.
+(pdftex.def)             Requested size: 170.71652pt x 184.94609pt.
+[11 <./gambar/cartesian.jpg> <./gambar/wirst.jpg>]
+<gambar/kinematika_diagram.png, id=611, 463.9734pt x 163.5711pt>
+File: gambar/kinematika_diagram.png Graphic file (type png)
+<use gambar/kinematika_diagram.png>
+Package pdftex.def Info: gambar/kinematika_diagram.png  used on input line 94.
+(pdftex.def)             Requested size: 341.43306pt x 120.36931pt.
+ [12 <./gambar/end_effector.jpg>]
+<gambar/Kinematika_maju.png, id=619, 418.4433pt x 99.7326pt>
+File: gambar/Kinematika_maju.png Graphic file (type png)
+<use gambar/Kinematika_maju.png>
+Package pdftex.def Info: gambar/Kinematika_maju.png  used on input line 103.
+(pdftex.def)             Requested size: 341.43306pt x 81.37798pt.
+ [13 <./gambar/kinematika_diagram.png> <./gambar/Kinematika_maju.png>]
+<gambar/kinematika_balik.png, id=630, 418.4433pt x 99.7326pt>
+File: gambar/kinematika_balik.png Graphic file (type png)
+<use gambar/kinematika_balik.png>
+Package pdftex.def Info: gambar/kinematika_balik.png  used on input line 116.
+(pdftex.def)             Requested size: 284.52756pt x 67.81421pt.
+<gambar/motorDC.jpeg, id=633, 803.0pt x 803.0pt>
+File: gambar/motorDC.jpeg Graphic file (type jpg)
+<use gambar/motorDC.jpeg>
+Package pdftex.def Info: gambar/motorDC.jpeg  used on input line 125.
+(pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
+
+[14 <./gambar/kinematika_balik.png> <./gambar/motorDC.jpeg>]
+<gambar/prinsipDC.jpg, id=644, 610.73239pt x 407.15492pt>
+File: gambar/prinsipDC.jpg Graphic file (type jpg)
+<use gambar/prinsipDC.jpg>
+Package pdftex.def Info: gambar/prinsipDC.jpg  used on input line 135.
+(pdftex.def)             Requested size: 227.62204pt x 151.75081pt.
+ [15 <./gambar/prinsipDC.jpg>]
+<gambar/lm2596.jpg, id=655, 545.78906pt x 264.99pt>
+File: gambar/lm2596.jpg Graphic file (type jpg)
+<use gambar/lm2596.jpg>
+Package pdftex.def Info: gambar/lm2596.jpg  used on input line 148.
+(pdftex.def)             Requested size: 199.16928pt x 96.6983pt.
+<gambar/arduino_mega.jpg, id=660, 602.25pt x 292.09125pt>
+File: gambar/arduino_mega.jpg Graphic file (type jpg)
+<use gambar/arduino_mega.jpg>
+Package pdftex.def Info: gambar/arduino_mega.jpg  used on input line 157.
+(pdftex.def)             Requested size: 142.26378pt x 68.998pt.
+ [16 <./gambar/lm2596.jpg>]
+<gambar/driver_motor.jpg, id=671, 469.755pt x 342.5297pt>
+File: gambar/driver_motor.jpg Graphic file (type jpg)
+<use gambar/driver_motor.jpg>
+Package pdftex.def Info: gambar/driver_motor.jpg  used on input line 186.
+(pdftex.def)             Requested size: 142.26378pt x 103.73184pt.
+ [17 <./gambar/arduino_mega.jpg>]
+Overfull \hbox (36.57903pt too wide) in paragraph at lines 202--215
+ [][] 
+ []
+
+<gambar/processing_view.png, id=680, 894.34125pt x 586.19pt>
+File: gambar/processing_view.png Graphic file (type png)
+<use gambar/processing_view.png>
+Package pdftex.def Info: gambar/processing_view.png  used on input line 220.
+(pdftex.def)             Requested size: 341.43306pt x 223.79207pt.
+[18 <./gambar/driver_motor.jpg>] [19 <./gambar/processing_view.png>]
+<gambar/bulat.png, id=695, 142.6128pt x 142.6128pt>
+File: gambar/bulat.png Graphic file (type png)
+<use gambar/bulat.png>
+Package pdftex.def Info: gambar/bulat.png  used on input line 272.
+(pdftex.def)             Requested size: 85.35826pt x 85.35942pt.
+<gambar/busur.png, id=696, 142.3719pt x 142.6128pt>
+File: gambar/busur.png Graphic file (type png)
+<use gambar/busur.png>
+Package pdftex.def Info: gambar/busur.png  used on input line 272.
+(pdftex.def)             Requested size: 85.35826pt x 85.50522pt.
+<gambar/garis.png, id=697, 142.3719pt x 142.6128pt>
+File: gambar/garis.png Graphic file (type png)
+<use gambar/garis.png>
+Package pdftex.def Info: gambar/garis.png  used on input line 272.
+(pdftex.def)             Requested size: 85.35826pt x 85.50522pt.
+<gambar/point.png, id=698, 142.3719pt x 142.6128pt>
+File: gambar/point.png Graphic file (type png)
+<use gambar/point.png>
+Package pdftex.def Info: gambar/point.png  used on input line 272.
+(pdftex.def)             Requested size: 85.35826pt x 85.50522pt.
+<gambar/kotak.png, id=699, 142.3719pt x 142.6128pt>
+File: gambar/kotak.png Graphic file (type png)
+<use gambar/kotak.png>
+Package pdftex.def Info: gambar/kotak.png  used on input line 272.
+(pdftex.def)             Requested size: 85.35826pt x 85.50522pt.
+ [20]
+Overfull \hbox (47.20569pt too wide) in paragraph at lines 281--291
+ [][] 
+ []
+
+[21 <./gambar/bulat.png> <./gambar/busur.png> <./gambar/garis.png> <./gambar/po
+int.png> <./gambar/kotak.png>]
+<gambar/compile.jpg, id=717, 170.13562pt x 123.46124pt>
+File: gambar/compile.jpg Graphic file (type jpg)
+<use gambar/compile.jpg>
+Package pdftex.def Info: gambar/compile.jpg  used on input line 298.
+(pdftex.def)             Requested size: 142.26378pt x 103.2414pt.
+ [22 <./gambar/compile.jpg>]
+<gambar/controlp5.jpg, id=725, 381.425pt x 306.14375pt>
+File: gambar/controlp5.jpg Graphic file (type jpg)
+<use gambar/controlp5.jpg>
+Package pdftex.def Info: gambar/controlp5.jpg  used on input line 312.
+(pdftex.def)             Requested size: 227.62204pt x 182.69733pt.
+
+
+Package caption Warning: \label without proper reference on input line 322.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tbl.toolscontrolp5' on page 23 undefined on input lin
+e 316.
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 333.
+
+("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[23 <./gambar/controlp5.jpg>]) [24]
+\openout2 = `BAB_3.aux'.
+
+ (BAB_3.tex
+BAB III.
+<gambar/diagram_blok_new.png, id=738, 702.9462pt x 264.99pt>
+File: gambar/diagram_blok_new.png Graphic file (type png)
+<use gambar/diagram_blok_new.png>
+Package pdftex.def Info: gambar/diagram_blok_new.png  used on input line 9.
+(pdftex.def)             Requested size: 369.88582pt x 139.43721pt.
+[25
+
+
+
+ <./gambar/diagram_blok_new.png>]
+<gambar/scaraa.png, id=747, 784.8522pt x 654.0435pt>
+File: gambar/scaraa.png Graphic file (type png)
+<use gambar/scaraa.png>
+Package pdftex.def Info: gambar/scaraa.png  used on input line 25.
+(pdftex.def)             Requested size: 199.16928pt x 165.9755pt.
+ [26]
+<gambar/3dscara.png, id=752, 1445.4pt x 813.0375pt>
+File: gambar/3dscara.png Graphic file (type png)
+<use gambar/3dscara.png>
+Package pdftex.def Info: gambar/3dscara.png  used on input line 31.
+(pdftex.def)             Requested size: 199.16928pt x 112.0256pt.
+
+
+LaTeX Warning: Reference `tbl.spesifikasiscara' on page 27 undefined on input l
+ine 35.
+
+[27 <./gambar/scaraa.png> <./gambar/3dscara.png>]
+<gambar/boxpanel.png, id=762, 349.305pt x 199.947pt>
+File: gambar/boxpanel.png Graphic file (type png)
+<use gambar/boxpanel.png>
+Package pdftex.def Info: gambar/boxpanel.png  used on input line 60.
+(pdftex.def)             Requested size: 256.0748pt x 146.58858pt.
+
+Overfull \hbox (19.92587pt too wide) in paragraph at lines 70--85
+ [][] 
+ []
+
+[28 <./gambar/boxpanel.png>]
+<gambar/potsementara.jpg, id=770, 325.9377pt x 182.3613pt>
+File: gambar/potsementara.jpg Graphic file (type jpg)
+<use gambar/potsementara.jpg>
+Package pdftex.def Info: gambar/potsementara.jpg  used on input line 90.
+(pdftex.def)             Requested size: 341.43306pt x 191.04813pt.
+<gambar/capitsementara.jpg, id=772, 625.33624pt x 499.8675pt>
+File: gambar/capitsementara.jpg Graphic file (type jpg)
+<use gambar/capitsementara.jpg>
+Package pdftex.def Info: gambar/capitsementara.jpg  used on input line 98.
+(pdftex.def)             Requested size: 170.71652pt x 136.46098pt.
+ [29 <./gambar/potsementara.jpg>]
+<gambar/pneumatic.png, id=783, 278.7213pt x 107.4414pt>
+File: gambar/pneumatic.png Graphic file (type png)
+<use gambar/pneumatic.png>
+Package pdftex.def Info: gambar/pneumatic.png  used on input line 106.
+(pdftex.def)             Requested size: 341.43306pt x 131.61603pt.
+
+Overfull \hbox (0.31607pt too wide) in paragraph at lines 103--109
+[]\T1/ptm/m/n/12 Semua per-ge-rak-an pa-da \T1/ptm/m/it/12 end-effector \T1/ptm
+/m/n/12 di-te-na-gai oleh se-bu-ah te-kan-an uda-ra yang
+ []
+
+<gambar/kompresor.png, id=785, 192.72pt x 192.72pt>
+File: gambar/kompresor.png Graphic file (type png)
+<use gambar/kompresor.png>
+Package pdftex.def Info: gambar/kompresor.png  used on input line 113.
+(pdftex.def)             Requested size: 142.26355pt x 142.26378pt.
+[30 <./gambar/capitsementara.jpg> <./gambar/pneumatic.png>]
+<gambar/samping.png, id=793, 227.6505pt x 198.5016pt>
+File: gambar/samping.png Graphic file (type png)
+<use gambar/samping.png>
+Package pdftex.def Info: gambar/samping.png  used on input line 121.
+(pdftex.def)             Requested size: 293.67729pt x 256.0748pt.
+ [31 <./gambar/kompresor.png>]
+<gambar/scaradimensi.png, id=799, 284.7438pt x 230.3004pt>
+File: gambar/scaradimensi.png Graphic file (type png)
+<use gambar/scaradimensi.png>
+Package pdftex.def Info: gambar/scaradimensi.png  used on input line 128.
+(pdftex.def)             Requested size: 316.63419pt x 256.0748pt.
+ [32 <./gambar/samping.png> <./gambar/scaradimensi.png>]
+<gambar/drivermotor.jpg, id=807, 876.36884pt x 327.11684pt>
+File: gambar/drivermotor.jpg Graphic file (type jpg)
+<use gambar/drivermotor.jpg>
+Package pdftex.def Info: gambar/drivermotor.jpg  used on input line 139.
+(pdftex.def)             Requested size: 284.52756pt x 106.20189pt.
+<gambar/relay.jpg, id=810, 360.59718pt x 289.83281pt>
+File: gambar/relay.jpg Graphic file (type jpg)
+<use gambar/relay.jpg>
+Package pdftex.def Info: gambar/relay.jpg  used on input line 147.
+(pdftex.def)             Requested size: 142.26378pt x 114.34338pt.
+ [33 <./gambar/drivermotor.jpg>]
+<gambar/tip31.png, id=818, 656.4525pt x 846.16125pt>
+File: gambar/tip31.png Graphic file (type png)
+<use gambar/tip31.png>
+Package pdftex.def Info: gambar/tip31.png  used on input line 153.
+(pdftex.def)             Requested size: 142.26378pt x 183.38011pt.
+<gambar/panelkabel.png, id=821, 725.5908pt x 623.6901pt>
+File: gambar/panelkabel.png Graphic file (type png)
+<use gambar/panelkabel.png>
+Package pdftex.def Info: gambar/panelkabel.png  used on input line 161.
+(pdftex.def)             Requested size: 369.88582pt x 317.9445pt.
+ [34 <./gambar/relay.jpg> <./gambar/tip31.png>] [35 <./gambar/panelkabel.png>]
+<gambar/fusion.png, id=836, 557.83406pt x 295.85532pt>
+File: gambar/fusion.png Graphic file (type png)
+<use gambar/fusion.png>
+Package pdftex.def Info: gambar/fusion.png  used on input line 196.
+(pdftex.def)             Requested size: 284.53416pt x 284.53702pt.
+ [36 <./gambar/fusion.png (PNG copy)>]
+<gambar/catudaya_bb.png, id=842, 1096.095pt x 695.59875pt>
+File: gambar/catudaya_bb.png Graphic file (type png)
+<use gambar/catudaya_bb.png>
+Package pdftex.def Info: gambar/catudaya_bb.png  used on input line 243.
+(pdftex.def)             Requested size: 227.62204pt x 144.4455pt.
+ [37]
+<gambar/GUI.png, id=850, 1305.1962pt x 705.3552pt>
+File: gambar/GUI.png Graphic file (type png)
+<use gambar/GUI.png>
+Package pdftex.def Info: gambar/GUI.png  used on input line 251.
+(pdftex.def)             Requested size: 426.79134pt x 230.64764pt.
+
+Overfull \hbox (19.91685pt too wide) in paragraph at lines 251--252
+ [][] 
+ []
+
+[38 <./gambar/catudaya_bb.png>]
+Overfull \hbox (75.72957pt too wide) in paragraph at lines 261--275
+ [][] 
+ []
+
+[39 <./gambar/GUI.png>] [40]
+<gambar/scaradh.png, id=870, 284.5029pt x 284.5029pt>
+File: gambar/scaradh.png Graphic file (type png)
+<use gambar/scaradh.png>
+Package pdftex.def Info: gambar/scaradh.png  used on input line 305.
+(pdftex.def)             Requested size: 256.0748pt x 256.07628pt.
+ [41 <./gambar/scaradh.png>] [42] [43]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 398.
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 407.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 407.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 407.
+
+[44] [45]
+<gambar/scara_atas.png, id=933, 315.3381pt x 143.0946pt>
+File: gambar/scara_atas.png Graphic file (type png)
+<use gambar/scara_atas.png>
+Package pdftex.def Info: gambar/scara_atas.png  used on input line 466.
+(pdftex.def)             Requested size: 341.43306pt x 154.94815pt.
+ [46 <./gambar/scara_atas.png>] [47]
+<gambar/sistem_keseluruhan.png, id=974, 1445.6409pt x 813.0375pt>
+File: gambar/sistem_keseluruhan.png Graphic file (type png)
+<use gambar/sistem_keseluruhan.png>
+Package pdftex.def Info: gambar/sistem_keseluruhan.png  used on input line 520.
+
+(pdftex.def)             Requested size: 341.43306pt x 192.01909pt.
+ [48] [49 <./gambar/sistem_keseluruhan.png>]) [50]
+\openout2 = `BAB_4.aux'.
+
+ (BAB_4.tex
+BAB IV.
+[51
+
+
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[52]
+Overfull \hbox (6.93462pt too wide) in alignment at lines 52--60
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.93462pt too wide) in alignment at lines 60--62
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.93462pt too wide) in alignment at lines 62--76
+ [] [] [] [] [] [] 
+ []
+
+[53]
+<gambar/pot.png, id=1013, 1084.05pt x 537.50812pt>
+File: gambar/pot.png Graphic file (type png)
+<use gambar/pot.png>
+Package pdftex.def Info: gambar/pot.png  used on input line 102.
+(pdftex.def)             Requested size: 341.43306pt x 169.29134pt.
+ [54]
+<gambar/mv.png, id=1021, 1084.05pt x 537.50812pt>
+File: gambar/mv.png Graphic file (type png)
+<use gambar/mv.png>
+Package pdftex.def Info: gambar/mv.png  used on input line 132.
+(pdftex.def)             Requested size: 341.43306pt x 169.29134pt.
+ [55 <./gambar/pot.png (PNG copy)>] [56 <./gambar/mv.png (PNG copy)>]
+[57] [58]
+<gambar/px.png, id=1046, 1084.05pt x 537.50812pt>
+File: gambar/px.png Graphic file (type png)
+<use gambar/px.png>
+Package pdftex.def Info: gambar/px.png  used on input line 228.
+(pdftex.def)             Requested size: 341.43306pt x 169.29134pt.
+ [59 <./gambar/px.png (PNG copy)>] [60]
+<gambar/py.png, id=1061, 1084.05pt x 537.50812pt>
+File: gambar/py.png Graphic file (type png)
+<use gambar/py.png>
+Package pdftex.def Info: gambar/py.png  used on input line 298.
+(pdftex.def)             Requested size: 369.88582pt x 183.39827pt.
+ [61 <./gambar/py.png (PNG copy)>]
+<gambar/WORKSPACE.png, id=1070, 581.7735pt x 489.9906pt>
+File: gambar/WORKSPACE.png Graphic file (type png)
+<use gambar/WORKSPACE.png>
+Package pdftex.def Info: gambar/WORKSPACE.png  used on input line 311.
+(pdftex.def)             Requested size: 369.88582pt x 311.53683pt.
+ [62] [63 <./gambar/WORKSPACE.png>] [64]
+<gambar/ps.png, id=1089, 1084.05pt x 537.50812pt>
+File: gambar/ps.png Graphic file (type png)
+<use gambar/ps.png>
+Package pdftex.def Info: gambar/ps.png  used on input line 383.
+(pdftex.def)             Requested size: 369.88582pt x 183.39827pt.
+ [65 <./gambar/ps.png (PNG copy)>]
+[66]
+<gambar/pe.png, id=1103, 1084.05pt x 537.50812pt>
+File: gambar/pe.png Graphic file (type png)
+<use gambar/pe.png>
+Package pdftex.def Info: gambar/pe.png  used on input line 457.
+(pdftex.def)             Requested size: 341.43306pt x 169.29134pt.
+ [67]
+<gambar/ne.png, id=1112, 1084.05pt x 537.50812pt>
+File: gambar/ne.png Graphic file (type png)
+<use gambar/ne.png>
+Package pdftex.def Info: gambar/ne.png  used on input line 560.
+(pdftex.def)             Requested size: 369.88582pt x 183.39827pt.
+ [68 <./gambar/pe.png (PNG copy)>]
+Overfull \vbox (50.83022pt too high) has occurred while \output is active []
+
+
+[69]
+<gambar/kendali1.png, id=1125, 580.8099pt x 723.1818pt>
+File: gambar/kendali1.png Graphic file (type png)
+<use gambar/kendali1.png>
+Package pdftex.def Info: gambar/kendali1.png  used on input line 574.
+(pdftex.def)             Requested size: 369.88582pt x 460.57262pt.
+ [70 <./gambar/ne.png (PNG copy)>]
+<gambar/kendali2.png, id=1130, 577.4373pt x 723.1818pt>
+File: gambar/kendali2.png Graphic file (type png)
+<use gambar/kendali2.png>
+Package pdftex.def Info: gambar/kendali2.png  used on input line 579.
+(pdftex.def)             Requested size: 369.88582pt x 463.26512pt.
+ [71 <./gambar/kendali1.png>]
+<gambar/kendali3.png, id=1137, 581.5326pt x 723.1818pt>
+File: gambar/kendali3.png Graphic file (type png)
+<use gambar/kendali3.png>
+Package pdftex.def Info: gambar/kendali3.png  used on input line 584.
+(pdftex.def)             Requested size: 369.88582pt x 459.99881pt.
+ [72 <./gambar/kendali2.png>] [73 <./gambar/kendali3.png>]) [74]
+\openout2 = `BAB_5.aux'.
+
+ (BAB_5.tex
+BAB V.
+[75
+
+
+
+]) [76] (Laporan_KP.bbl [77
+
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+ [78]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+ (Laporan_KP.aux (BAB_1.aux) (BAB_2.aux)
+(BAB_3.aux) (BAB_4.aux) (BAB_5.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
+Package rerunfilecheck Info: File `Laporan_KP.out' has not changed.
+(rerunfilecheck)             Checksum: 0F10E3FA6C4C2C25F7299884E26334C2;3968.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.5pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+ ) 
+Here is how much of TeX's memory you used:
+ 10618 strings out of 492895
+ 160860 string characters out of 3124202
+ 370597 words of memory out of 3000000
+ 13941 multiletter control sequences out of 15000+200000
+ 42971 words of font info for 70 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,24n,51p,1347b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
+<C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/IVAN/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/IVAN/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
+IVAN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/urw/times/utmb8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/urw/times/utmbi8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/urw/times/utmr8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Laporan_KP.pdf (88 pages, 34716425 bytes).
+PDF statistics:
+ 1302 PDF objects out of 1440 (max. 8388607)
+ 318 named destinations out of 1000 (max. 500000)
+ 745 words of extra memory for PDF output out of 10000 (max. 10000000)
+
