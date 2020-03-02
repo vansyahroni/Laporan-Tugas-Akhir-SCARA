@@ -26,31 +26,31 @@
 \contentsline {figure}{\numberline {2.17}{\ignorespaces \textit {Toolbar Sketch}\relax }}{22}{figure.caption.30}% 
 \contentsline {figure}{\numberline {2.18}{\ignorespaces ControlP5\relax }}{23}{figure.caption.31}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Blok Sistem\relax }}{25}{figure.caption.33}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Blok Diagram Sistem\relax }}{25}{figure.caption.33}% 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Free Body} Robot SCARA Serpent\relax }}{27}{figure.caption.34}% 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Bentuk Fisik Robot SCARA Serpent\relax }}{27}{figure.caption.35}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Box Panel Robot SCARA Serpent\relax }}{29}{figure.caption.36}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Motor DC dengan potensiometer\relax }}{30}{figure.caption.38}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Box Panel Robot SCARA Serpent\relax }}{28}{figure.caption.36}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Motor DC dengan potensiometer\relax }}{29}{figure.caption.38}% 
 \contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {End-Effector} Robot SCARA Serpent\relax }}{30}{figure.caption.39}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Bentuk Fisik \textit {Pneumatic}\relax }}{31}{figure.caption.40}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Bentuk Fisik \textit {Pneumatic}\relax }}{30}{figure.caption.40}% 
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Bentuk Fisik Kompresor\relax }}{31}{figure.caption.41}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Rancangan Tampak Samping\relax }}{32}{figure.caption.42}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Rancangan Tampak Samping\relax }}{31}{figure.caption.42}% 
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Dimensi Robot\relax }}{32}{figure.caption.43}% 
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Rangkaian Arduino Mega 2560 dengan \textit {Driver} Motor dan Motor DC\relax }}{33}{figure.caption.44}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Bentuk Fisik dari \textit {Valve Pneumatic}\relax }}{34}{figure.caption.45}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Bentuk Fisik dari \textit {Valve Pneumatic}\relax }}{33}{figure.caption.45}% 
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Rangkaian \textit {Valve Pneumatic} dengan Rangkaian TIP31\relax }}{34}{figure.caption.46}% 
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Sistem Elektronis Robot SCARA Serpent\relax }}{35}{figure.caption.47}% 
 \contentsline {figure}{\numberline {3.15}{\ignorespaces 3D Fusion Rangkaian Elektronis\relax }}{36}{figure.caption.48}% 
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Rangkaian Catu Daya\relax }}{38}{figure.caption.49}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Tampilan GUI Sistem Kinematika Robot SCARA Serpent\relax }}{39}{figure.caption.50}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Konfigurasi Robot SCARA Serpent\relax }}{42}{figure.caption.51}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Trigonometeri Sisi Atas\relax }}{47}{figure.caption.54}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Sistem Secara Keseluruhan\relax }}{49}{figure.caption.55}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Tampilan GUI Sistem Kinematika Robot SCARA Serpent\relax }}{38}{figure.caption.50}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Konfigurasi Robot SCARA Serpent\relax }}{41}{figure.caption.51}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Trigonometeri Sisi Atas\relax }}{46}{figure.caption.54}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Sistem Secara Keseluruhan\relax }}{48}{figure.caption.55}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Grafik Pengujian Koordinat X\relax }}{58}{figure.caption.62}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Grafik Pengujian Koordinat Y\relax }}{60}{figure.caption.63}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Workspace Robot SCARA Serpent\relax }}{61}{figure.caption.64}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Grafik Pengujian \textit {Joint Shoulder}\relax }}{63}{figure.caption.65}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Grafik Pengujian \textit {Joint Elbow}\relax }}{65}{figure.caption.66}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Data Kendali Posisi\relax }}{71}{figure.caption.71}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Grafik Pengujian Koordinat X\relax }}{57}{figure.caption.62}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Grafik Pengujian Koordinat Y\relax }}{59}{figure.caption.63}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Workspace Robot SCARA Serpent\relax }}{60}{figure.caption.64}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Grafik Pengujian \textit {Joint Shoulder}\relax }}{62}{figure.caption.65}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Grafik Pengujian \textit {Joint Elbow}\relax }}{64}{figure.caption.66}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Data Kendali Posisi\relax }}{70}{figure.caption.71}% 
 \addvspace {10\p@ }

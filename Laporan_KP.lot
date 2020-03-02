@@ -16,22 +16,22 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces Sistem Elektronis SCARA Serpent\relax }}{28}{table.3.1}% 
 \contentsline {table}{\numberline {3.2}{\ignorespaces Spesifikasi Motor DC pada Robot SCARA Serpent\relax }}{29}{table.caption.37}% 
 \contentsline {table}{\numberline {3.3}{\ignorespaces Sistem Elektronis SCARA Serpent\relax }}{35}{table.3.3}% 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Fungsi Arduino Mega 2560\relax }}{37}{table.3.4}% 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Fungsi Arduino Mega 2560\relax }}{36}{table.3.4}% 
 \contentsline {table}{\numberline {3.5}{\ignorespaces GUI Robot SCARA Serpent Serpent dengan Processing IDE\relax }}{39}{table.3.5}% 
-\contentsline {table}{\numberline {3.6}{\ignorespaces DH Parameter Robot SCARA Serpent\relax }}{43}{table.caption.52}% 
+\contentsline {table}{\numberline {3.6}{\ignorespaces DH Parameter Robot SCARA Serpent\relax }}{42}{table.caption.52}% 
 \contentsline {table}{\numberline {3.7}{\ignorespaces DH Parameter Robot SCARA Serpent\relax }}{45}{table.caption.53}% 
 \contentsline {table}{\numberline {3.8}{\ignorespaces Keterangan Sistem Keseluruhan\relax }}{49}{table.caption.56}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Hasil Tegangan Keluaran Dari Tegangan DC-DC Converter\relax }}{52}{table.caption.57}% 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Hasil Pengujian Motor DC\relax }}{53}{table.caption.58}% 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Hasil Pengujian \textit {Driver} Motor H-\textit {Bridge}\relax }}{53}{table.4.3}% 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Hasil Pengujian Potensiometer\relax }}{54}{table.caption.59}% 
-\contentsline {table}{\numberline {4.5}{\ignorespaces Hasil Pengujian Potensiometer Menggunakan Program \textit {Moving Avarage}\relax }}{55}{table.caption.60}% 
-\contentsline {table}{\numberline {4.6}{\ignorespaces Hasil Pengujian Rangkaian \textit {Switching Vavle Pnemuatic}\relax }}{56}{table.caption.61}% 
-\contentsline {table}{\numberline {4.7}{\ignorespaces Pengujian Koordinat X\relax }}{57}{table.4.7}% 
-\contentsline {table}{\numberline {4.8}{\ignorespaces Pengujian Koordinat Y\relax }}{59}{table.4.8}% 
-\contentsline {table}{\numberline {4.9}{\ignorespaces Hasil Pengujian \textit {Joint Shoulder}\relax }}{62}{table.4.9}% 
-\contentsline {table}{\numberline {4.10}{\ignorespaces Hasil Pengujian \textit {Joint Elbow}\relax }}{64}{table.4.10}% 
-\contentsline {table}{\numberline {4.11}{\ignorespaces \relax }}{67}{table.caption.67}% 
-\contentsline {table}{\numberline {4.12}{\ignorespaces Grafik Pengujian Akurasi Robot Secara Keseluruhan\relax }}{68}{table.caption.68}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Hasil Tegangan Keluaran Dari Tegangan DC-DC Converter\relax }}{51}{table.caption.57}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Hasil Pengujian Motor DC\relax }}{52}{table.caption.58}% 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Hasil Pengujian \textit {Driver} Motor H-\textit {Bridge}\relax }}{52}{table.4.3}% 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Hasil Pengujian Potensiometer\relax }}{53}{table.caption.59}% 
+\contentsline {table}{\numberline {4.5}{\ignorespaces Hasil Pengujian Potensiometer Menggunakan Program \textit {Moving Avarage}\relax }}{54}{table.caption.60}% 
+\contentsline {table}{\numberline {4.6}{\ignorespaces Hasil Pengujian Rangkaian \textit {Switching Vavle Pnemuatic}\relax }}{55}{table.caption.61}% 
+\contentsline {table}{\numberline {4.7}{\ignorespaces Pengujian Koordinat X\relax }}{56}{table.4.7}% 
+\contentsline {table}{\numberline {4.8}{\ignorespaces Pengujian Koordinat Y\relax }}{58}{table.4.8}% 
+\contentsline {table}{\numberline {4.9}{\ignorespaces Hasil Pengujian \textit {Joint Shoulder}\relax }}{61}{table.4.9}% 
+\contentsline {table}{\numberline {4.10}{\ignorespaces Hasil Pengujian \textit {Joint Elbow}\relax }}{63}{table.4.10}% 
+\contentsline {table}{\numberline {4.11}{\ignorespaces \relax }}{66}{table.caption.67}% 
+\contentsline {table}{\numberline {4.12}{\ignorespaces Grafik Pengujian Akurasi Robot Secara Keseluruhan\relax }}{67}{table.caption.68}% 
 \addvspace {10\p@ }

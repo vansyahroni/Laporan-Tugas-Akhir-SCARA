@@ -98,7 +98,7 @@ Pengujian nilai analog potensiometer berfungsi untuk mengetahui apakah potensiom
 \end{table} 
 
 
-Pada hasil pengujian yang ditunjukkan oleh Tabel \ref{tbl.potensiometer} dan Gambar \ref{pic.pot} terlihat bahwa pada saat nilai-nilai tertentu potensiometer  mengirimkan nilai data analog yang berubah-ubah. Hal tersebut dipengaruhi oleh pembacaan potensiometer yang belum stabil. Untuk membuat data \textit{analog} yang dikirimkan oleh potensiometer menjadi lebih stabil maka pada program arduino ditambahkan program \textit{moving avarage}. \textit{Moving avarage} berfungi untuk membuat nilai dari hasil data pembacaan pada potensiometer menjadi lebih stabil. 
+Pada hasil pengujian yang ditunjukkan oleh Tabel \ref{tbl.potensiometer} terlihat bahwa pada saat nilai-nilai tertentu potensiometer  mengirimkan nilai data analog yang berubah-ubah. Hal tersebut dipengaruhi oleh pembacaan potensiometer yang belum stabil. Untuk membuat data \textit{analog} yang dikirimkan oleh potensiometer menjadi lebih stabil maka pada program arduino ditambahkan program \textit{moving avarage}. \textit{Moving avarage} berfungi untuk membuat nilai dari hasil data pembacaan pada potensiometer menjadi lebih stabil. 
 
 \textit{Moving avarage} merupakan sebuah formula yang diberikan pada Arduino Mega 2560.  Formula ini menjadikan sebuah pembacaan data yang berubah-ubah pada setiap waktu menjadi lebih stabil. Formula yang ada pada \textit{moving avarage} merupakan hasil rata-rata dari pembacaan data pada sebuah \textit{range} waktu. Beberapa data terbaru akan dijumlahkan dengan data sebelum-sebelumnya kemudian dibagi sesuai dengan jumlah data yang ditambahkan. Hasil data akhir akan mempresentasikan dari pembacaan data yang pada waktu tersebut. Tabel \ref{tbl.potensiometer2} merupakan hasil pengujian nilai data analog potensiometer setelah dilakukan \textit{moving avarage.}
 
@@ -124,7 +124,7 @@ Pada hasil pengujian yang ditunjukkan oleh Tabel \ref{tbl.potensiometer} dan Gam
 \end{table} 
 
 
-Setelah diberikan sebuah program \textit{moving avarage} terlihat pada Tabel \ref{tbl.potensiometer2} dan Gambar \ref{pic.me} nilai data yang diterima oleh Arduino Mega 2560 menjadi lebih stabil. Nilai yang stabil akan membantu sebuah sistem dalam melakukan pekerjaannya menjadi lebih baik. Nilai-nilai tersebut nantinya dilakukan proses \textit{mapping} yang menyebabkan nilai minimum dan maksimum yang dihasilkan oleh potensiometer menjadi sesuai dengan posisi dari masing-masing lengan.
+Setelah diberikan sebuah program \textit{moving avarage} terlihat pada Tabel \ref{tbl.potensiometer2} merupakan nilai data yang diterima oleh Arduino Mega 2560 menjadi lebih stabil. Nilai yang stabil akan membantu sebuah sistem dalam melakukan pekerjaannya menjadi lebih baik. Nilai-nilai tersebut nantinya dilakukan proses \textit{mapping} yang menyebabkan nilai minimum dan maksimum yang dihasilkan oleh potensiometer menjadi sesuai dengan posisi dari masing-masing lengan.
 
 \subsection{Pengujian Rangkaian \textit{Switching Valve Pneumatic}}
 Pengujian rangkaian \textit{switching} berfungsi untuk mengetahui apakah rangkaian dapat bekerja dengan baik. Fungsi utama dari rangkaian \textit{switching} yang diperuntukkan untuk \textit{valve pneumatic} yaitu sebagai saklar penghubung dan pemutus daya. Rangkaian dapat memutus dan menghubungkan daya dengan \textit{trigger} dari sinyal data yang diberikan kepada \textit{gate} yang berupa sinyal digital \textit{HIGH} dan \textit{LOW} dari Arduino Mega 2560. Pengujian dilakukan dengan mengukur keberhasilan rangkaian sebagai rangkaian \textit{switching}. Tabel \ref{tbl.rangkaiantip} merupakan hasil pengujian dari rangkaian \textit{switching} yang dikontrol oleh TIP31.
@@ -227,7 +227,7 @@ Dari hasil pengujian yang ditampilkan pada Tabel \ref{tbl.x} dan juga Gambar \re
 
 
 \subsubsection{Pengujian Koordinat Y}
-
+\fontsize{12}{15}\selectfont
 Pengujian koordinat $y$ dilakukan untuk mengetahui batas minimal dan batas maksimal \textit{end-effector} dari \textit{arm manipulator} robot SCARA Serpent relatif terhadap sumbu $y$. Pengujian koordinat $y$ dilakukan dengan cara mengujicobakan setiap titik dari 2 cm sampai dengan total panjang \textit{shoulder} dan \textit{elbow} yaitu 80 cm menggunakan perhitungan kinematika balik. Perhitungan posisi $y$ diujicobakan menggunakan program Processing IDE, sementara untuk pengukuran posisi diukur secara faktual dari posisi \textit{end-effector} dengan membuat sebuah diagram kartesius. Tabel \ref{tbl.y} menunjukkan pengujian koordinat $y$ dan Gambar \ref{pic.koordinaty} menunjukkan grafik dari \textit{sampling} koordinat $y$.
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}

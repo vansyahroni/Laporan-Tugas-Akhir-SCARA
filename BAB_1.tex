@@ -8,9 +8,9 @@ Perkembangan teknologi serta ilmu pengetahuan pada masa ke masa semakin berkemba
 
 Pemilihan robot untuk menggantikan pekerjaan manusia tidak terlepas dengan berbagai kelebihannya. Salah satu kelebihannya, sebuah robot dapat melakukan suatu pekerjaan yang sama dan berulang tanpa merasakan lelah seperti halnya manusia. Pekerjaan ini lah yang biasa ditemukan dalam bidang industri khususnya pada bagian produksi. Robot dengan sistem lengan robot (\emph {robot arm system}) merupakan salah satu jenis robot yang dominan berada dalam bidang industri\cite{Bimantaka2014}. 
 
-Robot lengan memiliki berbagai jenis salah satunya adalah robot \emph{selective compilance assembly robot arm} (SCARA Serpent). Dalam melakukan pergerakan, robot SCARA Serpent umumnya bergerak menuju sebuah koordinat posisi ($x, y$) yang dibantu dengan sebuah persamaan kinematika. Persamaan kinematika yang diguanakan adalah \textit{inverse kinematic} dengan masukan berupa titik koordinat kartesian \textit{($x$,$y$)} dan keluaran berupa nilai sudut untuk mengendalikan motor DC pada \textit{shoulder} dan \textit{elbow}.
+Salah satu dari jenis dari robot lengan adalah\textit{ selective compilance assembly robot arm} atau biasa dikenal dengan robot SCARA Serpent. Robot SCARA Serpent terdiri dari \textit{base}, lengan \textit{shoulder}, \textit{elbow} dan \textit{end-effector}. Posisi \textit{end-effector} pada robot SCARA Serpent berada pada sebuah koordiant kartesian ($x, y$). Nilai koordinat ($x, y$) diubah menjadi sebuah nilai sudut yang digunakan untuk lengan \textit{shoulder} dan \textit{elbow} dengan menggunakan sebuah persamaan kinematika balik.  
 
-Pada laporan penelitian KP, penelitian lebih difokuskan terhadap gerak kinematika dari robot serta perancangan antarmuka untuk memudahkan dalam mengoperasikan robot. Robot SCARA Serpent telah banyak dijadikan sebagai objek penelitian, salah satu penelitian robot SCARA Serpent Serpent yang populer merupakan penelitian tentang menjadikan robot SCARA Serpent menjadi robot yang dapat memindahkan objek tergantung warna dari masing-masing objek. Dengan penelitian tersebut maka robot SCARA Serpent dapat memiliki fungsi lebih banyak serta dapat ditempatkan ke dalam dunia industri.
+Pada laporan penelitian kerja praktik ini lebih difokuskan terhadap gerak kinematika dari robot serta perancangan antarmuka untuk memudahkan dalam mengoperasikan robot. Robot SCARA Serpent telah banyak dijadikan sebagai objek penelitian, salah satu penelitian robot SCARA Serpent Serpent yang populer merupakan penelitian tentang menjadikan robot SCARA Serpent menjadi robot yang dapat memindahkan objek tergantung warna dari masing-masing objek. Dengan penelitian tersebut maka robot SCARA Serpent dapat memiliki fungsi lebih banyak serta dapat ditempatkan ke dalam dunia industri.
 
 Dalam berbagai penelitian tentang robot SCARA Serpent, banyak ditemukan beberapa masalah yang sering terjadi terkait robot SCARA Serpent. Masalah yang umum terjadi adalah terbatasnya pergerakan pada garis vertikal. Robot SCARA Serpent dalam melakukan pergerakan vertikal dijalankan menggunakan \textit{joint prismatic} yang terletak pada \textit{end effector}. Dengan begitu pergerakan vertikal dalam robot dibatasi oleh minimnya panjang \textit{link} pada \textit{end-effector} yang menyebabkan objek yang dapat diambil oleh robot SCARA Serpent tidak dapat terlalu tinggi.
 
@@ -31,7 +31,7 @@ Untuk memenuhi salah satu syarat kelulusan dalam menempuh pendidikan Program   D
 
 
 \section{Batasan Penelitian}
-Pembatasan masalah diperlukan untuk mempermudah pelaksanaan penulisan laporan kerja praktik (KP) sehingga tidak menyimpang dari judul laporan. Lingkup pembatasan masalah dalam laporan KP ini dibatasi pada:
+Pembatasan masalah diperlukan untuk mempermudah pelaksanaan penulisan laporan kerja praktik sehingga tidak menyimpang dari judul laporan. Lingkup pembatasan masalah dalam laporan kerja praktik ini dibatasi pada:
 
 \begin{enumerate}
 	
@@ -50,18 +50,18 @@ Metodologi adalah suatu cara yang digunakan untuk memperoleh data yang akurat, b
 	Penelitian dilakukan di Labolatorium Instrumentasi dan Kendali Departemen Teknik Elektro dan Informatika (DTEDI) Sekolah Vokasi Universitas Gadjah Mada pada bulan Juli sampai bulan Agustus 2019.
 	
 	\item Alat dan Bahan \\
-	Peralatan yang digunakan dalam KP adalah personal \textit{computer} (PC), Arduino Mega 2560, transformator AC 5A, \textit{converter} AC to DC, modul DC to DC \textit{converter} LM2596, IC TIP 31, multimeter,\textit{ valve pneumatic}, \textit{driver} motor EMS 30A dan catu daya AC 220 Volt. Sedangkan bahan yang digunakan adalah motor DC yang terpasang di setiap \emph {joint} robot lengan serta \textit{valve relay pneumatic} untuk mengkontrol tekananan udara.
+	Peralatan yang digunakan dalam kerja praktik adalah personal \textit{computer} (PC), Arduino Mega 2560, transformator AC 5A, \textit{converter} AC to DC, modul DC to DC \textit{converter} LM2596, IC TIP 31, multimeter,\textit{ valve pneumatic}, \textit{driver} motor EMS 30A dan catu daya AC 220 Volt. Sedangkan bahan yang digunakan adalah motor DC yang terpasang di setiap \emph {joint} robot lengan serta \textit{valve relay pneumatic} untuk mengkontrol tekananan udara.
 	
 	\item  Pengumpulan Data \\
 	Studi pustaka dilakukan dengan cara mengumpulkan buku-buku, dokumen, serta jurnal-jurnal berbentuk \emph{e-book} yang berkaitan dengan robot lengan. Selain itu \emph{datasheet} dari setiap komponen juga ditinjau. Data-data tersebut menjadi referensi untuk merancang, membuat, dan menguji alat. 
 	
-	Konsultasi dilakukan untuk mengumpulkan data melalui tanya jawab atau berdiskusi dengan pihak yang mengetahui dan menguasai segala permasalahan yang dihadapi dalam merancang, membuat, dan menguji robot lengan SCARA Serpent. Dalam metode ini penulis berdiskusi dengan dosen pembimbing KP. 
+	Konsultasi dilakukan untuk mengumpulkan data melalui tanya jawab atau berdiskusi dengan pihak yang mengetahui dan menguasai segala permasalahan yang dihadapi dalam merancang, membuat, dan menguji robot lengan SCARA Serpent. Dalam metode ini penulis berdiskusi dengan dosen pembimbing kerja praktik. 
 	
 	\item Metode Penelitian \\
 	Metode penelitian yang dilakukan meliputi; pengujian tegangan DC to DC \textit{converter}, pengujian motor DC, pengujian \textit{driver} motor DC EMS 30A, pengujian rangkaian \textit{switching valve pneumatic}, pengujian kinematika balik, pengujian dengan kendali proposional serta pengambilan data dan analisa data.
 	
 	\item Prosedur Penelitian\\
-	Prosedur penelitian adalah langkah-langkah dalam menyelesaikan KP yang akan disajikan dalam bentuk diagram alir pada Gambar \ref{pic.diagramalir}.
+	Prosedur penelitian adalah langkah-langkah dalam menyelesaikan kerja praktik yang akan disajikan dalam bentuk diagram alir pada Gambar \ref{pic.diagramalir}.
 	
 	\begin{figure}[H]
 		\centering
@@ -74,11 +74,11 @@ Metodologi adalah suatu cara yang digunakan untuk memperoleh data yang akurat, b
 \end{enumerate}
 
 \section{Sistematika Penulisan}
-Penulisan laporan KP ini dilakukan dengan mengikuti sistematika sebagai berikut:\\
+Penulisan laporan kerja praktik ini dilakukan dengan mengikuti sistematika sebagai berikut:\\
 \noindent
 \textbf{BAB I\hspace*{0.6cm} PENDAHULUAN}\\
 \noindent
-Merupakan pendahuluan dari laporan KP yang menjelaskan latar belakang, tujuan, batasan masalah dan metodologi penyusunan laporan KP.\\
+Merupakan pendahuluan dari laporan kerja praktik yang menjelaskan latar belakang, tujuan, batasan masalah dan metodologi penyusunan laporan kerja praktik.\\
 \noindent
 \textbf{BAB II\hspace*{0.5cm} LANDASAN TEORI}\\
 \noindent

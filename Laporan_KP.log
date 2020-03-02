@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  2 MAR 2020 05:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  3 MAR 2020 02:01
 entering extended mode
 **./Laporan_KP.tex
 (Laporan_KP.tex
@@ -872,20 +872,12 @@ File: gambar/spherical.jpg Graphic file (type jpg)
 <use gambar/spherical.jpg>
 Package pdftex.def Info: gambar/spherical.jpg  used on input line 40.
 (pdftex.def)             Requested size: 227.62204pt x 191.89635pt.
-
-
-Package caption Warning: \label without proper reference on input line 51.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `pic.SCARA' on page 9 undefined on input line 48.
-
 <gambar/SCARA.jpg, id=574, 14.12898pt x 9.44481pt>
 File: gambar/SCARA.jpg Graphic file (type jpg)
 <use gambar/SCARA.jpg>
 Package pdftex.def Info: gambar/SCARA.jpg  used on input line 52.
 (pdftex.def)             Requested size: 227.62204pt x 152.20091pt.
-[9 <./gambar/articulated.jpg> <./gambar/spherical.jpg>]
+ [9 <./gambar/articulated.jpg> <./gambar/spherical.jpg>]
 <gambar/cartesian.jpg, id=585, 13.7466pt x 10.63019pt>
 File: gambar/cartesian.jpg Graphic file (type jpg)
 <use gambar/cartesian.jpg>
@@ -1010,16 +1002,8 @@ File: gambar/controlp5.jpg Graphic file (type jpg)
 <use gambar/controlp5.jpg>
 Package pdftex.def Info: gambar/controlp5.jpg  used on input line 313.
 (pdftex.def)             Requested size: 227.62204pt x 182.69733pt.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 335.
 
-
-Package caption Warning: \label without proper reference on input line 323.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tbl.toolscontrolp5' on page 23 undefined on input lin
-e 317.
-
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 334.
 
 ("C:\Users\IVAN\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1056,22 +1040,23 @@ File: gambar/boxpanel.png Graphic file (type png)
 <use gambar/boxpanel.png>
 Package pdftex.def Info: gambar/boxpanel.png  used on input line 60.
 (pdftex.def)             Requested size: 256.0748pt x 146.58858pt.
- [28]
+
 Overfull \hbox (19.93399pt too wide) in paragraph at lines 70--85
  [][] 
  []
 
-<gambar/potsementara.jpg, id=768, 291.489pt x 162.3666pt>
+[28 <./gambar/boxpanel.png>]
+<gambar/potsementara.jpg, id=769, 291.489pt x 162.3666pt>
 File: gambar/potsementara.jpg Graphic file (type jpg)
 <use gambar/potsementara.jpg>
 Package pdftex.def Info: gambar/potsementara.jpg  used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 158.4988pt.
-[29 <./gambar/boxpanel.png>]
-<gambar/capitsementara.jpg, id=779, 625.33624pt x 499.8675pt>
+<gambar/capitsementara.jpg, id=771, 625.33624pt x 499.8675pt>
 File: gambar/capitsementara.jpg Graphic file (type jpg)
 <use gambar/capitsementara.jpg>
 Package pdftex.def Info: gambar/capitsementara.jpg  used on input line 98.
 (pdftex.def)             Requested size: 170.71652pt x 136.46098pt.
+ [29 <./gambar/potsementara.jpg>]
 <gambar/pneumatic.png, id=781, 278.7213pt x 121.1727pt>
 File: gambar/pneumatic.png Graphic file (type png)
 <use gambar/pneumatic.png>
@@ -1083,46 +1068,50 @@ Overfull \hbox (0.31607pt too wide) in paragraph at lines 103--109
 /m/n/12 di-te-na-gai oleh se-bu-ah te-kan-an uda-ra yang
  []
 
-[30 <./gambar/potsementara.jpg> <./gambar/capitsementara.jpg>]
-<gambar/kompresor.png, id=787, 192.72pt x 192.72pt>
+<gambar/kompresor.png, id=783, 192.72pt x 192.72pt>
 File: gambar/kompresor.png Graphic file (type png)
 <use gambar/kompresor.png>
 Package pdftex.def Info: gambar/kompresor.png  used on input line 113.
 (pdftex.def)             Requested size: 142.26355pt x 142.26378pt.
-<gambar/samping.png, id=790, 227.6505pt x 198.5016pt>
+[30 <./gambar/capitsementara.jpg> <./gambar/pneumatic.png>]
+<gambar/samping.png, id=791, 227.6505pt x 198.5016pt>
 File: gambar/samping.png Graphic file (type png)
 <use gambar/samping.png>
 Package pdftex.def Info: gambar/samping.png  used on input line 121.
 (pdftex.def)             Requested size: 293.67729pt x 256.0748pt.
- [31 <./gambar/pneumatic.png> <./gambar/kompresor.png>]
-<gambar/SCARAdimensi.png, id=797, 284.7438pt x 230.3004pt>
+<gambar/SCARAdimensi.png, id=792, 284.7438pt x 230.3004pt>
 File: gambar/SCARAdimensi.png Graphic file (type png)
 <use gambar/SCARAdimensi.png>
 Package pdftex.def Info: gambar/SCARAdimensi.png  used on input line 128.
 (pdftex.def)             Requested size: 316.63419pt x 256.0748pt.
- [32 <./gambar/samping.png> <./gambar/SCARAdimensi.png>]
-<gambar/drivermotor.jpg, id=805, 876.36884pt x 327.11684pt>
+ [31 <./gambar/kompresor.png> <./gambar/samping.png>]
+<gambar/drivermotor.jpg, id=800, 876.36884pt x 327.11684pt>
 File: gambar/drivermotor.jpg Graphic file (type jpg)
 <use gambar/drivermotor.jpg>
 Package pdftex.def Info: gambar/drivermotor.jpg  used on input line 139.
 (pdftex.def)             Requested size: 284.52756pt x 106.20189pt.
-<gambar/relay.jpg, id=808, 360.59718pt x 289.83281pt>
+ [32 <./gambar/SCARAdimensi.png>]
+<gambar/relay.jpg, id=809, 360.59718pt x 289.83281pt>
 File: gambar/relay.jpg Graphic file (type jpg)
 <use gambar/relay.jpg>
 Package pdftex.def Info: gambar/relay.jpg  used on input line 147.
 (pdftex.def)             Requested size: 142.26378pt x 114.34338pt.
- [33 <./gambar/drivermotor.jpg>]
-<gambar/tip31.png, id=816, 656.4525pt x 846.16125pt>
+<gambar/tip31.png, id=810, 656.4525pt x 846.16125pt>
 File: gambar/tip31.png Graphic file (type png)
 <use gambar/tip31.png>
 Package pdftex.def Info: gambar/tip31.png  used on input line 153.
 (pdftex.def)             Requested size: 142.26378pt x 183.38011pt.
+ [33 <./gambar/drivermotor.jpg> <./gambar/relay.jpg>]
 <gambar/panelkabel.png, id=819, 615.7404pt x 551.661pt>
 File: gambar/panelkabel.png Graphic file (type png)
 <use gambar/panelkabel.png>
 Package pdftex.def Info: gambar/panelkabel.png  used on input line 161.
 (pdftex.def)             Requested size: 369.88582pt x 331.39478pt.
- [34 <./gambar/relay.jpg> <./gambar/tip31.png>] [35 <./gambar/panelkabel.png>]
+ [34 <./gambar/tip31.png>]
+Overfull \vbox (4.0135pt too high) has occurred while \output is active []
+
+
+[35 <./gambar/panelkabel.png>]
 <gambar/fusion.png, id=834, 870.25125pt x 534.99875pt>
 File: gambar/fusion.png Graphic file (type png)
 <use gambar/fusion.png>
@@ -1134,14 +1123,13 @@ File: gambar/catudaya_bb.png Graphic file (type png)
 <use gambar/catudaya_bb.png>
 Package pdftex.def Info: gambar/catudaya_bb.png  used on input line 243.
 (pdftex.def)             Requested size: 227.62204pt x 144.4455pt.
-
-[37]
+ [37]
 <gambar/GUI.png, id=849, 1188.6006pt x 599.6001pt>
 File: gambar/GUI.png Graphic file (type png)
 <use gambar/GUI.png>
 Package pdftex.def Info: gambar/GUI.png  used on input line 251.
 (pdftex.def)             Requested size: 341.43306pt x 172.23271pt.
- [38 <./gambar/catudaya_bb.png>]
+
 Overfull \hbox (46.45016pt too wide) in alignment at lines 262--268
  [] [] [] 
  []
@@ -1156,13 +1144,13 @@ Overfull \hbox (46.45016pt too wide) in alignment at lines 270--281
  [] [] [] 
  []
 
-[39 <./gambar/GUI.png>] [40]
-<gambar/SCARAdh.png, id=869, 284.5029pt x 284.5029pt>
+[38 <./gambar/catudaya_bb.png> <./gambar/GUI.png>] [39]
+<gambar/SCARAdh.png, id=864, 284.5029pt x 284.5029pt>
 File: gambar/SCARAdh.png Graphic file (type png)
 <use gambar/SCARAdh.png>
 Package pdftex.def Info: gambar/SCARAdh.png  used on input line 309.
 (pdftex.def)             Requested size: 256.0748pt x 256.07628pt.
- [41] [42 <./gambar/SCARAdh.png>] [43] [44]
+ [40] [41 <./gambar/SCARAdh.png>] [42] [43]
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 402.
 
@@ -1215,25 +1203,25 @@ LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
 (Font)              size <5> substituted on input line 411.
 
-[45]
-<gambar/SCARA_atas.png, id=930, 315.3381pt x 143.0946pt>
+[44]
+<gambar/SCARA_atas.png, id=924, 605.6226pt x 303.534pt>
 File: gambar/SCARA_atas.png Graphic file (type png)
 <use gambar/SCARA_atas.png>
 Package pdftex.def Info: gambar/SCARA_atas.png  used on input line 470.
-(pdftex.def)             Requested size: 341.43306pt x 154.94815pt.
- [46] [47 <./gambar/SCARA_atas.png>]
-<gambar/sistem_keseluruhan.png, id=967, 1445.6409pt x 813.0375pt>
+(pdftex.def)             Requested size: 341.43306pt x 171.13113pt.
+ [45] [46 <./gambar/SCARA_atas.png>] [47]
+<gambar/sistem_keseluruhan.png, id=976, 1445.6409pt x 813.0375pt>
 File: gambar/sistem_keseluruhan.png Graphic file (type png)
 <use gambar/sistem_keseluruhan.png>
 Package pdftex.def Info: gambar/sistem_keseluruhan.png  used on input line 524.
 
 (pdftex.def)             Requested size: 341.43306pt x 192.01909pt.
- [48] [49 <./gambar/sistem_keseluruhan.png>]) [50]
+ [48 <./gambar/sistem_keseluruhan.png>]) [49]
 \openout2 = `BAB_4.aux'.
 
  (BAB_4.tex
 BAB IV.
-[51
+[50
 
 
 
@@ -1241,7 +1229,7 @@ BAB IV.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52]
+[51]
 Overfull \hbox (6.93462pt too wide) in alignment at lines 52--60
  [] [] [] [] [] [] 
  []
@@ -1256,109 +1244,97 @@ Overfull \hbox (6.93462pt too wide) in alignment at lines 62--76
  [] [] [] [] [] [] 
  []
 
-[53]
-
-LaTeX Warning: Reference `pic.pot' on page 54 undefined on input line 101.
-
-[54]
-
-LaTeX Warning: Reference `pic.me' on page 55 undefined on input line 127.
-
-[55] [56] [57]
-<gambar/px.png, id=1036, 1084.05pt x 537.50812pt>
+[52] [53] [54] [55] [56]
+<gambar/px.png, id=1031, 1084.05pt x 537.50812pt>
 File: gambar/px.png Graphic file (type png)
 <use gambar/px.png>
 Package pdftex.def Info: gambar/px.png  used on input line 221.
 (pdftex.def)             Requested size: 341.43306pt x 169.29134pt.
- [58 <./gambar/px.png (PNG copy)>] [59]
-<gambar/py.png, id=1051, 1084.05pt x 537.50812pt>
+ [57 <./gambar/px.png (PNG copy)>] [58]
+<gambar/py.png, id=1047, 1084.05pt x 537.50812pt>
 File: gambar/py.png Graphic file (type png)
 <use gambar/py.png>
 Package pdftex.def Info: gambar/py.png  used on input line 295.
 (pdftex.def)             Requested size: 369.88582pt x 183.39827pt.
- [60 <./gambar/py.png (PNG copy)>]
-<gambar/WORKSPACE.png, id=1061, 581.7735pt x 489.9906pt>
+ [59 <./gambar/py.png (PNG copy)>]
+<gambar/WORKSPACE.png, id=1057, 581.7735pt x 489.9906pt>
 File: gambar/WORKSPACE.png Graphic file (type png)
 <use gambar/WORKSPACE.png>
 Package pdftex.def Info: gambar/WORKSPACE.png  used on input line 308.
 (pdftex.def)             Requested size: 369.88582pt x 311.53683pt.
- [61 <./gambar/WORKSPACE.png>] [62]
-<gambar/ps.png, id=1074, 1084.05pt x 537.50812pt>
+ [60 <./gambar/WORKSPACE.png>] [61]
+<gambar/ps.png, id=1070, 1084.05pt x 537.50812pt>
 File: gambar/ps.png Graphic file (type png)
 <use gambar/ps.png>
 Package pdftex.def Info: gambar/ps.png  used on input line 383.
 (pdftex.def)             Requested size: 369.88582pt x 183.39827pt.
- [63 <./gambar/ps.png (PNG copy)>]
-[64]
-<gambar/pe.png, id=1089, 1084.05pt x 537.50812pt>
+ [62 <./gambar/ps.png (PNG copy)>] [63]
+<gambar/pe.png, id=1085, 1084.05pt x 537.50812pt>
 File: gambar/pe.png Graphic file (type png)
 <use gambar/pe.png>
 Package pdftex.def Info: gambar/pe.png  used on input line 460.
 (pdftex.def)             Requested size: 341.43306pt x 169.29134pt.
- [65 <./gambar/pe.png (PNG copy)>] [66]
+ [64 <./gambar/pe.png (PNG copy)>] [65]
 Overfull \vbox (15.58752pt too high) has occurred while \output is active []
 
 
-[67]
-<gambar/ne.png, id=1106, 1084.05pt x 537.50812pt>
+[66]
+<gambar/ne.png, id=1102, 1084.05pt x 537.50812pt>
 File: gambar/ne.png Graphic file (type png)
 <use gambar/ne.png>
 Package pdftex.def Info: gambar/ne.png  used on input line 549.
 (pdftex.def)             Requested size: 369.88582pt x 183.39827pt.
-<gambar/kendali1.png, id=1110, 580.8099pt x 723.1818pt>
+<gambar/kendali1.png, id=1106, 580.8099pt x 723.1818pt>
 File: gambar/kendali1.png Graphic file (type png)
 <use gambar/kendali1.png>
 Package pdftex.def Info: gambar/kendali1.png  used on input line 564.
 (pdftex.def)             Requested size: 369.88582pt x 460.57262pt.
- [68 <./gambar/ne.png (PNG copy)>]
-<gambar/kendali2.png, id=1115, 577.4373pt x 723.1818pt>
+ [67 <./gambar/ne.png (PNG copy)>]
+<gambar/kendali2.png, id=1111, 577.4373pt x 723.1818pt>
 File: gambar/kendali2.png Graphic file (type png)
 <use gambar/kendali2.png>
 Package pdftex.def Info: gambar/kendali2.png  used on input line 569.
 (pdftex.def)             Requested size: 369.88582pt x 463.26512pt.
- [69 <./gambar/kendali1.png>]
-<gambar/kendali3.png, id=1123, 581.5326pt x 723.1818pt>
+ [68 <./gambar/kendali1.png>]
+<gambar/kendali3.png, id=1118, 581.5326pt x 723.1818pt>
 File: gambar/kendali3.png Graphic file (type png)
 <use gambar/kendali3.png>
 Package pdftex.def Info: gambar/kendali3.png  used on input line 574.
 (pdftex.def)             Requested size: 369.88582pt x 459.99881pt.
- [70 <./gambar/kendali2.png>] [71 <./gambar/kendali3.png>]) [72]
+ [69 <./gambar/kendali2.png>] [70 <./gambar/kendali3.png>]) [71]
 \openout2 = `BAB_5.aux'.
 
  (BAB_5.tex
 BAB V.
-[73
+[72
 
 
 
-]) [74] (Laporan_KP.bbl [75
+]) [73] (Laporan_KP.bbl [74
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
- [76]
+ [75]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (Laporan_KP.aux (BAB_1.aux) (BAB_2.aux)
 (BAB_3.aux) (BAB_4.aux) (BAB_5.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `Laporan_KP.out' has not changed.
-(rerunfilecheck)             Checksum: 1EBDC773C265FC565A6592CE7A61E9E0;3968.
+(rerunfilecheck)             Checksum: 7A09F984AD471715B56CCF06A8A87D16;3968.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 10605 strings out of 492895
- 160794 string characters out of 3124202
- 372568 words of memory out of 3000000
- 13934 multiletter control sequences out of 15000+200000
+ 10602 strings out of 492895
+ 160780 string characters out of 3124202
+ 372438 words of memory out of 3000000
+ 13932 multiletter control sequences out of 15000+200000
  42845 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,24n,51p,1347b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1378,9 +1354,9 @@ ype1/urw/times/utmb8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/urw/times/utmbi8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/urw/times/utmr8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Laporan_KP.pdf (86 pages, 33795078 bytes).
+Output written on Laporan_KP.pdf (85 pages, 34256559 bytes).
 PDF statistics:
- 1288 PDF objects out of 1440 (max. 8388607)
- 314 named destinations out of 1000 (max. 500000)
+ 1284 PDF objects out of 1440 (max. 8388607)
+ 313 named destinations out of 1000 (max. 500000)
  735 words of extra memory for PDF output out of 10000 (max. 10000000)
 
