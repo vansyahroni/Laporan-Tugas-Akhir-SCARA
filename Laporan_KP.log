@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  3 MAR 2020 02:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  9 MAR 2020 22:38
 entering extended mode
 **./Laporan_KP.tex
 (Laporan_KP.tex
@@ -1124,11 +1124,11 @@ File: gambar/catudaya_bb.png Graphic file (type png)
 Package pdftex.def Info: gambar/catudaya_bb.png  used on input line 243.
 (pdftex.def)             Requested size: 227.62204pt x 144.4455pt.
  [37]
-<gambar/GUI.png, id=849, 1188.6006pt x 599.6001pt>
+<gambar/GUI.png, id=849, 1191.4914pt x 628.0263pt>
 File: gambar/GUI.png Graphic file (type png)
 <use gambar/GUI.png>
 Package pdftex.def Info: gambar/GUI.png  used on input line 251.
-(pdftex.def)             Requested size: 341.43306pt x 172.23271pt.
+(pdftex.def)             Requested size: 341.43306pt x 179.96681pt.
 
 Overfull \hbox (46.45016pt too wide) in alignment at lines 262--268
  [] [] [] 
@@ -1284,23 +1284,23 @@ File: gambar/ne.png Graphic file (type png)
 <use gambar/ne.png>
 Package pdftex.def Info: gambar/ne.png  used on input line 549.
 (pdftex.def)             Requested size: 369.88582pt x 183.39827pt.
-<gambar/kendali1.png, id=1106, 580.8099pt x 723.1818pt>
+<gambar/kendali1.png, id=1106, 560.3334pt x 683.1924pt>
 File: gambar/kendali1.png Graphic file (type png)
 <use gambar/kendali1.png>
 Package pdftex.def Info: gambar/kendali1.png  used on input line 564.
-(pdftex.def)             Requested size: 369.88582pt x 460.57262pt.
+(pdftex.def)             Requested size: 369.88582pt x 451.0022pt.
  [67 <./gambar/ne.png (PNG copy)>]
-<gambar/kendali2.png, id=1111, 577.4373pt x 723.1818pt>
+<gambar/kendali2.png, id=1111, 559.6107pt x 683.1924pt>
 File: gambar/kendali2.png Graphic file (type png)
 <use gambar/kendali2.png>
 Package pdftex.def Info: gambar/kendali2.png  used on input line 569.
-(pdftex.def)             Requested size: 369.88582pt x 463.26512pt.
+(pdftex.def)             Requested size: 369.88582pt x 451.57555pt.
  [68 <./gambar/kendali1.png>]
-<gambar/kendali3.png, id=1118, 581.5326pt x 723.1818pt>
+<gambar/kendali3.png, id=1118, 559.6107pt x 354.123pt>
 File: gambar/kendali3.png Graphic file (type png)
 <use gambar/kendali3.png>
 Package pdftex.def Info: gambar/kendali3.png  used on input line 574.
-(pdftex.def)             Requested size: 369.88582pt x 459.99881pt.
+(pdftex.def)             Requested size: 369.88582pt x 234.0677pt.
  [69 <./gambar/kendali2.png>] [70 <./gambar/kendali3.png>]) [71]
 \openout2 = `BAB_5.aux'.
 
@@ -1332,7 +1332,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
  10602 strings out of 492895
- 160780 string characters out of 3124202
+ 161066 string characters out of 3124202
  372438 words of memory out of 3000000
  13932 multiletter control sequences out of 15000+200000
  42845 words of font info for 70 fonts, out of 3000000 for 9000
@@ -1354,7 +1354,7 @@ ype1/urw/times/utmb8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/urw/times/utmbi8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/urw/times/utmr8a.pfb><C:/Users/IVAN/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Laporan_KP.pdf (85 pages, 34256559 bytes).
+Output written on Laporan_KP.pdf (85 pages, 34206054 bytes).
 PDF statistics:
  1284 PDF objects out of 1440 (max. 8388607)
  313 named destinations out of 1000 (max. 500000)

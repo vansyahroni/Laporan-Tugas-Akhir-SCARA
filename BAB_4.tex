@@ -556,7 +556,7 @@ Pada hasil pengujian yang ditunjukkan pada Tabel \ref{tbl.akurasikeseluruhan} da
 
 
 \section{Pengujian Kendali Proposional}
-Tujuan dari kendali proposional pada sistem ini adalah membuat robot mampu menuju sebuah sudut yang diinginkan dengan tingkat \textit{error} paling minimum. Sudut pada robot lengan ini merupakan sudut yang terletak pada \textit{joint shoulder, elbow} dan \textit{end-effector}. Semakin kecil nilai \textit{error} yang dihasilkan dari pengujian ini maka semakin baik pergerakan dari robot lengan. Gambar \ref{pic.kendali} merupakan data pengujian dari robot lengan dengan variasi nilai kendali proposional yang menghasilkan respon yang berbeda-beda.
+Tujuan dari kendali PID pada sistem ini membuat pergerakan robot mampu menuju sebuah sudut yang diinginkan dengan tingkat \textit{error} paling minimum dengan waktu yang singkat. Sudut pada robot lengan merupakan sudut yang terletak pada \textit{joint shoulder, elbow} dan \textit{end-effector}. Semakin kecil nilai \textit{error} yang dihasilkan dari pengujian kendali PID maka semakin baik pergerakan dari robot lengan. Pengujian PID dilakukan dengan cara memberikan nilai Kp, Ki, dan Kd secara bervariasi dengan melihat respon yang dihasilkan oleh robot SCARA Serpent. Gambar \ref{pic.kendali} merupakan data pengujian dari robot lengan dengan variasi nilai kendali PID yang menghasilkan respon yang berbeda-beda.
 
 
 \begin{figure}[H]
