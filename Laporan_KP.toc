@@ -77,8 +77,7 @@
 \contentsline {section}{\numberline {4.2}Pengujian Keseluruhan}{64}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}Pengujian Akurasi Robot Lengan}{65}{subsection.4.2.1}% 
 \contentsline {section}{\numberline {4.3}Pengujian Kendali Proposional}{67}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Pengujian Simulasi Robot Lengan}{70}{section.4.4}% 
-\contentsline {chapter}{\numberline {V}PENUTUP}{72}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Kesimpulan}{72}{section.5.1}% 
+\contentsline {chapter}{\numberline {V}PENUTUP}{71}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Kesimpulan}{71}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Saran}{72}{section.5.2}% 
-\contentsline {chapter}{DAFTAR PUSTAKA}{75}{chapter*.72}% 
+\contentsline {chapter}{DAFTAR PUSTAKA}{74}{chapter*.72}% 

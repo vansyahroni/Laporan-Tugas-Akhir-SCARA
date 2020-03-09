@@ -561,27 +561,22 @@ Tujuan dari kendali PID pada sistem ini membuat pergerakan robot mampu menuju se
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=13cm]{gambar/kendali1.png}
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{gambar/kendali1.png}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=13cm]{gambar/kendali2.png}
+		\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{gambar/kendali2.png}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=13cm]{gambar/kendali3.png}
+		\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{gambar/kendali3.png}
 	\caption{Data Kendali Posisi}
 	\label{pic.kendali}
 \end{figure}
 
-Dari beberapa nilai Kp yang coba diberikan kedalam robot lengan SCARA Serpent, terlihat bahwa respon yang didapat beraneka ragam. Respon terbaik adalah respon yang dapat mencapai posisi yang ditentukan dengan cepat dan nilai tersebut tetap stabil hingga pada nilai yang dimasukkan berbeda. Dari beberapa pengujian kendali proposional seperti yang ditunjukkan pada Gambar \ref{pic.kendali} terlihat bahwa respon dengan nilai Kp 0.2 merupakan respon terbaik. Hal ini berdasarkan dari besar nilai yang terukur sama dengan nilai yang dimasukkan dan tetap stabil atau tidak berubah-ubah dibandingkan dengan nilai Kp yang dimasukkan lainnya.
-\section{Pengujian Simulasi Robot Lengan}
-Pada pengujian ini, dilakukan serangkaian simulasi robot lengan untuk melakukan pergerakan sesuai dengan data yang diberikan melalui GUI yang telah dibuat. Simulasi ini menggunakan semua komponen yang ada di dalam perancangan, diantaranya robot SCARA Serpent, \textit{workspace}, catu daya, komputer personal, GUI Processing IDE, dan objek.
+Dari beberapa nilai Kp, Ki, dan Kd yang coba diberikan kedalam robot lengan SCARA Serpent, terlihat bahwa respon yang didapat beraneka ragam. Respon terbaik ditandai dengan respon yang dapat mencapai \textit{set point} dengan cepat dan dan tepat serta tidak berubah-ubah. Dari beberapa pengujian kendali PID seperti yang ditunjukkan pada Gambar \ref{pic.kendali} terlihat bahwa respon dengan nilai Kp 5.5, Ki 0.001, dan Kd 10 merupakan respon terbaik dikarenakan nilai sudut yang terukur cepaat menuju posisi \textit{set point }. Dengan nilai ini, pergerakan dari robot SCARA Serpent menjadi lebih cepat namun pergerakannya tetap dalam nilai yang ditentukan.
 
-Pertama, robot SCARA Serpent berada posisi normal yang berarti pada posisi lurus searah dengan sumbu $y$. Robot SCARA Serpent akan mulai bergerak pada saat nilai data pada Processing IDE telah didapatkan dan kemudian dikirimkan ke Arduino Mega 2560. Proses pemilihan data pada Processing IDE dilalui pada sebuah GUI yang telah dibuat sesuai dengan fungsi dari robot SCARA Serpent. Pada GUI terdapat beberapa pilihan dalam memberikan sebuah nilai masukan. 
-
-Kedua, robot SCARA Serpent akan mulai bergerak menuju posisi seperti data yang dimasukkan dan kemudian berhenti pada posisi tersebut dan mengambil objek yang dibawa oleh \textit{end-effector} pada posisi akhir.  Pergerakan \textit{end-effector} ditenagai oleh tekanan udara pada sebuah kompresor yang dikontrol oleh\textit{ valve pneumatic} yang diotaki oleh TIP31. Posisi akhir merupakan posisi dimana semua objek dikumpulkan. Setelah melakukan satu pekerjaan tersebut, robot SCARA Serpent kembali pada posisi normal dan menunggu data yang diberikan kembali oleh Processing IDE.  
 
 
