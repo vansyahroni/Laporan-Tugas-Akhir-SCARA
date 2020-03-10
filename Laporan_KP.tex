@@ -20,6 +20,7 @@
 \usepackage{float}
 \usepackage{textcomp}
 \usepackage{amsmath}
+\usepackage{pdfpages}
 %\usepackage{multirow}
 
 
@@ -53,22 +54,23 @@
 	\cover
 	
 	\approvalpage
-	
+	\include{SPKP}
+	\addcontentsline{toc}{chapter}{SURAT PERINTAH KERJA PRAKTIK}
 	\preface
 	
-Puji syukur penulis panjatkan kehadirat Tuhan Yang Maha Esa karena hanya dengan rahmat dan hidayah-Nya, laporan kerja praktik ini dapat diselesaikan tanpa halangan yang berarti. Keberhasilan dalam menyusun laporan kerja praktik ini tidak lepas dari bantuan berbagai pihak yang mana dengan tulus dan ikhlas membe- rikan masukan guna sempurnanya laporan kerja praktik ini.  Oleh karena itu dalam kesempatan ini, dengan kerendahan hati penulis mengucap terima kasih kepada:
+Puji syukur penulis panjatkan kehadirat Tuhan Yang Maha Esa karena hanya dengan rahmat dan hidayah-Nya, laporan kerja praktik ini dapat diselesaikan tanpa halangan yang berarti. Keberhasilan dalam menyusun laporan kerja praktik ini tidak lepas dari bantuan berbagai pihak yang mana dengan tulus dan ikhlas memberikan masukan guna sempurnanya laporan kerja praktik ini.  Oleh karena itu dalam kesempatan ini, penulis mengucap terima kasih kepada:
 	
 	\begin{enumerate}
-		\item Bapak Ma’un Budiyanto, S.T., M.T. selaku Ketua Program Studi Teknologi Listrik Universitas Gadjah Mada,
-		\item  Bapak Fahmizal, S.T., M.Sc selaku dosen pembimbing pertama yang telah memberikan banyak bantuan, bimbingan, serta arahan dalam kerja praktik,
-		\item Seluruh Dosen di Teknologi Listrik Sekolah Vokasi Universitas Gadjah Mada, yang tidak bisa disebutkan satu-satu, atas ilmu dan bimbingannya,
+		\item Bapak Ma’un Budiyanto, S.T., M.T., selaku Ketua Program Studi Teknologi Listrik Universitas Gadjah Mada,
+		\item  Bapak Fahmizal, S.T., M.Sc., selaku dosen pembimbing yang telah memberikan banyak bantuan, bimbingan, serta arahan dalam kerja praktik,
+		\item Seluruh dosen di Teknologi Listrik Sekolah Vokasi Universitas Gadjah Mada, yang tidak bisa disebutkan satu-satu, atas ilmu dan bimbingannya,
 		\item Sugeng Julianto S.ST, selaku laboran yang memfasilitasi Labolatorium Instrumentasi dan Kendali sehingga tugas akhir penulis berjalan dengan baik, 
 		\item Teman – teman Lab Kendali, Tirza, Mas Galih, Mas Ma'ruf, Mas Bayu, Fajar, Denny dan lain – lain yang selalu memberi semangat, inspirasi, dukungan serta bantuanya pada penulis dalam mengerjakan kerja praktik,
 		\item Ibu dan Bapak yang selama ini telah sabar membimbing, mengarahkan, dan mendoakan penulis tanpa kenal lelah untuk selama-lamanya.
 		
 	\end{enumerate}
 
-Penulis menyadari bahwa penyusunan laporan kerja praktik ini jauh dari sempurna. Kritik dan saran dapat ditujukan langsung pada e-\textit{mail} saya. Akhir kata penulis mohon maaf yang sebesar-besarnya apabila terdapat kekeliruan di dalam penulisan kerja praktik ini.
+Penulis menyadari bahwa penyusunan laporan kerja praktik ini jauh dari sempurna. Kritik dan saran dapat ditujukan langsung pada \textit{e-mail} saya. Akhir kata penulis mohon maaf yang sebesar-besarnya apabila terdapat kekeliruan di dalam penulisan kerja praktik ini.
 
 \vspace{0.1cm}
 
@@ -89,17 +91,17 @@ Penulis menyadari bahwa penyusunan laporan kerja praktik ini jauh dari sempurna.
 \addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
 
 \begin{abstractind}
-	Makalah ini menyajikan kendali pergerakan posisi dari robot SCARA Serpent menggunakan persamaan kinematika serta perancangan desain antarmuka menggunakan Processing IDE. Antarmuka bertujuan untuk memudahkan pengguna dalam mengendalikan dan mendapatkan data berupa koordinat objek yang nantinya koordinat objek tersebut digunakan sebagai masukan untuk kinematika balik. Umpan balik yang digunakan dalam robot SCARA Serpent merupakan sensor potensiometer yang ditempatkan pada masing-masing \textit{joint}. Selain itu, untuk mendapatkan hasil pergerakan robot yang baik pada sistem kinematika, kendali PID diterapkan untuk mengendalikan kecepatan putar setiap motor DC pada setiap \textit{joint} untuk mencapai sebuah posisi. Untuk menguji ketepatan posisi dari kinerja sistem kinematika robot SCARA Serpent, terdapat lima jenis pengujian, yaitu pengujian koordinat $x$, pengujian koordinat $y$, pengujian sudut \textit{shoulder}, pengujian sudut \textit{elbow}, pengujian sistem secara keseluruhan dan pengujian dengan kendali PID. Dari hasil tes ini sistem dapat berjalan dengan baik dengan nilai \textit{error} di bawah 5\% menggunakan kendali PID dengan nilai Kp 5.5 Ki 0.001, dan Kd 10.
+	Makalah ini menyajikan kendali pergerakan posisi dari robot SCARA Serpent menggunakan persamaan kinematika serta perancangan desain antarmuka menggunakan Processing IDE. Antarmuka bertujuan untuk memudahkan pengguna dalam mengendalikan robot serta untuk mendapatkan data koordinat objek yang digunakan sebagai masukan persamaan kinematika balik. Umpan balik yang digunakan dalam robot SCARA Serpent merupakan sensor potensiometer yang ditempatkan pada masing-masing \textit{joint}. Selain itu, untuk mendapatkan hasil pergerakan robot yang baik, kendali PID diterapkan untuk mengendalikan kecepatan putar setiap motor DC pada setiap \textit{joint} untuk mencapai sebuah posisi. Dalam pengujian dari kinerja sistem kinematika robot SCARA Serpent, terdapat lima jenis pengujian, yaitu pengujian koordinat $x$, pengujian koordinat $y$, pengujian sudut \textit{shoulder}, pengujian sudut \textit{elbow}, pengujian sistem secara keseluruhan dan pengujian dengan kendali PID. Dari hasil tes ini sistem dapat berjalan dengan baik dengan nilai \textit{error} di bawah 5\% menggunakan kendali PID dengan nilai Kp 5.5 Ki 0.001, dan Kd 10.
 	
 	
-	\textbf{Kata kunci }: SCARA Serpent, \textit{Arm Robot Manipulator}, Kinematika, Processing IDE, \textit{Invers Kinematic}.
+	\textbf{Kata kunci }: SCARA Serpent, \textit{Arm Robot Manipulator}, Kinematika, Processing IDE, \textit{Inverse Kinematic}.
 \end{abstractind}
 
 \begin{abstracteng}
-	\textit{This paper presents the position movement control of the SCARA Serpent robot using kinematics equations and interface design using the Processing IDE. The interface aims to make it easier for users to control and obtain data in the form of object coordinates which will later be used as input for back kinematics. The feedback used in the SCARA Serpent robot is a potentiometer sensor placed at each joint. In addition, to get good robot movement results on the kinematics system, PID control is applied to control the rotational speed of each DC motor in each joint to reach a position. To test the accuracy of the position of the SCARA Serpent robot kinematics system performance, there are five types of testing, namely $x$ coordinate testing, $y$ coordinate testing, shoulder angle testing, elbow angle testing, overall system testing and proportional control testing. From the results of this test the system can run well with an error value below 5 \% using the PID control with value of Ki 5.5, Ki 0.001, and Kd 10.}
+	\textit{This paper presents the position movement control of the SCARA Serpent robot using kinematics equations and interface design using the Processing IDE. The interface aims to facilitate the user in controlling the robot as well as to obtain object coordinate data that is used as input inverse kinematics equation. The feedback used in the SCARA Serpent robot is a potentiometer sensor placed at each joint. In addition, to get good robot movement results, PID control is applied to control the rotational speed of each DC motor in each joint to reach a position. In testing the performance of the SCARA Serpent robot kinematics system, there are five types of testing, namely $x$ coordinate testing, $y$ coordinate testing, shoulder angle testing, elbow angle testing, overall system testing and PID control testing. From the results of this test the system can run well with an error value below 5 \% using a PID control with a value of Kp 5.5 Ki 0.001, and Kd 10.}
 	
 	
-	\textit{\textbf{Keyword}} : SCARA Serpent, \textit{Arm Robot Manipulator}, \textit{kinematics}, Processing IDE, \textit{Invers Kinematic}.
+	\textit{\textbf{Keyword}} : SCARA Serpent, \textit{Arm Robot Manipulator}, \textit{kinematics}, Processing IDE, \textit{Inverse Kinematic}.
 \end{abstracteng}
 
 \newpage
@@ -112,7 +114,11 @@ Penulis menyadari bahwa penyusunan laporan kerja praktik ini jauh dari sempurna.
 \include{BAB_4}
 \include{BAB_5}
 
+
+
 \bibliography{IEEEabrv,references}
 \addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+
+\include{BAB_6}
 
 \end{document}

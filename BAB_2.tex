@@ -34,7 +34,7 @@ Pada dasarnya berbagai jenis dari robot lengan dapat dibedakan dari konfigurasin
 \end{figure}
 \subsubsection{Konfigurasi \textit{Spherical} (\textit{Revolute – Revolute – Prismatic})} 
 
-Konfigurasi \textit{spherical} merupakan konfigurasi yang mempunyai dua buah \textit{joint revolute} dan satu buah \textit{joint prismatic}. \textit{Joint prismatic} berada ini \textit{joint} ketiga atau pada bagian \textit{elbow}. Sementara dua \textit{joint} lainnya berada di \textit{shoulder} dan \textit{wrist}. Struktur dari konfigurasi \textit{spherical} ditunjukkan pada Gambar \ref{pic.spherical}. 
+Konfigurasi \textit{spherical} merupakan konfigurasi yang mempunyai dua buah \textit{joint revolute} dan satu buah \textit{joint prismatic}. \textit{Joint prismatic} berada pada bagian \textit{elbow}. Sementara dua \textit{joint} lainnya berada di \textit{shoulder} dan \textit{wrist}. Struktur dari konfigurasi \textit{spherical} ditunjukkan pada Gambar \ref{pic.spherical}. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=8cm]{gambar/spherical.jpg}
@@ -45,7 +45,7 @@ Konfigurasi \textit{spherical} merupakan konfigurasi yang mempunyai dua buah \te
 
 \subsubsection{Konfigurasi SCARA Serpent Serpent (\textit{Revolute – Revolute – Prismatic}) } 
 
-Konfigurasi \textit{selective compliant articulated robot for assembly} (SCARA Serpent) merupakan konfigurasi yang mempunyai dua buah \textit{joint revolute} dan satu buah \textit{joint prismatic} sama seperti konfigurasi \textit{spherical}. Meskipun SCARA Serpent memiliki struktur \textit{joint revolute – revolute – prismatic} (RRP) sama seperti konfigurasi yang dimiliki \textit{spherical}, struktur ini sedikit berbeda dengan konfigurasi \textit{spherical} dari tampilannya maupun dari jarak \textit{workspace} nya. Konfigurasi SCARA Serpent memiliki $z_{0}$ tegak lurus terhadap $z_{1}$, dan $z_{1}$ tegak lurus dengan $z_{2}$, konfigurasi SCARA Serpent memiliki struktur $z_{0}, z_{1}, dan z_{2}$ yang paralel. Struktur dan konfigurasi dari SCARA Serpent ditunjukkan pada Gambar \ref{pic.SCARA212112122}.
+Konfigurasi \textit{selective compliant articulated robot for assembly} (SCARA) Serpent merupakan konfigurasi yang mempunyai dua buah \textit{joint revolute} dan satu buah \textit{joint prismatic} sama seperti konfigurasi \textit{spherical}. Meskipun SCARA Serpent memiliki struktur \textit{joint revolute – revolute – prismatic} (RRP) sama seperti konfigurasi yang dimiliki \textit{spherical}, struktur ini sedikit berbeda dengan konfigurasi \textit{spherical} dari tampilannya maupun dari jarak \textit{workspace} nya. Konfigurasi SCARA Serpent memiliki $z_{0}$ tegak lurus terhadap $z_{1}$, dan $z_{1}$ tegak lurus dengan $z_{2}$, konfigurasi SCARA Serpent memiliki struktur $z_{0}, z_{1}, dan z_{2}$ yang paralel. Struktur dan konfigurasi dari SCARA Serpent ditunjukkan pada Gambar \ref{pic.SCARA212112122}.
 \begin{figure}[H]
 	\centering
 
@@ -77,7 +77,7 @@ Konfigurasi \textit{cartesian} mempunyai tiga buah \textit{joint prismatic}. Var
 \end{figure}
 
 
-\textit{End-effector} merupakan perangkat atau alat yang terhubung dengan ujung lengan robot. \textit{End-effector} adalah bagian robot yang berhubungan langsung dengan objek. Struktur, pergerakan, material dari \textit{end-effector} bergantung pada tugas yang akan dilakukan robot tersebut. Bentuk dari \textit{end-effector} ditunjukkan pada Gambar \ref{pic.endeffector}.
+\textit{End-effector} merupakan bagian yang terhubung dengan ujung lengan robot. \textit{End-effector} adalah bagian robot yang berhubungan langsung dengan objek. Struktur, pergerakan, material dari \textit{end-effector} bergantung pada tugas yang akan dilakukan robot tersebut. Bentuk dari \textit{end-effector} ditunjukkan pada Gambar \ref{pic.endeffector}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=6cm]{gambar/end_effector.jpg}
@@ -108,7 +108,7 @@ Kinematika maju atau biasa disebut \textit{forward kinematics} merupakan kinemat
 
 
 \subsection{Kinematika Balik}
-Kinematika balik atau biasa disebut \textit{invers kinematics} digunakan untuk mencari variabel sudut (\textit{joint}) robot dalam menentukan posisi dan orientasi dari \textit{end-effector}. Dalam menentukan koordinat \textit{end-effector}, kinematika balik mengacu pada penggunaan persamaan kinematika robot untuk menentukan parameter bersama yang memberikan posisi yang diinginkan pada posisi akhir atau \textit{end-effector}.  Dalam pergerakannya, robot dimodelkan dalam bentuk persamaan kinematika. Persamaan ini menentukan konfigurasi robot dalam hal parameter untuk setiap aktuator. Kinematika maju menggunakan parameter untuk menghitung konfigurasi robot, dan kinematika balik membalikkan perhitungan ini untuk menentukan parameter bersama dalam mencapai konfigurasi yang diinginkan\cite{cahyono2015}. 
+Kinematika balik atau biasa disebut \textit{invere kinematics} digunakan untuk mencari variabel sudut (\textit{joint}) robot dalam menentukan posisi dan orientasi dari \textit{end-effector}. Dalam menentukan koordinat \textit{end-effector}, kinematika balik mengacu pada penggunaan persamaan kinematika robot untuk menentukan parameter bersama yang memberikan posisi yang diinginkan pada posisi akhir atau \textit{end-effector}.  Dalam pergerakannya, robot dimodelkan dalam bentuk persamaan kinematika. Persamaan ini menentukan konfigurasi robot dalam hal parameter untuk setiap aktuator. Kinematika maju menggunakan parameter untuk menghitung konfigurasi robot, dan kinematika balik membalikkan perhitungan ini untuk menentukan parameter bersama dalam mencapai konfigurasi yang diinginkan\cite{cahyono2015}. 
 
 Secara garis besar metode kinematika balik mencari nilai parameter yang harus diberikan kepada setiap aktuator untuk mencapai tujuan akhir. Untuk mendapatkan nilai parameter tersebut, robot harus mengetahui terlebih dahulu manipulator yang dimilikinya, baik ukuran maupun jumlah aktuator serta derajat kebebasan yang ada. Kemudian robot harus ditanamkan rumus-rumus yang didapat dari berbagai model perhitungan, baik dari segi analisa grafik langsung maupun menggunakan metode-metode dari berbagai penelitian\cite{cahyono2}. Proses dari kinematika balik ditunjukkan pada Gambar \ref{pic.kinematikabalik}.
 
@@ -243,17 +243,17 @@ Transformasi pada Processing IDE digunakan untuk memindahkan, memutar atau, meng
 	\begin{tabular}{|c|l|l|}
 		\hline
 		\rowcolor[HTML]{9B9B9B} 
-		No & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Syntax} & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Keterangan}                                    \\ \hline
+		No & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}\textit{Syntax}} & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Keterangan}                                    \\ \hline
 		1  & Translate(x,y)                                      & \begin{tabular}[c]{@{}l@{}}x = transisi kiri/kanan \\ y = transisi atas/bawah\end{tabular} \\ \hline
 		2  & Rotate(\textit{angle})                                       & \textit{angle}=besar sudut rotasi(radian)                                                           \\ \hline
 		3  & RotateX(\textit{angle})                                      & \textit{angle}=besar sudut rotasi(radian)                                                           \\ \hline
 		4  & RotateY(\textit{angle})                                      & \textit{angle}=besar sudut rotasi(radian)                                                           \\ \hline
 		5  & Rotatez(\textit{angle})                                      & \textit{angle}=besar sudut rotasi(radian)                                                           \\ \hline
-		6  & Scale(S)                                            & s = besar pengecilan pembesaran                                                            \\ \hline
+		6  & Scale(s)                                            & s = besar pengecilan pembesaran                                                            \\ \hline
 	\end{tabular}
 \end{table}
 \subsubsection{\textit{Shape}}
-\textit{Shape} adalah \textit{syntax} pada Processing IDE yang berfungsi untuk membuat berbagai macam bentuk, seperti persegi panjang, lingkaran, garis, dan bentuk lainnya yang dapat diatur ukurannya dengan parameter-parameter tertentu. Tabel \ref{tbl.syntxshape} merupakan contoh dari beberapa \textit{syntax} shape. 
+\textit{Shape} adalah \textit{syntax} pada Processing IDE yang berfungsi untuk membuat berbagai macam bentuk seperti persegi panjang, lingkaran, garis, dan bentuk lainnya yang dapat diatur ukurannya dengan parameter-parameter tertentu. Tabel \ref{tbl.syntxshape} merupakan contoh dari beberapa \textit{syntax} shape. 
 \begin{table}[H]
 	\centering
 	\caption{\textit{Syntax} Shape}
@@ -266,7 +266,7 @@ Transformasi pada Processing IDE digunakan untuk memindahkan, memutar atau, meng
 			No & Sytax                          & Bentuk & Keterangan                                                                                                                                                                                    \\ \hline
 			1  & ellipse(a,b,c,d)               &  	\centering \includegraphics[width=3cm]{gambar/bulat.png} 
 			& \begin{tabular}[c]{@{}l@{}}a = koordinatX \\ b = koordinatY \\ c= lebar diameter \\ d= tinggi diameter\end{tabular}                                                                           \\ \hline
-			2  & arc(a,b,c,d,start,st op,moode) &  	\includegraphics[width=3cm]{gambar/busur.png}    \centering  & \begin{tabular}[c]{@{}l@{}}a = koordinatX \\ b = koordinatY \\ c = lebar diameter \\ d = tinggi diameter \\ start = sudut mulai \\ stop = sudut akhir \\ mode = PIE, CHORD, OPEN\end{tabular} \\ \hline
+			2  & arc(a,b,c,d,start,stop,moode) &  	\includegraphics[width=3cm]{gambar/busur.png}    \centering  & \begin{tabular}[c]{@{}l@{}}a = koordinatX \\ b = koordinatY \\ c = lebar diameter \\ d = tinggi diameter \\ start = sudut mulai \\ stop = sudut akhir \\ mode = PIE, CHORD, OPEN\end{tabular} \\ \hline
 			3  & line(x1,y1,x2,y2)              & 	\includegraphics[width=3cm]{gambar/garis.png}       & \begin{tabular}[c]{@{}l@{}}x1 = koordinatX1 \\ y1 = koordinatY1 \\ x2 = koordinatX2 \\ y2 = koordinatY2\end{tabular}                                                                          \\ \hline
 			4  & point(x,y)                     &     	\includegraphics[width=3cm]{gambar/point.png}   & \begin{tabular}[c]{@{}l@{}}x = koordinatX \\ y = koordinatY\end{tabular}                                                                                                                      \\ \hline
 			5  & rect(a,b,c,d,r)                &    	\includegraphics[width=3cm]{gambar/kotak.png}    & \begin{tabular}[c]{@{}l@{}}a = koordinatX1 \\ b = koordinatY1 \\ c = koordinatX2 \\ d= koordinatY1\end{tabular}                                                                               \\ \hline
@@ -274,7 +274,7 @@ Transformasi pada Processing IDE digunakan untuk memindahkan, memutar atau, meng
 \end{table}
 
 \subsubsection{Akses Koordinat \textit{Mouse} }
-Processing IDE mempunyai fungsi khusus yaitu dapat melacak posisi \textit{mouse} baik secara vertical maupun horizontal. Namun, Processing IDE hanya dapat melacak posisi \textit{mouse} saat \textit{sketch} dijalankan saja. Nilai \textit{default} mouseX dan mouseY adalah 0, jadi 0 akan dikembalikan sampai \textit{mouse} bergerak di depan jendela sketsa. Setelah \textit{mouse} bergerak menjauh dari jendela, mouseX akan terus melaporkan posisi terakhirnya.  Contoh penulisan \textit{syntax} dari \textit{mouse} ditunjukkan pada Tabel \ref{tbl.koordinatmouse}.
+Processing IDE mempunyai fungsi khusus yaitu dapat melacak posisi \textit{mouse} baik secara vertikal maupun horizontal. Namun, Processing IDE hanya dapat melacak posisi \textit{mouse} saat \textit{sketch} dijalankan saja. Nilai \textit{default} mouseX dan mouseY adalah 0, jadi 0 akan dikembalikan sampai \textit{mouse} bergerak di depan jendela sketsa. Setelah \textit{mouse} bergerak menjauh dari jendela, mouseX akan terus melaporkan posisi terakhirnya.  Contoh penulisan \textit{syntax} dari \textit{mouse} ditunjukkan pada Tabel \ref{tbl.koordinatmouse}.
 \begin{table}[H]
 	\centering
 	\caption{\textit{Syntax} Koordinat \textit{Mouse}}
@@ -302,19 +302,19 @@ Program pada Processing IDE dinamakan \textit{sketch}. Tujuan diberi nama \texti
 \end{figure}
 
 \subsection{ \textit{Library} untuk Processing IDE }
-\subsubsection{ Memuat Huruf (\textit{Pfont}) pada Processing IDE }
-Pfont adalah \textit{class} yang digunakan untuk penggunaan \textit{font} pada Processing IDE. Untuk membuat \textit{font} yang akan digunakan dengan Processing IDE, diawali dengan memilih "\textit{Create Font ...}" dari menu \textit{Tools}. Ini akan membuat \textit{font} dalam \textit{format} Processing IDE yang membutuhkan dan juga menambahkannya ke direktori data sketsa saat ini. Pengolahan menampilkan \textit{font} menggunakan format \textit{font} .vlw. Fungsi loadFont() digunakan untuk membuat \textit{font} baru dan textFont () digunakan agar \textit{font} baru yang telah dibuat tersebut aktif. \textit{Syntax} list() berfungsi untuk membuat daftar \textit{font} yang terunduh pada komputer yang merupakan informasi yang berguna untuk digunakan dengan fungsi createFont() untuk mengubah \textit{font} secara dinamis menjadi format yang bisa digunakan di Processing IDE. 
+\subsubsection{ Memuat Huruf (Pfont) pada Processing IDE }
+Pfont adalah \textit{class} yang digunakan untuk penggunaan \textit{font} pada Processing IDE. Untuk membuat \textit{font} yang akan digunakan dengan Processing IDE, diawali dengan memilih "\textit{Create Font ...}" dari menu \textit{Tools}. Processing IDE menampilkan \textit{font} menggunakan format \textit{font} .vlw. Fungsi loadFont() digunakan untuk membuat \textit{font} baru dan textFont() digunakan agar \textit{font} baru yang telah dibuat tersebut aktif. \textit{Syntax} list() berfungsi untuk membuat daftar \textit{font} yang terunduh pada komputer yang merupakan informasi yang berguna untuk digunakan dengan fungsi createFont() untuk mengubah \textit{font} secara dinamis menjadi format yang bisa digunakan di Processing IDE. 
 
 
 \subsubsection{ Memuat ControlP5 pada Processing IDE }
-ControlP5 adalah \textit{library} yang berfungsi sebagai pengontrol untuk membuat antarmuka dengan \textit{user}, ControlP5 berupa grafis di dalam \textit{sketch} Processing IDE yang meliputi \textit{slider}, \textit{button}, \textit{toggles}, \textit{knobs}, \textit{radiobutton}, dan dapat dengan mudah ditambahkan ke \textit{sketch} pengolahan. ControlP5 ditulis oleh Andreas Schlegel untuk pemrograman Processing IDE. \textit{Library} ControlP5 bisa diunduh di laman https://github.com/sojamo/controlp5 atau unduh di \textit{library} Processing IDE secara langsung. Gambar \ref{pic.controlp5} merupakan beberapa contoh gambaran dari ControlP5.
+ControlP5 adalah \textit{library} yang berfungsi sebagai pengontrol untuk membuat antarmuka dengan \textit{user}. ControlP5 berupa grafis di dalam \textit{sketch} Processing IDE yang meliputi \textit{slider}, \textit{button}, \textit{toggles}, \textit{knobs}, \textit{radiobutton}, dan dapat dengan mudah ditambahkan ke \textit{sketch} pengolahan. ControlP5 ditulis oleh Andreas Schlegel untuk pemrograman Processing IDE. \textit{Library} ControlP5 bisa diunduh di laman https://github.com/sojamo/controlp5 atau mengunduh pada \textit{library} Processing IDE secara langsung. Gambar \ref{pic.controlp5} merupakan beberapa contoh gambaran dari ControlP5.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=8cm]{gambar/controlp5.jpg}
 	\caption{ControlP5}
 	\label{pic.controlp5}
 \end{figure}
-Setiap \textit{tools} yang ada pada ControlP5 memiliki fungsi yang berbeda-beda sesuai dengan kegunaannya. ControlP5 dapat dipakai atau saling dikombinasikan agar memudahkan dan memaksimalkan dari GUI yang telah dibuat. ControlP5 nantinya akan bekerja sesuai dengan program yang sudah dimasukkan. Beberapa fungsi dari \textit{tools} yang ada pada ControlP5 ditunjukkan pada Tabel \ref{tbl.toolscontrolp52}.
+Setiap \textit{tools} yang ada pada ControlP5 memiliki fungsi yang berbeda-beda sesuai dengan kegunaannya. ControlP5 dapat dipakai dengan saling dikombinasikan agar lebih memudahkan dan memaksimalkan dari GUI yang telah dibuat. ControlP5 nantinya akan bekerja sesuai dengan program yang sudah dimasukkan. Beberapa fungsi dari \textit{tools} yang ada pada ControlP5 ditunjukkan pada Tabel \ref{tbl.toolscontrolp52}.
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
 % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
