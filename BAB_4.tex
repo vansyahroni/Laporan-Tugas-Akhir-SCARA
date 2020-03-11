@@ -5,14 +5,14 @@ Pada bab pengujian dan pembahasan ini, penulis akan melakukan pengujian sistem k
 Metode pengujian menggunakan dua macam metode, yaitu pengujian fungsionalitas dari setiap komponen dan pengujian sistem secara keseluruhan. Pengujian fungsionalitas digunakan untuk membuktikan apakah sistem yang diimplementasikan dapat memenuhi persyaratan dari fungsi operasional yang telah dirancang dan direncanakan sebelumnya. Sedangkan pengujian sistem secara keseluruhan bertujuan untuk memperoleh beberapa parameter yang dapat menunjukkan kemampuan dan keandalan dari sistem secara keseluruhan dalam menjalankan fungsi operasionalnya. Pada sistem robot lengan robot SCARA Serpent dilakukan terlebih dahulu pengujian terhadap fungsional dari beberapa komponen seperti bagian \textit{DC to DC converter}, arah gerakan motor DC, \textit{feedback} potensiometer, fungsi rangkaian \textit{switching} pada \textit{valve pneumatic} dan keakuratan setiap \textit{joint} untuk bergerak sesuai sudut yang diinginkan berdasarkan kinematika balik maupun kinematika maju dengan menggunakan kontrol dari GUI.  Kemudian setelah pengujian fungsional terpenuhi maka dilakukan pengujian sistem secara keseluruhan untuk mengetahui keakuratan dan simulasi dari sistem \textit{arm manipulator} robot SCARA Serpent.
 
 \section{Pengujian Fungsional}
-Pengujian fungsional digunakan untuk menguji bagian – bagian dari sistem yang terdiri dari \textit{DC to DC converter}, arah gerakan motor DC, \textit{feedback} potensiometer, fungsi rangkaian \textit{switching} pada \textit{valve pneumatic} dan keakuratan setiap \textit{joint}, pengujian GUI Processing dan pengujian program. 
+Pengujian fungsional digunakan untuk menguji bagian – bagian dari sistem yang terdiri dari \textit{DC to DC converter}, arah gerakan motor DC, \textit{feedback} potensiometer, fungsi rangkaian \textit{switching} pada \textit{valve pneumatic} dan pengujian keakuratan setiap \textit{joint}. 
 
 \subsection{Pengujian DC - to - DC Converter}
 Pengujian DC – to – DC \textit{converter} dilakukan untuk mengetahui tegangan masukan pada Arduino Mega 2560, sensor potensiometer, motor DC dan juga sumber tegangan untuk\textit{ valve pneumatic}. Tegangan masukan dari catu daya utama sebesar 24 Volt DC yang nantinya dibagi ke tiga buah nilai tegangan. Tabel \ref{tbl.dctodc} merupakan tegangan keluaran DC – to - DC.
 
 \begin{table}[H]
 	\centering
-	\caption{Hasil Tegangan Keluaran Dari Tegangan DC-DC Converter}
+	\caption{Hasil Tegangan Keluaran dari Tegangan DC-DC \textit{Converter}}
 	\label{tbl.dctodc}
 	\begin{tabular}{|c|c|c|c|}
 		\hline
@@ -26,7 +26,7 @@ Pengujian DC – to – DC \textit{converter} dilakukan untuk mengetahui teganga
 	\end{tabular}
 \end{table} 
 
-Pada hasil yang ditunjukkan oleh Tabel \ref{tbl.dctodc} terlihat bahwa nilai tegangan telah sesuai dengan yang dibutuhkan. Tegangan 12.1 sudah cukup untuk mengoperasikan motor DC dan tegangan 4.9 sudah dapat untuk mengoperasikan Arduino Mega 2560 dan beberapa sensor. Terlihat bahwa berapapun nilai tegangan masukan, hasil keluarannya tetap. Pada saat mengubah besar tegangan keluaran yang dilakukan oleh Regulator \textit{Buck} LM2596 dilakukan dengan cara memutar potensiometer yang terdapat pada Regulator \textit{Buck}. Diputar searah dengan jarum jam hingga pada teganangan yang diinginkan.
+Pada hasil yang ditunjukkan oleh Tabel \ref{tbl.dctodc} terlihat bahwa nilai tegangan telah sesuai dengan yang dibutuhkan. Tegangan 12.1 sudah cukup untuk mengoperasikan motor DC dan tegangan 4.9 sudah dapat untuk mengoperasikan Arduino Mega 2560 dan beberapa sensor. Terlihat bahwa berapapun nilai tegangan masukan, hasil keluarannya tetap. Pada saat mengubah besar tegangan keluaran yang dilakukan oleh Regulator \textit{Buck} LM2596 dilakukan dengan cara memutar potensiometer yang terdapat pada regulator \textit{Buck}. Diputar searah dengan jarum jam hingga pada teganangan yang diinginkan.
 \subsection{Pengujian Motor DC}
 Pengujian motor DC dilakukan untuk mengetahui apakah motor DC dalam keaadaan baik atau tidak. Pengujian dilakukan dengan memberikan tegangan kerja pada motor DC yang ada pada \textit{shoulder}, \textit{elbow}, dan juga \textit{end-effector} yang nantinya diukur arus yang dihasilkan pada masing-masing motor DC. Nilai arus yang terukur pada motor DC pasti pada masing-masing motor memiliki besaran yang berbeda. Nilai arus tergantung pada beban yang dimiliki pada masing-masing motor DC dimana semakin besar beban maka samakin besar arus yang akan dihasilkan. Tabel \ref{tbl.motordc} merupakan hasil dari pengujian pada masing-masing motor DC.
 
@@ -74,10 +74,10 @@ Pengujian \textit{driver} motor\textit{ H –} \textit{Bridge} dilakukan untuk m
 	&                                                                      & LOW                          & HIGH                         & Berputar berlawanan arah jam                                           & 0,8                                                 \\ \cline{3-6} 
 	\multirow{-4}{*}{3}                          & \multirow{-4}{*}{\textit{End-Effector}}                                       & LOW                          & LOW                          & Tidak berputar                                                         & 0                                                   \\ \hline
 \end{longtable}
-Pada \textit{driver} motor H-\textit{Bridge} EMS 30A sinyal digital HIGH dan LOW dihubungkan pada pin MEN1 dan MEN2. Dari hasil pengujian \textit{driver} motor H-\textit{Bridge} seperti yang ditunjukkan pada Tabel \ref{tbl.drivermotor1} terlihat bahwa ketika sinyal HIGH diberikan pada MEN1 dan LOW diberikan MEN2 maka pergerakan motor akan berputar searah dengan arah jarum jam dan sebaliknya jika diberikan LOW pada MEN1 dan HIGH pada MEN2 maka arah pergerakan motor akan berlawanan arah. Pada Tabel \ref{tbl.drivermotor1}juga terlihat bahwa nilai arus dapat dialirkan pada \textit{driver} motor beragam dari 0,3 Ampere hingga 0,8 Ampere tergangtung pada beban pada masing-masing motor DC. Terlihat bahwa \textit{driver} motor dapat mengoperasikan \textit{driver} motor dengan baik.
+Pada \textit{driver} motor H-\textit{Bridge} EMS 30A sinyal digital HIGH dan LOW dihubungkan pada pin MEN1 dan MEN2. Dari hasil pengujian \textit{driver} motor H-\textit{Bridge} seperti yang ditunjukkan pada Tabel \ref{tbl.drivermotor1} terlihat bahwa ketika sinyal HIGH diberikan pada MEN1 dan LOW diberikan MEN2 maka pergerakan motor akan berputar searah dengan arah jarum jam dan sebaliknya jika diberikan LOW pada MEN1 dan HIGH pada MEN2 maka arah pergerakan motor akan berlawanan arah. Pada Tabel \ref{tbl.drivermotor1} juga terlihat bahwa nilai arus dapat dialirkan pada \textit{driver} motor beragam dari 0,3 Ampere hingga 0,8 Ampere tergantung pada beban pada masing-masing motor DC. Terlihat bahwa \textit{driver} motor dapat mengoperasikan \textit{driver} motor dengan baik.
 
 \subsection{Pengujian Nilai Analog Potensiometer}
-Pengujian nilai analog potensiometer berfungsi untuk mengetahui apakah potensiometer bekerja dengan baik dan nilai yang diberikan dalam keadaan yang normal. Pada potensiometer nilai data yang dikirimkan berupa data analog yang dihasilkan oleh pembagian tegangan yang diatur pada setiap putaran resistornya yang dapat diimplementasikan sebagai posisi sesuai besaran sudut yang dapat dilakukan oleh \textit{joint} yaitu dari 0-360 derajat. Tabel \ref{tbl.potensiometer}.
+Pengujian nilai analog potensiometer berfungsi untuk mengetahui apakah potensiometer bekerja dengan baik dan nilai yang diberikan dalam keadaan yang normal. Pada potensiometer nilai data yang dikirimkan berupa data analog yang dihasilkan oleh pembagian tegangan yang diatur pada setiap putaran resistornya yang dapat diimplementasikan sebagai posisi sesuai besaran sudut yang dapat dilakukan oleh \textit{joint} yaitu dari 0-360 derajat. Tabel \ref{tbl.potensiometer} merupakan hasil dari pengujian potensiometer.
 
 \begin{table}[H]
 	\centering
@@ -212,7 +212,7 @@ Pengujian koordinat $x$ dilakukan untuk mengetahui batas minimal dan batas maksi
 	37                                           & 8                      & 34                    & 0                     & 0                      & >5                                            \\ \hline
 	38                                           & 6                      & 34                    & 0                     & 0                      & >5                                             \\ \hline
 	39                                           & 4                      & 34                    & 0                     & 0                      & >5                                             \\ \hline
-	40                                           & 2                      & 34                    & 0                     & 0                      & 1600,00                                            \\ \hline	
+	40                                           & 2                      & 34                    & 0                     & 0                      & >5                                            \\ \hline	
 \end{longtable}
 
 \fontsize{12}{15}\selectfont
@@ -227,14 +227,9 @@ Dari hasil pengujian yang ditampilkan pada Tabel \ref{tbl.x} dan juga Gambar \re
 
 
 \subsubsection{Pengujian Koordinat Y}
-\fontsize{12}{15}\selectfont
+
 Pengujian koordinat $y$ dilakukan untuk mengetahui batas minimal dan batas maksimal \textit{end-effector} dari \textit{arm manipulator} robot SCARA Serpent relatif terhadap sumbu $y$. Pengujian koordinat $y$ dilakukan dengan cara mengujicobakan setiap titik dari 2 cm sampai dengan total panjang \textit{shoulder} dan \textit{elbow} yaitu 80 cm menggunakan perhitungan kinematika balik. Perhitungan posisi $y$ diujicobakan menggunakan program Processing IDE, sementara untuk pengukuran posisi diukur secara faktual dari posisi \textit{end-effector} dengan membuat sebuah diagram kartesius. Tabel \ref{tbl.y} menunjukkan pengujian koordinat $y$ dan Gambar \ref{pic.koordinaty} menunjukkan grafik dari \textit{sampling} koordinat $y$.
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-% \usepackage{longtable}
-% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+
 \fontsize{8}{10}\selectfont
 \begin{longtable}{|c|c|c|c|c|c|}
 	\caption{Pengujian Koordinat Y}
@@ -310,7 +305,7 @@ Dari hasil pengujian yang ditampilkan pada Tabel \ref{tbl.y} dan juga Gambar \re
 	\label{pic.workpace}
 \end{figure}
 
-
+\fontsize{12}{15}\selectfont
 \subsubsection{Pengujian \textit{Joint Shoulder}}
 
 Pengujian dilakukan dengan cara memberikan sebuah posisi koordinat $x$ dan $y$ dengan nilai yang bervariasi. Nilai tersebut dimasukkan ke dalam sebuah perhitungan kinematika balik yang ada pada program Processing IDE sesuai dengan persamaan pada bab sebelumnya. Hasil yang dihasilkan oleh perhitungan merupakan nilai sudut dari \textit{joint shoulder} dan juga \textit{elbow}. Perhitungan aktual dilakukan dengan cara mengukur sudut pada setiap \textit{joint} menggunakan bantuan busur atau \textit{software} sensor kemiringan yang diunduh pada \textit{smartphone}. Tabel \ref{tbl.shoulder} merupakan hasil pengujian dari \textit{joint shoulder} berdasarkan \textit{sampling} posisi yang diambil. Gambar \ref{pic.jointshoulder} merupakan grafik hubungan dari sudut aktual dan sudut berdasarkan perhitungan kinematika. 
@@ -471,7 +466,7 @@ Setelah semua komponen sistem yang diuji dapat bekerja dengan baik, pengujian se
 
 \subsection{Pengujian Akurasi Robot Lengan}
 
-Pada pengujian akurasi robot lengan dilakukan pengujian dengan memberikan posisi koordinat $x$ dan $y$ dan melihat kembali posisi $x$ dan $y$ secara aktual, melihat besar sudut pada masing-masing \textit{joint} dengan perbandingan perhitungan kinematika. Pengujian akurasi robot lengan ini akan menghasilkan sebuah hasil secara luas dan dapat ditarik untuk sebuah kesimpulan yang menentukan robot SCARA Serpent dapat bekerja baik atau buruk secara keseluruhan. Tabel \ref{tbl.akurasikeseluruhan} merupakan hasil dari pengujian akurasi robot lengan secara keseluruhan. Gambar \ref{pic.akurasikeseluruhan} merupakan grafik dari hasil pengujian akurasi robot lengan secara keseluruhan.
+Pada pengujian akurasi robot lengan dilakukan pengujian dengan memberikan posisi koordinat $x$ dan $y$ dan melihat kembali posisi $x$ dan $y$ secara aktual, melihat besar sudut pada masing-masing \textit{joint} dengan perbandingan perhitungan kinematika. Tabel \ref{tbl.akurasikeseluruhan} merupakan hasil dari pengujian akurasi robot lengan secara keseluruhan. Gambar \ref{pic.akurasikeseluruhan} merupakan grafik dari hasil pengujian akurasi robot lengan secara keseluruhan.
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
 % \usepackage{graphicx}
@@ -555,7 +550,7 @@ Pada pengujian akurasi robot lengan dilakukan pengujian dengan memberikan posisi
 Pada hasil pengujian yang ditunjukkan pada Tabel \ref{tbl.akurasikeseluruhan} dan Gambar \ref{pic.akurasikeseluruhan} terlihat bahwa pengujian mendapat beberapa data yang beragam. Terlihat bahwa nilai kesalahan paling banyak terdapat pada bagian posisi koordinat $x$ dan $y$ dan kesalahan paling sedikit pada bagian sudut \textit{shoulder}. Sedangkan untuk sistem keseluruhan kesalahan total pada akurasi robot memiliki nilai 4,61 persen. Nilai sebesar ini merupakan nilai yang cukup baik bagi sebuah sistem. Dengan nilai tersebut maka sistem kinematika robot SCARA Serpent ini dapat dikatakan baik. 
 
 
-\section{Pengujian Kendali Proposional}
+\section{Pengujian Kendali PID}
 Tujuan dari kendali PID pada sistem ini membuat pergerakan robot mampu menuju sebuah sudut yang diinginkan dengan tingkat \textit{error} paling minimum dengan waktu yang singkat. Sudut pada robot lengan merupakan sudut yang terletak pada \textit{joint shoulder, elbow} dan \textit{end-effector}. Semakin kecil nilai \textit{error} yang dihasilkan dari pengujian kendali PID maka semakin baik pergerakan dari robot lengan. Pengujian PID dilakukan dengan cara memberikan nilai Kp, Ki, dan Kd secara bervariasi dengan melihat respon yang dihasilkan oleh robot SCARA Serpent. Gambar \ref{pic.kendali} merupakan data pengujian dari robot lengan dengan variasi nilai kendali PID yang menghasilkan respon yang berbeda-beda.
 
 

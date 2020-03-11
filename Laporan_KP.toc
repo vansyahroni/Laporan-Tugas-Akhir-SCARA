@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {3.1} Blok Diagram Sistem }{25}{section.3.1}% 
 \contentsline {section}{\numberline {3.2} Perancangan Perangkat Keras }{26}{section.3.2}% 
 \contentsline {subsection}{\numberline {3.2.1} Sistem Mekanis }{26}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Rangkaian Elektronika}{32}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}Sistem Elektronis}{32}{subsection.3.2.2}% 
 \contentsline {subsubsection}{\numberline {3.2.2.1}Rangkaian Motor DC}{32}{subsubsection.3.2.2.1}% 
 \contentsline {subsubsection}{\numberline {3.2.2.2}Rangkaian \textit {Valve Pneumatic}}{33}{subsubsection.3.2.2.2}% 
 \contentsline {subsubsection}{\numberline {3.2.2.3}Sistem Elektronis Robot SCARA Serpent}{34}{subsubsection.3.2.2.3}% 
@@ -72,13 +72,13 @@
 \contentsline {subsection}{\numberline {4.1.6}Pengujian Kinematika Balik}{55}{subsection.4.1.6}% 
 \contentsline {subsubsection}{\numberline {4.1.6.1}Pengujian Koordinat X}{56}{subsubsection.4.1.6.1}% 
 \contentsline {subsubsection}{\numberline {4.1.6.2}Pengujian Koordinat Y}{58}{subsubsection.4.1.6.2}% 
-\contentsline {subsubsection}{\numberline {4.1.6.3}\textit {Workspace} Robot Lengan SCARA Serpent }{59}{subsubsection.4.1.6.3}% 
+\contentsline {subsubsection}{\numberline {4.1.6.3}\textit {Workspace} Robot Lengan SCARA Serpent }{60}{subsubsection.4.1.6.3}% 
 \contentsline {subsubsection}{\numberline {4.1.6.4}Pengujian \textit {Joint Shoulder}}{61}{subsubsection.4.1.6.4}% 
-\contentsline {subsubsection}{\numberline {4.1.6.5}Pengujian \textit {Joint Elbow}}{62}{subsubsection.4.1.6.5}% 
-\contentsline {section}{\numberline {4.2}Pengujian Keseluruhan}{64}{section.4.2}% 
+\contentsline {subsubsection}{\numberline {4.1.6.5}Pengujian \textit {Joint Elbow}}{63}{subsubsection.4.1.6.5}% 
+\contentsline {section}{\numberline {4.2}Pengujian Keseluruhan}{65}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}Pengujian Akurasi Robot Lengan}{65}{subsection.4.2.1}% 
-\contentsline {section}{\numberline {4.3}Pengujian Kendali Proposional}{67}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Pengujian Kendali PID}{67}{section.4.3}% 
 \contentsline {chapter}{\numberline {V}PENUTUP}{71}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Kesimpulan}{71}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Saran}{72}{section.5.2}% 
-\contentsline {chapter}{DAFTAR PUSTAKA}{74}{chapter*.72}% 
+\contentsline {chapter}{DAFTAR PUSTAKA}{74}{chapter*.73}% 

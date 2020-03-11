@@ -11,15 +11,15 @@ Secara garis besar pada tahapan implementasi dari kinematika pada robot lengan S
 	\label{pic.diagram.bloksistem}
 \end{figure}
 Pada blok diagram yang disajikan pada Gambar \ref{pic.diagram.bloksistem} sistem terdiri dari bagian yang meliputi bagian masukan, bagian kendali, bagian keluaran, dan bagian penampil. Pada bagian masukan menggunakan GUI yang dirancang pada Processing IDE yang digunakan sebagai \textit{forward kinematic} serta \textit{inverse kinematic} dimana robot akan bergerak menyesuaikan dengan posisi atau sudut yang dimasukan melalui Processing IDE. 
-Pada bagian kontrol menggunakan Arduino Mega 2560 sebagai mikrokontroler yang mengendalikan seluruh operasi dari robot. \textit{ Supply} Arduino sebesar 5 volt DC didapatkan dari regulator tegangan yang menurunkan tegangan dari 24 volt DC ke 5 volt DC. 
+Pada bagian kontrol menggunakan Arduino Mega 2560 sebagai mikrokontroler yang mengendalikan seluruh operasi dari robot. \textit{Supply} Arduino sebesar 5 volt DC didapatkan dari regulator tegangan yang menurunkan tegangan dari 24 volt DC ke 5 volt DC. 
 
-Pada bagian keluaran, pin \textit{pulse with modulation} (PWM) pada Arduino Mega 2560 dihubungkan dengan \textit{driver} motor yang digunakan untuk mengontrol arah pergerakan dari motor DC serta kecepatan pergerakan dari motor DC. Pergerakan arah putaran motor DC bergantung pada \textit{feedback} posisi setiap sendi yang diberikan oleh potensiometer. Tiga buah pin digital pada Ardunio Mega 2560 dihubungkan pada rangkaian \textit{switch} yang menggunakan IC TIP31 yang berfungsi sebagai kontrol dari \textit{end-effector} yang dioperasikan menggunakan tekanan udara yang dikontrol oleh \textit{valve pneumatic.}
+Pada bagian keluaran, pin \textit{pulse with modulation} (PWM) pada Arduino Mega 2560 dihubungkan dengan \textit{driver} motor yang digunakan untuk mengontrol arah pergerakan dari motor DC serta kecepatan pergerakan dari motor DC. Tiga buah pin digital pada Ardunio Mega 2560 dihubungkan pada rangkaian \textit{switch} yang menggunakan IC TIP31 yang berfungsi sebagai kontrol dari \textit{end-effector} yang dioperasikan menggunakan tekanan udara. Tekanan udara yang dikeluarkan untuk pergerakan \textit{end-effector} dikontrol oleh \textit{valve pneumatic.}
 
-Pada bagian penampil merupakan bentuk dari rancangan GUI yang dirancang dalam Processing IDE melalui sebuah bentuk pemrograman. Dalam tampilan GUI terdapat beberapa \textit{tools} yang dapat untuk mengatur pergerakan robot SCARA Serpent. Pada GUI menampilkan nilai dari sudut, dan posisi serta animasi robot SCARA Serpent pada kondisi langsung dari pergerakan robot SCARA Serpent.
+Pada bagian penampil merupakan bentuk dari rancangan GUI yang dirancang menggunakan Processing IDE melalui sebuah bentuk pemrograman. Dalam tampilan GUI terdapat beberapa \textit{tools} yang dapat untuk mengatur pergerakan robot SCARA Serpent dan menampilkan nilai dari sudut, posisi, serta animasi robot SCARA Serpent pada kondisi langsung sesuai dari pergerakan robot SCARA Serpent secara langsung.
 \section{ Perancangan Perangkat Keras }
-Perancangan perangkat keras pada robot lengan SCARA Serpent terdiri dari dua bagian yaitu bagian mekanis dan elektronis. Bagian  mekanis merupakan bagian \textit{hardware} yang meliputi desain, bahan dan bentuk dari\textit{ arm manipulator robot} SCARA Serpent. Bagian elektronis merupakan bagian \textit{hardware} yang meliputi sistem yang berkaitan dengan rangkaian elektronis pada robot SCARA Serpent seperti rangkaian pada desain \textit{board} serta komponen elektronis pendukung.
+Perancangan perangkat keras pada robot lengan SCARA Serpent terdiri dari dua bagian yaitu bagian mekanis dan elektronis. Bagian  mekanis merupakan bagian \textit{hardware} yang meliputi desain, bahan dan bentuk dari\textit{ arm manipulator robot} SCARA Serpent. Bagian elektronis merupakan bagian \textit{hardware} yang meliputi sistem yang berkaitan dengan rangkaian elektronis pada robot SCARA Serpent seperti rangkaian \textit{board} serta komponen elektronis pendukung.
 \subsection{ Sistem Mekanis }
-Sistem memkanis dari robot lengan bergantung dari konfigurasi robot lengan. Konfigurasi robot lengan terbagi menjadi enam, yaitu konfigurasi \textit{articulated}, konfigurasi SCARA Serpent, konfigurasi \textit{spherical}, konfigurasi \textit{cylindrical}, dan konfigurasi \textit{cartesian}. Pada peneltian kerja praktik, konfigurasi robot lengan yang digunakan adalah konfigurasi SCARA Serpent dengan dua \textit{joint} \textit{revolute} dan satu \textit{joint prismatic}. Sistem mekanik dari lengan robot tiga DOF sangat berpengaruh dan mendominasi sistem karena bentuk dan pergerakan dari mekanik akan mempengaruhi elektronis serta program. Sistem mekanik yang baik sangat mendukung dari pergerakan robot, oleh karena itu perancangan mekanik harus proporsional dari panjang setiap lengan, lebar serta tinggi robot. \textit{Free body} dari robot SCARA Serpent ditunjukkan pada Gambar \ref{pic.freebodySCARA}. Bentuk fisik dari robot SCARA Serpent yang digunakan pada penelitian ini ditunjukkan pada Gambar \ref{pic.fisikSCARA}. 
+Sistem memkanis dari robot lengan bergantung dari konfigurasi robot lengan. Konfigurasi robot lengan terbagi menjadi enam, yaitu konfigurasi \textit{articulated}, konfigurasi SCARA Serpent, konfigurasi \textit{spherical}, konfigurasi \textit{cylindrical}, dan konfigurasi \textit{cartesian}. Pada peneltian kerja praktik, konfigurasi robot lengan yang digunakan adalah konfigurasi SCARA Serpent dengan dua \textit{joint} \textit{revolute} dan satu \textit{joint prismatic}. Sistem mekanik dari lengan robot tiga DOF sangat berpengaruh dan mendominasi sistem karena bentuk dan pergerakan dari mekanik akan mempengaruhi elektronis serta program. Sistem mekanik yang baik sangat mendukung dari pergerakan robot, oleh karena itu perancangan mekanik harus proporsional dari panjang setiap lengan, lebar, serta tinggi robot. \textit{Free body} dari robot SCARA Serpent ditunjukkan pada Gambar \ref{pic.freebodySCARA}. Bentuk fisik dari robot SCARA Serpent yang digunakan pada penelitian ini ditunjukkan pada Gambar \ref{pic.fisikSCARA}. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=7cm]{gambar/SCARAA.png}
@@ -32,37 +32,36 @@ Sistem memkanis dari robot lengan bergantung dari konfigurasi robot lengan. Konf
 	\caption{Bentuk Fisik Robot SCARA Serpent}
 	\label{pic.fisikSCARA}
 \end{figure}
-Robot SCARA Serpent merupakan robot yang meiliki tiga buah derajat kebebasan (DOF) yang terletak pada \textit{shoulder}, \textit{elbow}, dan \textit{end-effector}. Seluruh derajat kebebasan menggunakan sebuah motor DC yang didalamnya terdapat\textit{ gear box}. Motor DC pada \textit{end-effector} dibantu oleh sebuah \textit{belt} untuk menyalurkan putaran dari motor yang terletak pada atas \textit{shoulder}. Pergerakan pada masing-masing \textit{joint} memiliki jangkauan maksimum yang berbeda-beda. Jangkauan dipengaruhi oleh panjangnya lengan yang dimiliki oleh robot SCARA Serpent tersebut\cite{bulet}. Spesifikasi dari robot SCARA Serpent yang digunakan paad penelitian ini ditunjukkan pada Tabel \ref{tbl.elektronisSCARA}. 
+Robot SCARA Serpent merupakan robot yang meiliki tiga buah derajat kebebasan (DOF) yang terletak pada \textit{shoulder}, \textit{elbow}, dan \textit{end-effector}. Seluruh derajat kebebasan menggunakan sebuah motor DC yang didalamnya terdapat\textit{ gear box} dalam melakukan pergerakan. Motor DC pada \textit{end-effector} dibantu oleh sebuah \textit{belt} untuk menyalurkan putaran dari motor yang terletak pada atas \textit{shoulder}. Pergerakan pada masing-masing \textit{joint} memiliki jangkauan maksimum yang berbeda-beda. Jangkauan dipengaruhi oleh panjangnya lengan yang dimiliki oleh robot SCARA Serpent tersebut\cite{bulet}. Spesifikasi dari robot SCARA Serpent yang digunakan pada penelitian ini ditunjukkan pada Tabel \ref{tbl.elektronisSCARA}. 
 
-\begin{longtable}{|c|l|}
-	\caption{Sistem Elektronis SCARA Serpent}
-	\label{tbl.elektronisSCARA}\\
-	\hline
-	\rowcolor[HTML]{9B9B9B} 
-	Keterangan & \multicolumn{1}{c|}{\cellcolor[HTML]{9B9B9B}Nilai} \\ \hline
-	\endfirsthead
-	%
-	\endhead
-	%
-	Panjang \textit{shoulder} & 360 mm                                             \\ \hline
-	Panjgan \textit{elbow}  & 290 mm                                                    \\ \hline
-	Gerakan \textit{shoulder}  &180 °                                  \\ \hline
-	Gerakan \textit{elbow}  & 200 °                                  \\ \hline
-	Rotasi \textit{end-effector}  & 360 °                                   \\ \hline
-	Pergerakan naik dan turun \textit{end-effector}  &  150 mm                            \\ \hline
-	Berat objek maksimum  &  3.0 kg                                                 \\ \hline
-	
-\end{longtable}
 
-Desain pada\textit{ arm manipulator robot} SCARA Serpent berbahan besi dengan tebal 2 mm dengan tiga derajat kebebasan yang meliputi bagian \textit{shoulder}, \textit{elbow} serta \textit{end-effector}. Desain robot SCARA Serpent terbagi menjadi dua bagian. Bagian utama adalah \textit{box} panel yang berisi sistem elektronis utama dan pada bagian yang lain merupakan lengan dari robot SCARA Serpent sendiri. Terdapat juga tiga buah saluran udara yang berfungsi untuk mentransformasikan tekanan udara untuk pergerakan vertikal dari \textit{end-effector} yang berasal dari sebuah kompresor. Gambar \ref{pic.boxpanel} merupakan bentuk fisik dari box panel pada Robot SCARA Serpent.
+\begin{table}[H]
+	\centering 
+	\caption{Spesifikasi Robot SCARA Serpent}
+	\label{tbl.elektronisSCARA}
+	\begin{tabular}{|l|l|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}Keterangan} & Nilai \\ \hline
+		Panjang \textit{shoulder} & 360 mm \\ \hline
+		Panjang \textit{elbow} & 290 mm \\ \hline
+		Gerakan \textit{shulder} & 180° \\ \hline
+		Gerakan \textit{elbow} & 180° \\ \hline
+		Rotasi \textit{end-effector} & 360° \\ \hline
+		Pergerakan naik turun \textit{end-effector} & 150 mm \\ \hline
+		Berat objek maksimum & 3.0 kg \\ \hline
+	\end{tabular}
+\end{table}
+
+Desain robot SCARA Serpent terbagi menjadi dua bagian. Bagian utama adalah \textit{box} panel yang berisi sistem elektronis utama dan pada bagian yang lain merupakan lengan dari robot SCARA Serpent sendiri. Terdapat juga tiga buah saluran udara yang berfungsi untuk mentransformasikan tekanan udara untuk pergerakan vertikal dari \textit{end-effector} yang berasal dari sebuah kompresor. Gambar \ref{pic.boxpanel} merupakan bentuk fisik dari \textit{box} panel pada Robot SCARA Serpent.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=9cm]{gambar/boxpanel.png}
-	\caption{Box Panel Robot SCARA Serpent}
+	\caption{\textit{Box} Panel Robot SCARA Serpent}
 	\label{pic.boxpanel}
 \end{figure}
 
-Pada  SCARA Serpent menggunakan penggerak berupa motor DC 12 Volt dilengkapi dengan \textit{gearbox} sehingga mampu mengangkat beban berat karena torsi pada motor bertambah besar. Motor DC dikontrol oleh \textit{driver} motor EMS 30A H-\textit{Bridge} melalui Arduino Mega 2560. Spesifikasi dari motor DC yang digunakan pada robot SCARA Serpent ditunjukkan pada Tabel \ref{tbl.spesifikasimotordc}.
+Pada  SCARA Serpent menggunakan penggerak berupa motor DC 12 Volt yang dilengkapi dengan \textit{gearbox} sehingga mampu mengangkat beban berat karena torsi pada motor bertambah besar. Motor DC dikontrol oleh \textit{driver} motor EMS 30A H-\textit{Bridge} melalui Arduino Mega 2560. Spesifikasi dari motor DC yang digunakan pada robot SCARA Serpent ditunjukkan pada Tabel \ref{tbl.spesifikasimotordc}.
 \begin{table}[H]
 	\centering
 	\caption{Spesifikasi Motor DC pada Robot SCARA Serpent}
@@ -84,7 +83,7 @@ Pada  SCARA Serpent menggunakan penggerak berupa motor DC 12 Volt dilengkapi den
 	}
 \end{table}
 %%
-Pada bagian \textit{gearbox} pada masing-masing motor DC terdapat potensiometer yang pergerakan dari motor DC akan secara otomatis ikut bergerak dan kemudian mengirimkan nilai data analog ke Arduino Mega 2560. Data yang berhasil diterima oleh Arduino Mega 2560 kemudian diolah dan mendapatkan hasil berupa besar sudut pada pergerakan \textit{joint} tersebut. Bentuk fisik dari motor DC serta pemasangan potensiometer ditunjukkan pada Gambar \ref{pic.potensiometer}.
+Pada bagian \textit{gearbox} pada masing-masing motor DC terdapat potensiometer yang diletakkan pada poros perputaran dari motor DC.Setiap pergerakan dari motor DC, potensiometer secara otomatis ikut bergerak dan kemudian mengirimkan nilai data analog ke Arduino Mega 2560. Data yang berhasil diterima oleh Arduino Mega 2560 kemudian diolah dan mendapatkan hasil berupa besar sudut pada pergerakan \textit{joint} tersebut. Pemasangan potensiometer ditunjukkan pada Gambar \ref{pic.potensiometer}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{gambar/potsementara.jpg}
@@ -92,7 +91,7 @@ Pada bagian \textit{gearbox} pada masing-masing motor DC terdapat potensiometer 
 	\label{pic.potensiometer}
 \end{figure}
 
-Pada bagian \textit{end-effetor} menggunakan pergerakan translasi. Dengan pergerakan ini posisi \textit{end-effector} mengalami perubahan pada posisi tingginya. Pergerakan translasi juga terdapat pada bagian \textit{end-effector} yang menyebabkan sebuah \textit{gripper }\textit{ end-effector} dapat membuka dan menutup karena sebuah sistem mekanik yang telah ada di dalamnya. Selain dari pergerakan translasi, pergerakan pada \textit{end-effector} juga terdapat rotasi. Pergerakan ini dilakukan oleh satu buah motor DC yang ditempatkan pada bagian \textit{shoulder} dengan dihubungkan melalui sebuauh \textit{belt}. Pengoperasian pada motor DC ini juga dilakukan oleh \textit{driver} motor EMS 30A H-\textit{Bridge}. Bentuk fisik dari \textit{end-effector} pada robot SCARA Serpent ditunjukkan pada Gambar \ref{pic.endeffectorfisik}.
+Pada bagian \textit{end-effetor} menggunakan pergerakan translasi. Dengan pergerakan ini posisi \textit{end-effector} mengalami perubahan pada posisi vertikal. Pergerakan translasi juga terdapat pada bagian \textit{end-effector} yang menyebabkan sebuah \textit{gripper }\textit{ end-effector} dapat membuka dan menutup karena sebuah sistem mekanik yang telah ada di dalamnya. Selain dari pergerakan translasi, pergerakan pada \textit{end-effector} juga terdapat rotasi. Pergerakan ini dilakukan oleh satu buah motor DC yang ditempatkan pada bagian \textit{shoulder} dengan dihubungkan melalui sebuauh \textit{belt}. Pengoperasian pada motor DC untuk pergerakan \textit{end-effector} juga dilakukan oleh \textit{driver} motor EMS 30A H-\textit{Bridge}. Bentuk fisik dari \textit{end-effector} pada robot SCARA Serpent ditunjukkan pada Gambar \ref{pic.endeffectorfisik}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=6cm]{gambar/capitsementara.jpg}
@@ -103,7 +102,7 @@ Pada bagian \textit{end-effetor} menggunakan pergerakan translasi. Dengan perger
 Semua pergerakan pada \textit{end-effector} ditenagai oleh sebuah tekanan udara yang bersumber dari sebuah kompresor. Tekanan udara diaplikasikan pada sebuah \textit{pneumatic} dengan sistem kerja translasi yang dapat menyebabkan sebuah objek dapat bergerak pada sebuah garis lurus. Bentuk fisik dari \textit{pneumatic} robot SCARA Serpent ditunjukkan pada Gambar \ref{pic.pneumatic}.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=11cm]{gambar/pneumatic.png}
+	\includegraphics[width=12cm]{gambar/pneumatic.png}
 	\caption{Bentuk Fisik \textit{Pneumatic}}
 	\label{pic.pneumatic}
 \end{figure}
@@ -130,9 +129,10 @@ Rancangan robot secara keseluruhan ditampilan pada Gambar \ref{pic.SCARAsamping}
 	\label{pic.SCARAdimensi}
 \end{figure}
 
-\subsection{Rangkaian Elektronika}
+\subsection{Sistem Elektronis}
+Sistem elektronis pada robot SCARA Serpent berfungsi sebagai kontrol untuk setiap pergerakan dari robot SCARA Serpent. Selain mengontrol pergerakan robot SCARA Serpent, sistem elektronis juga berfungsi untuk membaca data terkait pergerakan robot SCARA Serpent mulai seperti besar nilai sudut setiap \textit{joint.}
 \subsubsection{Rangkaian Motor DC}
-Rancangan kendali pada robot lengan SCARA Serpent ini menggunakan tiga buah motor DC dengan masing – masing dilengkapi dengan \textit{gearbox} untuk memperkuat torsi yang dihasilkan oleh motor DC. Pada  \textit{gearbox} masing – masing motor  DC diberikan sensor potensiometer sebagai \textit{feedback} untuk memberikan posisi motor DC pada keseluruhan sistem. Motor DC diletakkan pada \textit{shoulder} untuk \textit{end-effector} satu buah yang dihubungkan melalui \textit{belt}, pada \textit{shoulder} satu buah, dan pada \textit{elbow} satu buah. Ketiga motor DC tersebut masing-masing menggunakan \textit{driver} motor EMS 30A H-\textit{Bridge} dalam sistem kerjanya. Pada masing – masing motor DC membutuhkan catu daya 12 Volt DC. Rangkaian \textit{driver} motor mendapat sumber tegangan DC 12V untuk disalurkan ke pada motor DC dan 5 Volt untuk kerja dari \textit{driver} motor sendiri. Tegangan keluaran sebesar 12 Volt yang dihasilkan oleh regulator \textit{buck} dengan sumber dari tegangan DC 24 Volt setelah dilakukan \textit{converter} AC to DC. Gambar \ref{pic.motordcdriver} merupakan Rangkaian Arduino Mega 2560 dengan \textit{Driver} Motor dan Motor DC.  
+Rancangan kendali pada robot lengan SCARA Serpent ini menggunakan tiga buah motor DC dengan masing – masing dilengkapi dengan \textit{gearbox} untuk memperkuat torsi yang dihasilkan oleh motor DC. Pada  \textit{gearbox} masing – masing motor  DC diberikan sensor potensiometer sebagai \textit{feedback} untuk membaca posisi pada setiap motor DC pada keseluruhan sistem. Satu buah motor DC diletakkan pada lengan \textit{shoulder} yang digunakan untuk menggerakkan \textit{end-effector} melalui \textit{belt}, pada \textit{shoulder} satu buah, dan pada \textit{elbow} satu buah. Ketiga motor DC tersebut masing-masing menggunakan \textit{driver} motor EMS 30A H-\textit{Bridge} dalam sistem kerjanya. Pada masing – masing motor DC membutuhkan catu daya 12 Volt DC. Rangkaian \textit{driver} motor mendapat sumber tegangan DC 12V untuk disalurkan ke pada motor DC dan 5 Volt untuk kerja dari \textit{driver} motor sendiri. Tegangan keluaran sebesar 12 Volt dihasilkan oleh regulator \textit{buck} dengan sumber dari tegangan DC 24 Volt setelah dilakukan \textit{converter} AC to DC. Gambar \ref{pic.motordcdriver} merupakan Rangkaian Arduino Mega 2560 dengan \textit{Driver} Motor dan Motor DC.  
 
 \begin{figure}[H]
 	\centering
@@ -141,7 +141,7 @@ Rancangan kendali pada robot lengan SCARA Serpent ini menggunakan tiga buah moto
 	\label{pic.motordcdriver}
 \end{figure}
 \subsubsection{Rangkaian \textit{Valve Pneumatic}}
-\textit{End-effector} menggunakan tekanan udara dalam melakukan pergerakannya. Tekanan udara ini dikontrol menggunakan sebuah \textit{valve relay} dapat mengkontrol tekanan udara hingga delapan bar dan dapat bekerja pada tegangan DC 24 Volt. Tegangan 24 Volt pada \textit{valve relay} didapat dari keluaran dari rangkaian AC-DC yang dilakukan oleh dioda \textit{bridge} dengan masukan awalnya adalah tegangan AC 24 Volt yang diberikan oleh sebuah tranformator. Dengan besaran tegangan 24 Volt maka sebuah Arduino tidak dapat mengkontrolnya. Oleh karena itu, diberi sebuah rangkaian pembantu yang prinsipinya bekerja seperti saklar. Rangkaian tersebut dikontrol oleh IC TIP31 yang nantinya  menerima sinyal data digital dari Arduino Mega 2560 dan akan membuka jalur untuk tegangan 24 Volt. Gambar \ref{pic.fisikvalve} merupakan bentuk fisik dari \textit{valve relay} yang digunaakan dan Gambar \ref{pic.skematikvalve} merupakan rangkaian dari \textit{valve pneumatic} dengan rangkaian TIP31.
+Pada \textit{end-effector} menggunakan tekanan udara dalam melakukan pergerakannya. Tekanan udara ini dikontrol menggunakan sebuah \textit{valve pneumatic} yang dapat mengkontrol tekanan udara hingga delapan bar dan bekerja pada tegangan DC 24 Volt. Tegangan 24 Volt pada \textit{valve pneumatic} didapat dari keluaran rangkaian AC-DC yang dilakukan oleh dioda \textit{bridge} dengan masukan awalnya adalah tegangan AC 24 Volt dari sebuah tranformator. Dengan besaran tegangan 24 Volt maka sebuah Arduino tidak dapat mengkontrolnya. Oleh karena itu, diberi sebuah rangkaian pembantu yang prinsip kerjanya seperti saklar. Rangkaian tersebut dikontrol oleh IC TIP31 yang nantinya  menerima sinyal digital dari Arduino Mega 2560 dan kemudian akan membuka jalur untuk tegangan 24 Volt ketika diberi sinyal HIGH. Gambar \ref{pic.fisikvalve} merupakan bentuk fisik dari \textit{valve pneumatic} yang digunaakan dan Gambar \ref{pic.skematikvalve} merupakan rangkaian dari \textit{valve pneumatic} dengan rangkaian TIP31.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=5cm]{gambar/relay.jpg}
@@ -155,7 +155,7 @@ Rancangan kendali pada robot lengan SCARA Serpent ini menggunakan tiga buah moto
 	\label{pic.skematikvalve}
 \end{figure}
 \subsubsection{Sistem Elektronis Robot SCARA Serpent}
-Arduino Mega 2560 digunakan sebagai mikrokontroler utama untuk mengendalikan seluruh sistem pada robot lengan SCARA Serpent. Arduino Mega 2560 memiliki banyak pin keluaran dan masukan digital dan analog yang dapat digunakan sebagai pengendali fungsi – fungsi dari setiap komponen. Pin pada Arduino  2560 dapat mencukupi kebutuhan masukan dan keluaran untuk sistem kerja robot. Pin \textit{analog} yang pada Arduino Mega 2560 digunakan untuk menerima \textit{feedback} masukkan dari potensiometer yang ada pada setiap motor. Beberapa pin digital pada Arduino Mega 2560 juga  memiliki fungsi lain yaitu sebagai pin \textit{pulse with modulation} (PWM) yang dapat digunakan sebagai keluaran analog sehingga dapat digunakan untuk mengatur nilai tegangan kaluaran dari Arduino  2560. Pin PWM yang cukup digunakan untuk kontrol kecepatan pada \textit{driver} motor. Selain itu pin PWM pada Arduino Mega 2560 digunakan untuk memberikan kontrol direksi pada \textit{driver} motor untuk memberikan masukan arah putar kanan ataupun putar kiri. Gambar \ref{pic.boxpanelkabel} merupakan sistem elektronis keseluruhan robot SCARA Serpent yang terdapat di dalam \textit{box} panel dan Tabel \ref{tbl.elektronisSCARA Serpent} merupakan keterangan dari masing-masing komponen.
+Arduino Mega 2560 digunakan sebagai mikrokontroler utama untuk mengendalikan seluruh sistem pada robot lengan SCARA Serpent. Arduino Mega 2560 memiliki banyak pin keluaran dan masukan digital serta pin analog yang dapat digunakan sebagai pengendali dari setiap komponen. Pin \textit{analog} yang pada Arduino Mega 2560 digunakan untuk menerima \textit{feedback} masukkan dari potensiometer yang ada pada setiap motor. Beberapa pin digital pada Arduino Mega 2560 digunakan sebagai pin \textit{pulse with modulation} (PWM) yang nilai keluarannya dapat diatur. Pin PWM digunakan untuk mengontrol kecepatan dan arah putar pada \textit{driver} motor. Gambar \ref{pic.boxpanelkabel} merupakan sistem elektronis keseluruhan robot SCARA Serpent yang terdapat di dalam \textit{box} panel dan Tabel \ref{tbl.elektronisSCARA Serpent} merupakan keterangan dari masing-masing komponen.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=13cm]{gambar/panelkabel.png}
@@ -225,9 +225,9 @@ Pada Gambar \ref{pic.boxpanelkabel} terlihat bahwa sistem elektronis dari robot 
 	9                         & D4                                 & Kontrol PWM \textit{driver} motor \textit{shoulder}                                          \\ \hline
 	10                        & D5                                 & Kontrol PWM \textit{driver} motor \textit{elbow}                                             \\ \hline
 	11                        & D6                                 & Kontrol PWM \textit{driver} motor \textit{end-effector}                                      \\ \hline
-	12                        & D7                                 & Kontrol \textit{valve relay} naik                                                   \\ \hline
-	13                        & D8                                 & Kontrol \textit{valve relay} turun                                                  \\ \hline
-	14                        & D9                                 & Kontrol \textit{valve relay} buka-tutup                                             \\ \hline
+	12                        & D7                                 & Kontrol \textit{valve pneumatic} naik                                                   \\ \hline
+	13                        & D8                                 & Kontrol \textit{valve pneumatic} turun                                                  \\ \hline
+	14                        & D9                                 & Kontrol \textit{valve pneumatic} buka-tutup                                             \\ \hline
 	15                        & D15                                & Kontrol LED \textit{Shoulder} aktif \textit{high}                                            \\ \hline
 	16                        & D17                                & Kontrol LED \textit{elbow} aktif \textit{high}                                               \\ \hline
 	17                        & D19                                & Kontrol LED \textit{end-effector} naik aktif \textit{high}                                   \\ \hline
@@ -237,7 +237,7 @@ Pada Gambar \ref{pic.boxpanelkabel} terlihat bahwa sistem elektronis dari robot 
 \end{longtable}
 
 \subsubsection{Rangkaian Catu Daya}
-Rangkaian catu daya merupakan hal yang sangat penting dalam sebuah sistem. Pada robot lengan SCARA Serpent terdapat tiga buah nilai tegangan \textit{supply} yang berbeda. Tegangan yang ditujukkan untuk Arduino Mega 2560 dan beberapa sensor membutuhkan tegangan 5 Volt, motor DC membutuhkan tegangan 12 Volt dan \textit{valve pneumatic} membutuhkan tegangan 24 Volt. Catu daya diawali dengan tegangan AC 220 Volt dari listrik PLN. Tegangan tersebut kemudian diturunkan menggunakan sebuah trafo 5 Ampere menjadi 24 Volt AC. Komponen yang digunakan dalam rangkaian merupakan komponen yang membutuhkan tegangan DC, maka tegangan 24 Volt AC diubah menjadi 24 Volt DC menggunakan rangkaian dioda \textit{bridge}. Tegangan 24 Volt DC diarahkan menuju dua buah regulator \textit{buck} LM2596 yang masing-masing menghasilkan tegangan 12 Volt dan 5 Volt. Rangkaian catu daya secara keseluruhan ditunjukkan pada Gambar \ref{pic.skematikcatu}.
+Rangkaian catu daya merupakan hal yang sangat penting dalam sebuah sistem. Pada robot lengan SCARA Serpent dibutuhkan tiga buah nilai tegangan \textit{supply} yang berbeda. Tegangan yang ditujukkan untuk Arduino Mega 2560 dan beberapa sensor membutuhkan tegangan 5 Volt, motor DC membutuhkan tegangan 12 Volt dan \textit{valve pneumatic} membutuhkan tegangan 24 Volt. Catu daya diawali dengan tegangan AC 220 Volt dari listrik PLN yang kemudian diturunkan menggunakan sebuah trasnformator 5 Ampere menjadi 24 Volt AC. Komponen yang digunakan dalam rangkaian merupakan komponen yang membutuhkan tegangan DC, maka tegangan 24 Volt AC diubah menjadi 24 Volt DC menggunakan rangkaian dioda \textit{bridge}. Tegangan 24 Volt DC diarahkan menuju dua buah regulator \textit{buck} LM2596 yang masing-masing menghasilkan tegangan 12 Volt dan 5 Volt. Rangkaian catu daya secara keseluruhan ditunjukkan pada Gambar \ref{pic.skematikcatu}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=8cm]{gambar/catudaya_bb.png}
@@ -245,7 +245,7 @@ Rangkaian catu daya merupakan hal yang sangat penting dalam sebuah sistem. Pada 
 	\label{pic.skematikcatu}
 \end{figure}
 \section{Perancangan Perangkat Lunak}
-Perangkat lunak yang digunakan merupakan \textit{software} Processing IDE. Processing IDE diprogram agar menghasilkan sebuah GUI yang cocok sesuai dengan fungsi robot SCARA Serpent. Di dalam GUI terdapat dua bagian yang diantaranaya merupakan bagian \textit{control} dan bagian \textit{display}. Pada bagian kontrol pada GUI berfungsi untuk mengkontrol mulai dari pergerakan dan posisi dari robot SCARA Serpent. Sedangkan pada bagian penampil, GUI menampilkan nilai dari sudut, posisi, serta animasi terkait robot SCARA Serpent. Gambar \ref{pic.gui} merupakan tampilan dari GUI secara keseluruhan. Setiap komponen yang ditampilan di dalam GUI processing IDE ditunjukkan pada Tabel \ref{tbl.gui}.
+Perangkat lunak yang digunakan merupakan \textit{software} Processing IDE. Processing IDE dirancang agar menghasilkan sebuah GUI yang cocok sesuai dengan fungsi robot SCARA Serpent. Di dalam GUI terdapat dua bagian,  bagian pertama adalah bagian \textit{control} dan bagian kedua adalah bagian \textit{display}. Pada bagian kontrol pada GUI berfungsi untuk mengontrol pergerakan dan posisi dari robot SCARA Serpent. Sedangkan pada bagian \textit{display}, GUI menampilkan nilai dari sudut, posisi, serta animasi terkait robot SCARA Serpent. Gambar \ref{pic.gui} merupakan tampilan dari GUI secara keseluruhan. Setiap komponen yang ditampilan di dalam GUI processing IDE ditunjukkan pada Tabel \ref{tbl.gui}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=12cm ]{gambar/GUI.png}
@@ -273,14 +273,14 @@ Perangkat lunak yang digunakan merupakan \textit{software} Processing IDE. Proce
 	2  & Koneksi                                           & \begin{tabular}[c]{@{}l@{}}Menentukan komunikasi dengan \textit{hardware} \\ yang akan dihubungkan\end{tabular} \\ \hline
 	3  & Set kendali                                       & Memasukkan nilai kendai                                                                                         \\ \hline
 	4  & Kelompok kontrol                                 & \begin{tabular}[c]{@{}l@{}}Terdiri dari beberapa kontrol untuk mengatur \\ pergerakan robot SCARA Serpent\end{tabular}  \\ \hline
-	5  & Workspace                                         & Ruang kerja robot SCARA Serpent                                                                                         \\ \hline
+	5  & \textit{Workspace}                                         & Ruang kerja robot SCARA Serpent                                                                                         \\ \hline
 	6  & \textit{3D Shape} tampak atas                              & \begin{tabular}[c]{@{}l@{}}Menampilkan pergerakan robot SCARA Serpent tampak \\ atas\end{tabular}                       \\ \hline
-	7  & Tampilan data                                     & Menanmpilkan data-data terkait robot SCARA Serpent                                                                      \\ \hline
+	7  & Tampilan data                                     & Menampilkan data-data terkait robot SCARA Serpent                                                                      \\ \hline
 	8  & \textit{3D Shape} tampak samping                  & \begin{tabular}[c]{@{}l@{}}Menampilkan pergerakan robot SCARA Serpent tampak \\ samping\end{tabular}                    \\ \hline
 	9  & Judul                                             & Judul dari antarmuka robot SCARA Serpent                                                                                \\ \hline
 \end{longtable}
 \subsection{ControlP5}
-ControlP5 merupakan salah satu \textit{library} yang berguna dalam membuat sebuah GUI. Dalam \textit{library} yang disediakan terdapat banyak pilihan terkait kontrol sistem yang dapat digunakan. Kontrol sistem yang disediakan tersedia dua pilihan yaitu untuk menkontrol dan untuk menampilkan sebuah data. Masing-masing kontrol sistem ini dapat digunakan dengan cara memanggilnya pada program yang ditulis.
+ControlP5 merupakan salah satu \textit{library} yang berguna dalam membuat sebuah GUI. Dalam \textit{library} yang disediakan Processing IDE terdapat banyak pilihan terkait kontrol sistem yang dapat digunakan. Kontrol sistem yang disediakan tersedia dua pilihan yaitu untuk mengirimkan data dan untuk menerima data. Masing-masing kontrol sistem ini dapat digunakan dengan cara memanggilnya pada program yang ditulis.
 
 Pada perancangan kinematika robot SCARA Serpent, menggunakan empat buah kontrol sistem. Empat kontrol sistem yang digunakan merupakan jenis kontrol sistem yang berguna untuk memberikan sebuah data yang dikirimkan pada Arduino Mega 2560. Kontrol sistem tersebut diantaranya:
 \begin{enumerate}
@@ -293,17 +293,16 @@ Pada perancangan kinematika robot SCARA Serpent, menggunakan empat buah kontrol 
 	
 	
 	\item \textit{Toggle Control} \\
-	\textit{Toggle control}
 	\textit{Toggle control} memiliki sistem kontrol seperti saklar ON-OFF. Pada saat ditekan maka \textit{toggle control} menyimpan data berupa kondisi pertama dan berubah saat ditekan kembali. 
 	
 \end{enumerate}
 \subsection{\textit{Shape}}
-\textit{Shape} pada GUI berfungsi sebagai penampil animasi tiga dimensi dari robot SCARA Serpent. Robot SCARA Serpent dapat ditampilkan dalam berbagai ukuran, letak dan juga dapat bergerak sesuai dengan data yang diberikan. Pergerakan dari robot SCARA Serpent merupakan implementasi dari wujud aslinya dengan pergerakan yang sama. Dalam pengoperasianya, desain dari robot SCARA Serpent yang ditampilkan harus dimasukkan ke dalam folder yang sama dengan program Processing IDE. File yang dapat ditampilkan merupakan file dengan jenis obj. yang berarti file objek. Pada program robot SCARA Serpent file dari dimensi tiga dari robot SCARA Serpent memiliki tiga buah file dimana ketiganya adalah \textit{base, shoulder}, dan \textit{elbow}. 
+\textit{Shape} pada GUI berfungsi sebagai penampil animasi tiga dimensi dari robot SCARA Serpent. Robot SCARA Serpent dapat ditampilkan dalam berbagai ukuran, letak dan juga dapat bergerak sesuai dengan data yang diberikan. Pergerakan dari robot SCARA Serpent merupakan implementasi dari wujud asli dengan pergerakan secara langsung. Dalam pengoperasianya, desain dari robot SCARA Serpent yang ditampilkan harus dimasukkan ke dalam folder yang sama dengan program Processing IDE. File yang dapat ditampilkan merupakan file dengan jenis obj. yang berarti file objek. Pada program robot SCARA Serpent file dari dimensi tiga dari robot SCARA Serpent memiliki tiga buah file dimana ketiganya adalah \textit{base, shoulder}, dan \textit{elbow}. 
 
 \section{Sistem Kinematika}
-Persamaan kinematika terbagi dua, yaitu kinematika maju dan kinematika balik. Kinematika maju digunakan untuk menentukan posisi dan orientasi \textit{end-effector} apabila variabel sudut \textit{joint}-nya telah diketahui. Kinematika balik digunakan untuk mencari \textit{joint} robot dalam menentukan posisi dan orientasi dari \textit{end-effector.}
+Persamaan kinematika terbagi dua, yaitu kinematika maju dan kinematika balik. Kinematika maju digunakan untuk menentukan posisi dan orientasi \textit{end-effector} apabila variabel sudut \textit{joint} telah diketahui. Kinematika balik digunakan untuk mencari \textit{joint} robot dalam menentukan posisi dan orientasi dari \textit{end-effector.}
 \subsection{Prinsip Kerja Kinematika Maju}
-	Metode Denavit-Hartenberg (DH) merupakan metode yang menggabungkan proses perhitungan rotasi dan translasi menjadi sebuah matriks yang menyertakan nilai-nilai sudut putar dan jarak sendi dari sebuah lengan robot. Dalam beberapa aplikasi, metode Denavit-Hartenberg umumnya digunakan dalam perhitungan \textit{forward kinematics}. Dalam penelitian ini dirancang aplikasi yang menggunakan metode Denavit-Hartenberg untuk menghitung sudut-sudut tiap sendi pada sebuah lengan robot. Matrik Denavit-Hartenberg yang berisi perhitungan rotasi dan translasi digunakan untuk mendapatkan nilai nilai sudut untuk menggerakkan tiap motor sendi. Empat aturan \textit{frame} Denavit-Hartenberg yaitu Sumbu $z$ harus menjadi sumbu rotasi atau translasi dari sebuah \textit{joint}. Sumbu $x$ harus tegak lurus dari sumbu $z$ \textit{frame} sebelumnya. Sumbu $x$ harus memotong atau menyilang dari sumbu $z$ \textit{frame} sebelumnya. Sumbu $y$ harus digambarkan sesuai dengan aturan tangan kanan setelah sumbu $x$   dan sumbu $z$ setiap \textit{frame} digambarkan. Gambar \ref{dhSCARA} merupakan struktur dari konfigurasi SCARA Serpent.
+	Metode Denavit-Hartenberg (DH) merupakan metode menggabungkan proses perhitungan rotasi dan translasi menjadi sebuah matriks yang menyertakan nilai-nilai sudut putar dan jarak sendi dari sebuah lengan robot. Dalam beberapa aplikasi, metode Denavit-Hartenberg umumnya digunakan dalam perhitungan \textit{forward kinematics}. Dalam penelitian ini dirancang aplikasi yang menggunakan metode Denavit-Hartenberg untuk menghitung sudut tiap sendi pada sebuah lengan robot. Denavit-Hartenberg mempunyai empat buah aturan terkait penulisan dari matriks robot, empat aturan \textit{frame} Denavit-Hartenberg yaitu Sumbu $z$ harus menjadi sumbu rotasi atau translasi dari sebuah \textit{joint}. Sumbu $x$ harus tegak lurus dari sumbu $z$ \textit{frame} sebelumnya. Sumbu $x$ harus memotong atau menyilang dari sumbu $z$ \textit{frame} sebelumnya. Sumbu $y$ harus digambarkan sesuai dengan aturan tangan kanan setelah sumbu $x$   dan sumbu $z$ setiap \textit{frame} digambarkan. Gambar \ref{dhSCARA} merupakan struktur dari konfigurasi SCARA Serpent.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=9cm ]{gambar/SCARAdh.png}
@@ -396,7 +395,7 @@ S_{4}&  C_{4}&  0& 0\\
 \label{dh.SCARA Serpent4}
 \end{equation}
 
-Dari ke empat persamaan transformasi matriks dari rotasi dan translasi dari konfirgurasi robot SCARA Serpent, dapat digabungkan menjadi satu buah matriks secara keseluruhan. Persaman \ref{dh.SCARA Serpent5} merupakan persamaan akhir dari transformasi robot SCARA Serpent menggunakan metode parameter DH . Dengan persamaan ini, maka perhitungan untuk mencari sebuah besar \textit{joint} dapat diselesaikan.
+Dari ke empat persamaan transformasi matriks dari rotasi dan translasi dari konfirgurasi robot SCARA Serpent, dapat digabungkan menjadi satu buah matriks secara keseluruhan. Persaman \ref{dh.SCARA Serpent5} merupakan persamaan akhir dari transformasi robot SCARA Serpent menggunakan metode parameter DH. Dengan persamaan ini, maka perhitungan untuk mencari sebuah koordinat dari \textit{end-effector}.
 
 \begin{equation}
 \small
@@ -410,7 +409,8 @@ S_{12}C_{4}-C_{12}S_{4}&-S_{12}S_{4}-C_{12}C_{4} &0  &a_{1}S_{1}+a_{2}S_{12} \\
 \label{dh.SCARA Serpent5}
 \end{equation}
 
-Dengan menggunakan matriks $T_{4}^{0}$ pada Persamaan \ref{dh.SCARA Serpent5} memungkinkan untuk menghitung nilai dari koordinat $P_{x}, P_{y}$ dan $P_{z}$. Nilai koordinat $P_{x}$ dapat ditentukan memalui Persamaan \ref{pers.x}. Nilai koordinat $P_{y}$ ditentukan melalui Persamaan \ref{pers.y} dan nilai koordinat $P_{z}$ ditentukan dengan Persamaan \ref{pers.z}. Nilai dari koordinat ini tergantung pada nilai konstan yang dimiliki pada robot SCARA Serpent dan beberapa kondisi dari pada variabel. Nilai konstan yang dimiliki dari robot SCARA Serpent ditunjukkan pada Tabel\ref{tbl.konstanSCARA Serpent}.
+Dengan menggunakan matriks $T_{4}^{0}$ pada Persamaan \ref{dh.SCARA Serpent5} memungkinkan untuk menghitung nilai dari koordinat $P_{x}, P_{y}$ dan $P_{z}$. Nilai koordinat $P_{x}$ dapat ditentukan memalui Persamaan \ref{pers.x}. Nilai koordinat $P_{y}$ ditentukan melalui Persamaan \ref{pers.y} dan nilai koordinat $P_{z}$ ditentukan dengan Persamaan \ref{pers.z}. Nilai dari koordinat ini tergantung pada nilai konstan yang dimiliki pada robot SCARA Serpent dan beberapa kondisi dari pada variabel. Nilai konstan yang dimiliki dari robot SCARA Serpent ditunjukkan pada Tabel\ref{tbl.konstanSCARA Serpent} yang merupakan panjang dari setiap lengan dari robot SCARA Serpent. Panjang dari keseluruhan lengan dari robot SCARA Serpent akan mempengaruhi besar \textit{workspace} atau lingkup kerja yang dapat dihasilkan oleh robot.
+\\
 
 \begin{equation}
 P_{x}=a_{1}C_{1}+a_{2}C_{12}
@@ -462,9 +462,9 @@ P_{z}=-D1-D4
 
 \subsection{Prinsip Kerja Kinematika Balik}
 Kinematika balik adalah perhitungan untuk mencari variabel sudut (\textit{joint}) robot dalam menentukan posisi dan orientasi dari \textit{end-effector}. Dalam menentukan koordinat \textit{end-effector}, kinematika balik harus disesuaikan dengan batas area kerja \textit{(workspace)} dari jangkauan robot. Penyelesaian kinematika balik ini dapat diselesaikan dengan menggunakan hukum \textit{phytagoras} dan aturan \textit{cosinus}. 
-Secara garis besar metode kinematika balik akan mencari nilai parameter yang harus diberikan kepada setiap aktuator untuk mencapai tujuan akhir. Untuk mendapatkan nilai parameter tersebut, robot harus mengetahui terlebih dahulu manipulator yang dimilikinya, baik ukuran maupun jumlah aktuator serta derajat kebebasan yang ada. Kemudian, robot harus ditanamkan persamaan yang didapat dari berbagai model perhitungan, baik dari segi analisa grafik langsung maupun menggunakan metode-metode dari berbagai penelitian. 
+Secara garis besar metode kinematika balik akan mencari nilai parameter yang harus diberikan kepada setiap aktuator untuk mencapai tujuan akhir. Untuk mendapatkan nilai parameter tersebut, robot harus mengetahui terlebih dahulu manipulator yang dimilikinya, baik ukuran maupun jumlah aktuator serta derajat kebebasan yang ada. Robot kemudian harus ditanamkan persamaan yang didapat dari berbagai model perhitungan, baik dari segi analisa grafik langsung maupun menggunakan metode-metode dari berbagai penelitian. 
 
-Analisis persamaan kinematik dapat diselesaikan dengan cara yang paling dasar yaitu menggunakan trigonometri dengan bantuan grafik. Pada penelitian ini karena menggunakan sebuah GUI yang didalamnya terdapat animasi dari bentuk fisik robot SCARA Serpent maka koordinat didapat dari Processing IDE. Robot SCARA Serpent yang terdapat di dalam Processing IDE menggunakan skala tertentu agar tetap sesuai dari dimensi aslinya. Penyelesaian kinematika dalam robot SCARA Serpent cukup diselesaikan menggunakan satu sisi, yaitu sisi atas (\textit{top view}) dari struktur robot lengan. Pada sisi atas derajat sudut \textit{joint} \textit{shoulder}, dan sudut \textit{joint elbow} dapat ditemukan. Gambar \ref{pic.perskinematikabalik} merupakan gambaran untuk mendapatkan sebuah persamaan yang akan menghasilkan nilai sudut pada setiap \textit{joint\cite{koker}}.
+Analisis persamaan kinematik dapat diselesaikan dengan cara yang paling dasar yaitu menggunakan trigonometri dengan bantuan grafik. Pada penelitian ini koordinat didapat dari GUI yang dibuat dengan Processing IDE. Robot SCARA Serpent yang terdapat di dalam Processing IDE menggunakan skala tertentu agar tetap sesuai dari dimensi aslinya. Penyelesaian kinematika dalam robot SCARA Serpent cukup diselesaikan menggunakan satu sisi, yaitu sisi atas (\textit{top view}) dari struktur robot lengan. Pada sisi atas derajat sudut \textit{joint} \textit{shoulder}, dan sudut \textit{joint elbow} dapat ditemukan. Gambar \ref{pic.perskinematikabalik} merupakan gambaran untuk mendapatkan sebuah persamaan yang akan menghasilkan nilai sudut pada setiap \textit{joint\cite{koker}}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=12cm]{gambar/SCARA_atas.png}

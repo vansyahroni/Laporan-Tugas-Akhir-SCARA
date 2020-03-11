@@ -33,7 +33,7 @@
 \BOOKMARK [1][-]{section.3.1}{ Blok Diagram Sistem }{chapter.3}% 33
 \BOOKMARK [1][-]{section.3.2}{ Perancangan Perangkat Keras }{chapter.3}% 34
 \BOOKMARK [2][-]{subsection.3.2.1}{ Sistem Mekanis }{section.3.2}% 35
-\BOOKMARK [2][-]{subsection.3.2.2}{Rangkaian Elektronika}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.2}{Sistem Elektronis}{section.3.2}% 36
 \BOOKMARK [1][-]{section.3.3}{Perancangan Perangkat Lunak}{chapter.3}% 37
 \BOOKMARK [2][-]{subsection.3.3.1}{ControlP5}{section.3.3}% 38
 \BOOKMARK [2][-]{subsection.3.3.2}{Shape}{section.3.3}% 39
@@ -51,8 +51,8 @@
 \BOOKMARK [2][-]{subsection.4.1.6}{Pengujian Kinematika Balik}{section.4.1}% 51
 \BOOKMARK [1][-]{section.4.2}{Pengujian Keseluruhan}{chapter.4}% 52
 \BOOKMARK [2][-]{subsection.4.2.1}{Pengujian Akurasi Robot Lengan}{section.4.2}% 53
-\BOOKMARK [1][-]{section.4.3}{Pengujian Kendali Proposional}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.3}{Pengujian Kendali PID}{chapter.4}% 54
 \BOOKMARK [0][-]{chapter.5}{PENUTUP}{}% 55
 \BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 56
 \BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 57
-\BOOKMARK [0][-]{chapter*.72}{DAFTAR PUSTAKA}{}% 58
+\BOOKMARK [0][-]{chapter*.73}{DAFTAR PUSTAKA}{}% 58
